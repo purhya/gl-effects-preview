@@ -1,0 +1,1155 @@
+{
+	"id": 1104,
+	"name": "Apple of My Eye",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"projects": [
+		{
+			"name": "Main1080",
+			"width": 1920,
+			"height": 1080,
+			"duration": 30,
+			"layers": [
+				{
+					"id": 901104001,
+					"type": "composite",
+					"name": "Splt - Strips Both - Horiz 2",
+					"inPoint": 24.72,
+					"outPoint": 25.64,
+					"timeRemap": [
+						{ "time": 24.72, "value": 0.04 },
+						{ "time": 25, "value": 0.32 },
+						{ "time": 25.64, "value": 0.96 }
+					],
+					"compItemId": 901104002,
+					"markers": [
+						{
+							"time": 25,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901104005,
+					"type": "composite",
+					"name": "Splt - Strips Both - Diag 135 1",
+					"inPoint": 19.72,
+					"outPoint": 20.64,
+					"timeRemap": [
+						{ "time": 19.72, "value": 0.04 },
+						{ "time": 20, "value": 0.32 },
+						{ "time": 20.64, "value": 0.96 }
+					],
+					"compItemId": 901104006,
+					"markers": [
+						{
+							"time": 20,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901104009,
+					"type": "composite",
+					"name": "Splt - Strips Both - Diag 45 1",
+					"inPoint": 14.72,
+					"outPoint": 15.64,
+					"timeRemap": [
+						{ "time": 14.72, "value": 0.04 },
+						{ "time": 15, "value": 0.32 },
+						{ "time": 15.64, "value": 0.96 }
+					],
+					"compItemId": 901104010,
+					"markers": [
+						{
+							"time": 15,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901104013,
+					"type": "composite",
+					"name": "Splt - Strips Both - Vert 1",
+					"inPoint": 9.72,
+					"outPoint": 10.64,
+					"timeRemap": [
+						{ "time": 9.72, "value": 0.04 },
+						{ "time": 10, "value": 0.32 },
+						{ "time": 10.64, "value": 0.96 }
+					],
+					"compItemId": 901104014,
+					"markers": [
+						{
+							"time": 10,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901104017,
+					"type": "composite",
+					"name": "Splt - Strips Both - Horiz 1",
+					"inPoint": 4.72,
+					"outPoint": 5.64,
+					"timeRemap": [
+						{ "time": 4.72, "value": 0.04 },
+						{ "time": 5, "value": 0.32 },
+						{ "time": 5.64, "value": 0.96 }
+					],
+					"compItemId": 901104018,
+					"markers": [
+						{
+							"time": 5,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901104021,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "Forever you stay in my heart",
+					"fontFamily": "Berlin Sans FB",
+					"fontStyle": "Regular",
+					"fontSize": 120,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"strokeColor": [0.6118, 0.6118, 0.6118],
+					"strokeWidth": 5,
+					"boxTextSize": [1678, 398],
+					"animaters": [
+						{
+							"name": "AC IN [PYJ] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 25, "value": -100, "autoBezier": true },
+										{ "time": 26.4, "value": 99.8, "autoBezier": true },
+										{ "time": 30, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100]
+							}
+						},
+						{
+							"name": "AC OUT [PYJ] 2 Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 25, "value": 100, "autoBezier": true },
+										{ "time": 28.65, "value": 100, "autoBezier": true },
+										{ "time": 28.7, "value": 94.64, "autoBezier": true },
+										{ "time": 29.95, "value": -98.46, "autoBezier": true },
+										{ "time": 30, "value": -100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100]
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 610, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [PYJ] Controls",
+							"psuedoName": "MHAC PrCtrl PYJ 4",
+							"position": [0, 0],
+							"scale": [0, 0]
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [PYJ] 2 Controls",
+							"psuedoName": "MHAC PrCtrl PYJ 4",
+							"position": [0, 0],
+							"scale": [0, 0]
+						}
+					],
+					"markers": [
+						{
+							"time": 26.4,
+							"comment": "TR In"
+						},
+						{
+							"time": 28.67,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901104022,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 20,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 25,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901104023,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 15,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901104024,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 10,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901104025,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 5,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 5.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901104026,
+					"type": "text",
+					"name": "text720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "You are the apple of my eye",
+					"fontFamily": "Berlin Sans FB",
+					"fontStyle": "Regular",
+					"fontSize": 120,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"strokeColor": [0.6118, 0.6118, 0.6118],
+					"strokeWidth": 5,
+					"boxTextSize": [1678, 398],
+					"animaters": [
+						{
+							"name": "AC IN [PYJ] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 0, "value": -100, "autoBezier": true },
+										{ "time": 1.4, "value": 99.8, "autoBezier": true },
+										{ "time": 5, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100]
+							}
+						},
+						{
+							"name": "AC OUT [PYJ] 2 Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 0, "value": 100, "autoBezier": true },
+										{ "time": 3.65, "value": 100, "autoBezier": true },
+										{ "time": 3.7, "value": 94.64, "autoBezier": true },
+										{ "time": 4.95, "value": -98.46, "autoBezier": true },
+										{ "time": 5, "value": -100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100]
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 610, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [PYJ] Controls",
+							"psuedoName": "MHAC PrCtrl PYJ 4",
+							"position": [0, 0],
+							"scale": [0, 0]
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [PYJ] 2 Controls",
+							"psuedoName": "MHAC PrCtrl PYJ 4",
+							"position": [0, 0],
+							"scale": [0, 0]
+						}
+					],
+					"markers": [
+						{
+							"time": 1.401,
+							"comment": "TR In"
+						},
+						{
+							"time": 3.665,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901104027,
+					"type": "image",
+					"name": "file720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"replaceable": true,
+					"path": "footage/1080p/1.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 0,
+								"value": [922, 540, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 5,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 0,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 5,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.4909, 0]
+				},
+				{
+					"id": 901104028,
+					"type": "image",
+					"name": "file720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"path": "footage/1080p/2.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 5,
+								"value": [1001, 540, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 10,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 5,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 10,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.6966, 1]
+				},
+				{
+					"id": 901104029,
+					"type": "image",
+					"name": "file720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"path": "footage/1080p/3.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 10,
+								"value": [960, 520, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 15,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 10,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 15,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.5457, 1]
+				},
+				{
+					"id": 901104030,
+					"type": "image",
+					"name": "file720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"path": "footage/1080p/4.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 15,
+								"value": [998, 522, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 20,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 15,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 20,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.6966, 0]
+				},
+				{
+					"id": 901104031,
+					"type": "image",
+					"name": "file720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"path": "footage/1080p/5.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [916, 515, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 25,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 25,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.4086, 1]
+				},
+				{
+					"id": 901104032,
+					"type": "image",
+					"name": "file720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"replaceable": true,
+					"path": "footage/1080p/6.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 25,
+								"value": [922, 540, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 30,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 25,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 30,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.628, 0]
+				},
+				{
+					"id": 901104033,
+					"type": "audio",
+					"name": "1104.mp3",
+					"inPoint": 0,
+					"outPoint": 119.5,
+					"replaceable": true,
+					"path": "1104.mp3",
+					"duration": 119.4
+				}
+			],
+			"compItems": [
+				{
+					"id": 901104002,
+					"name": "Splt - Strips Both - Horiz 2",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901104003,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 200,
+									"mirrorEdges": 0
+								},
+								{
+									"type": "displacementMap",
+									"name": "Displacement Map 1",
+									"maxHorizontalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -0.8569, "autoBezier": true },
+										{ "time": 0.1, "value": -34.69, "autoBezier": true },
+										{ "time": 0.15, "value": -133.9, "autoBezier": true },
+										{ "time": 0.2, "value": -334.6, "autoBezier": true },
+										{ "time": 0.25, "value": -705, "autoBezier": true },
+										{ "time": 0.3, "value": -1322, "autoBezier": true },
+										{ "time": 0.35, "value": 903.2, "autoBezier": true },
+										{ "time": 0.4, "value": 502.5, "autoBezier": true },
+										{ "time": 0.45, "value": 298.5, "autoBezier": true },
+										{ "time": 0.5, "value": 167.5, "autoBezier": true },
+										{ "time": 0.55, "value": 87.21, "autoBezier": true },
+										{ "time": 0.6, "value": 44.93, "autoBezier": true },
+										{ "time": 0.65, "value": 23.02, "autoBezier": true },
+										{ "time": 0.7, "value": 11.45, "autoBezier": true },
+										{ "time": 0.75, "value": 5.342, "autoBezier": true },
+										{ "time": 0.9, "value": 0.1468, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"displacementMapLayerId": 901104004
+								}
+							]
+						},
+						{
+							"id": 901104004,
+							"type": "image",
+							"name": "Splt - Strips Both - Horiz 1 (0000000).png",
+							"inPoint": 0,
+							"outPoint": 1,
+							"samplingQuality": 1,
+							"path": "footage/maps_strips_both/splt_strips_both_horiz_1_0_00_00_00.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901104006,
+					"name": "Splt - Strips Both - Diag 135 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901104007,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 200,
+									"outputHeight": 200
+								},
+								{
+									"type": "displacementMap",
+									"name": "Displacement Map 1",
+									"maxHorizontalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -1.01, "autoBezier": true },
+										{ "time": 0.1, "value": -40.89, "autoBezier": true },
+										{ "time": 0.15, "value": -157.8, "autoBezier": true },
+										{ "time": 0.2, "value": -394.4, "autoBezier": true },
+										{ "time": 0.25, "value": -830.9, "autoBezier": true },
+										{ "time": 0.3, "value": -1558, "autoBezier": true },
+										{ "time": 0.35, "value": 1064, "autoBezier": true },
+										{ "time": 0.4, "value": 592.2, "autoBezier": true },
+										{ "time": 0.45, "value": 351.8, "autoBezier": true },
+										{ "time": 0.5, "value": 197.4, "autoBezier": true },
+										{ "time": 0.55, "value": 102.8, "autoBezier": true },
+										{ "time": 0.6, "value": 52.95, "autoBezier": true },
+										{ "time": 0.65, "value": 27.13, "autoBezier": true },
+										{ "time": 0.7, "value": 13.5, "autoBezier": true },
+										{ "time": 0.75, "value": 6.295, "autoBezier": true },
+										{ "time": 0.9, "value": 0.173, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"maxVerticalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -0.568, "autoBezier": true },
+										{ "time": 0.1, "value": -23, "autoBezier": true },
+										{ "time": 0.15, "value": -88.76, "autoBezier": true },
+										{ "time": 0.2, "value": -221.8, "autoBezier": true },
+										{ "time": 0.25, "value": -467.4, "autoBezier": true },
+										{ "time": 0.3, "value": -876.1, "autoBezier": true },
+										{ "time": 0.35, "value": 598.7, "autoBezier": true },
+										{ "time": 0.4, "value": 333.1, "autoBezier": true },
+										{ "time": 0.45, "value": 197.9, "autoBezier": true },
+										{ "time": 0.5, "value": 111.1, "autoBezier": true },
+										{ "time": 0.55, "value": 57.81, "autoBezier": true },
+										{ "time": 0.6, "value": 29.79, "autoBezier": true },
+										{ "time": 0.65, "value": 15.26, "autoBezier": true },
+										{ "time": 0.7, "value": 7.592, "autoBezier": true },
+										{ "time": 0.85, "value": 0.4857, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"displacementMapLayerId": 901104008
+								}
+							]
+						},
+						{
+							"id": 901104008,
+							"type": "image",
+							"name": "Splt - Strips Both - Diag 135 1 (0000000).png",
+							"inPoint": 0,
+							"outPoint": 1,
+							"samplingQuality": 1,
+							"path": "footage/maps_strips_both/splt_strips_both_diag_135_1_0_00_00_00.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901104010,
+					"name": "Splt - Strips Both - Diag 45 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901104011,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 200,
+									"outputHeight": 200
+								},
+								{
+									"type": "displacementMap",
+									"name": "Displacement Map 1",
+									"maxHorizontalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": 1.01, "autoBezier": true },
+										{ "time": 0.1, "value": 40.89, "autoBezier": true },
+										{ "time": 0.15, "value": 157.8, "autoBezier": true },
+										{ "time": 0.2, "value": 394.4, "autoBezier": true },
+										{ "time": 0.25, "value": 830.9, "autoBezier": true },
+										{ "time": 0.3, "value": 1558, "autoBezier": true },
+										{ "time": 0.35, "value": -1064, "autoBezier": true },
+										{ "time": 0.4, "value": -592.2, "autoBezier": true },
+										{ "time": 0.45, "value": -351.8, "autoBezier": true },
+										{ "time": 0.5, "value": -197.4, "autoBezier": true },
+										{ "time": 0.55, "value": -102.8, "autoBezier": true },
+										{ "time": 0.6, "value": -52.95, "autoBezier": true },
+										{ "time": 0.65, "value": -27.13, "autoBezier": true },
+										{ "time": 0.7, "value": -13.5, "autoBezier": true },
+										{ "time": 0.75, "value": -6.295, "autoBezier": true },
+										{ "time": 0.9, "value": -0.173, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"maxVerticalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -0.568, "autoBezier": true },
+										{ "time": 0.1, "value": -23, "autoBezier": true },
+										{ "time": 0.15, "value": -88.76, "autoBezier": true },
+										{ "time": 0.2, "value": -221.8, "autoBezier": true },
+										{ "time": 0.25, "value": -467.4, "autoBezier": true },
+										{ "time": 0.3, "value": -876.1, "autoBezier": true },
+										{ "time": 0.35, "value": 598.7, "autoBezier": true },
+										{ "time": 0.4, "value": 333.1, "autoBezier": true },
+										{ "time": 0.45, "value": 197.9, "autoBezier": true },
+										{ "time": 0.5, "value": 111.1, "autoBezier": true },
+										{ "time": 0.55, "value": 57.81, "autoBezier": true },
+										{ "time": 0.6, "value": 29.79, "autoBezier": true },
+										{ "time": 0.65, "value": 15.26, "autoBezier": true },
+										{ "time": 0.7, "value": 7.592, "autoBezier": true },
+										{ "time": 0.85, "value": 0.4857, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"displacementMapLayerId": 901104012
+								}
+							]
+						},
+						{
+							"id": 901104012,
+							"type": "image",
+							"name": "Splt - Strips Both - Diag 45 1 (0000000).png",
+							"inPoint": 0,
+							"outPoint": 1,
+							"samplingQuality": 1,
+							"path": "footage/maps_strips_both/splt_strips_both_diag_45_1_0_00_00_00.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901104014,
+					"name": "Splt - Strips Both - Vert 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901104015,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Height",
+									"tileCenter": [960, 540],
+									"outputHeight": 200,
+									"mirrorEdges": 0
+								},
+								{
+									"type": "displacementMap",
+									"name": "Displacement Map 1",
+									"maxVerticalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -0.8033, "autoBezier": true },
+										{ "time": 0.1, "value": -32.53, "autoBezier": true },
+										{ "time": 0.15, "value": -125.5, "autoBezier": true },
+										{ "time": 0.2, "value": -313.7, "autoBezier": true },
+										{ "time": 0.25, "value": -661, "autoBezier": true },
+										{ "time": 0.3, "value": -1239, "autoBezier": true },
+										{ "time": 0.35, "value": 846.7, "autoBezier": true },
+										{ "time": 0.4, "value": 471.1, "autoBezier": true },
+										{ "time": 0.45, "value": 279.9, "autoBezier": true },
+										{ "time": 0.5, "value": 157.1, "autoBezier": true },
+										{ "time": 0.55, "value": 81.75, "autoBezier": true },
+										{ "time": 0.6, "value": 42.13, "autoBezier": true },
+										{ "time": 0.65, "value": 21.58, "autoBezier": true },
+										{ "time": 0.7, "value": 10.74, "autoBezier": true },
+										{ "time": 0.75, "value": 5.008, "autoBezier": true },
+										{ "time": 0.9, "value": 0.1376, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"displacementMapLayerId": 901104016
+								}
+							]
+						},
+						{
+							"id": 901104016,
+							"type": "image",
+							"name": "Splt - Strips Both - Vert 1 (0000000).png",
+							"inPoint": 0,
+							"outPoint": 1,
+							"samplingQuality": 1,
+							"path": "footage/maps_strips_both/splt_strips_both_vert_1_0_00_00_00.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901104018,
+					"name": "Splt - Strips Both - Horiz 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901104019,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 200,
+									"mirrorEdges": 0
+								},
+								{
+									"type": "displacementMap",
+									"name": "Displacement Map 1",
+									"maxHorizontalDisplacement": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.05, "value": -0.8569, "autoBezier": true },
+										{ "time": 0.1, "value": -34.69, "autoBezier": true },
+										{ "time": 0.15, "value": -133.9, "autoBezier": true },
+										{ "time": 0.2, "value": -334.6, "autoBezier": true },
+										{ "time": 0.25, "value": -705, "autoBezier": true },
+										{ "time": 0.3, "value": -1322, "autoBezier": true },
+										{ "time": 0.35, "value": 903.2, "autoBezier": true },
+										{ "time": 0.4, "value": 502.5, "autoBezier": true },
+										{ "time": 0.45, "value": 298.5, "autoBezier": true },
+										{ "time": 0.5, "value": 167.5, "autoBezier": true },
+										{ "time": 0.55, "value": 87.21, "autoBezier": true },
+										{ "time": 0.6, "value": 44.93, "autoBezier": true },
+										{ "time": 0.65, "value": 23.02, "autoBezier": true },
+										{ "time": 0.7, "value": 11.45, "autoBezier": true },
+										{ "time": 0.75, "value": 5.342, "autoBezier": true },
+										{ "time": 0.9, "value": 0.1468, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"displacementMapLayerId": 901104020
+								}
+							]
+						},
+						{
+							"id": 901104020,
+							"type": "image",
+							"name": "Splt - Strips Both - Horiz 1 (0000000).png",
+							"inPoint": 0,
+							"outPoint": 1,
+							"samplingQuality": 1,
+							"path": "footage/maps_strips_both/splt_strips_both_horiz_1_0_00_00_00.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				}
+			]
+		}
+	]
+}

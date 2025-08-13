@@ -1,0 +1,704 @@
+// 解决部分系统上没有 monospace 的问题. 来自于 https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap
+.tooltip__f-slider, .tooltip__f-progress{
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+body{
+	height: 100%;
+	font-family: 'Microsoft YaHei', 'STXihei';
+	font-size: 14px;
+}
+
+h2{
+	font-weight: normal;
+}
+
+.option__f-list{
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 14px;
+}
+
+
+.header{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #ddd;
+
+	&-wrapper{
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&-title{
+		font-size: 2em;
+		font-weight: 100;
+		opacity: 0.7;
+	}
+
+	@at-root .theme-dark &{
+		border-bottom-color: #555;
+	}
+}
+
+.theme{
+	display: flex;
+	float: right;
+
+	&-light-btn, &-dark-btn{
+		width: 28px;
+		height: 28px;
+		margin-left: 8px;
+		cursor: pointer;
+	}
+
+	&-light-btn{
+		background: #fff;
+		border: 1px solid #ddd;
+	}
+
+	&-dark-btn{
+		background: #333;
+		border: 1px solid #555;
+	}
+}
+
+
+.wrapper{
+	width: 1224px;
+	max-width: 98%;
+	margin: 0 auto;
+}
+
+
+.docs{
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	left: 0;
+
+	&-wrapper{
+		display: flex;
+	}
+}
+
+.navigation{
+	width: 240px;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+	font-size: 14px;
+}
+
+.subsection__f-navigation{
+	font-size: 13px;
+
+	&:last-child{
+		border-bottom: none;
+	}
+}
+
+.content{
+	flex: 1;
+	min-width: 0;
+	padding: 16px 0 48px 24px;
+	line-height: 28px;
+
+	h1{
+		font-size: 40px;
+		margin-bottom: 30px;
+		font-weight: 100;
+	}
+
+	h2, h3{
+		margin: 40px 0 20px;
+	}
+
+	h4, h5, h6{
+		margin: 30px 0 10px;
+	}
+
+	header{
+		font-weight: bold;
+	}
+
+	p{
+		margin: 12px 0 0 0;
+		font-size: inherit;
+	}
+
+	ul{
+		list-style-type: square;
+	}
+
+	ul, ol{
+		padding-left: 40px;
+		margin-top: 12px;
+	}
+
+	li ul, li ol{
+		margin-top: 6px;
+		margin-bottom: 12px;
+	}
+
+	a{
+		color: #3a6cf6;
+	}
+
+	img{
+		display: block;
+		margin-bottom: 20px;
+		border: 10px solid #fff;
+		box-shadow: 0 0 10px rgba(#000, 0.2);
+	}
+
+	code{
+		font-family: 'Roboto Mono', monospace;;
+		color: #29bc04;
+	}
+
+	em{
+		color: #ffd007;
+		font-style: normal;
+	}
+
+	pre{
+		margin: 20px 0;
+		line-height: 20px;
+	}
+
+	table{
+		margin: 20px 0;
+	}
+
+	th{
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+
+		@at-root .theme-dark &{
+			border-bottom-color: #555;
+		}
+	}
+
+	th, td{
+		padding: 4px 24px 4px 0;
+	}
+
+	del{
+		text-decoration: none;
+		opacity: 0.5;
+
+		&::after{
+			content: ' -- 已实现';
+		}
+	}
+}
+
+
+.function-curve{
+	display: block;
+	margin-top: 10px;
+}
+
+.function-generator{
+	f-row{
+		margin-top: 12px;
+	}
+
+	f-col{
+		display: flex;
+
+		span{
+			font-size: 13px;
+			font-family: monospace;
+			line-height: 32px;
+		}
+	
+		f-input{
+			flex: 1;
+			margin-left: 8px;
+			font-family: monospace;
+		}
+	}
+
+	&-switch-container{
+		margin-top: 20px;
+	}
+
+	&-switch{
+		margin-right: 8px;
+		margin-top: 3px;
+	}
+
+	&-desc{
+		display: block;
+		margin-top: 20px;
+	}
+}
+
+
+.polar-sampling, .gauss-blur{
+	display: block;
+
+	f-textarea{
+		display: block;
+		width: 100%;
+		margin-top: 16px;
+	}
+
+	button{
+		margin-top: 16px;
+	}
+
+	f-input{
+		display: block;
+		width: 100%;
+		margin-top: 16px;
+	}
+}
+
+.gauss-blur{
+	f-textarea{
+		height: 200px;
+	}
+}
+
+
+
+.preview{
+	display: block;
+
+	&-nav{
+		height: 50px;
+		margin-bottom: 4px;
+		margin-right: -4px;
+		display: flex;
+		overflow-x: auto;
+
+		&-item{
+			flex: 1;
+			width: 50px;
+			max-width: 100px;
+			height: 50px;
+			margin-right: 4px;
+			opacity: 0.4;
+			cursor: pointer;
+
+			&:hover, &.active{
+				opacity: 1;
+			}
+
+			img{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				border: none;
+				box-shadow: none;
+				object-fit: cover;
+			}
+		}
+	}
+
+	&-canvas{
+		canvas{
+			display: block;
+			border: none;
+			box-shadow: none;
+			width: 100%;
+			height: 540px;
+			image-rendering: pixelated;
+		}
+
+		&:fullscreen{
+			display: flex;
+
+			canvas{
+				margin: auto;
+			}
+		}
+	}
+
+	&-toolbar{
+		width: 100%;
+		margin-bottom: 20px;
+
+		td{
+			padding: 0;
+
+			&:first-child{
+				padding-right: 4px;
+				height: 22px;
+				line-height: 22px;
+				font-size: 13px;
+				text-align: right;
+				white-space: nowrap;
+				width: 1%;
+			}
+		}
+	}
+
+	&-slide-value{
+		display: inline-block;
+		min-width: 36px;
+		text-align: left;;
+	}
+
+	&-slider{
+		width: 200px;
+	}
+
+	button{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 22px;
+		line-height: 20px;
+		font-size: 14px;
+		padding: 0 8px;
+	}
+
+	&-slider-button{
+		margin-left: 12px;
+		margin-right: 4px;
+
+		&:first-child{
+			margin-left: 0;
+		}
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	&-easing-select{
+		float: right;
+		margin-top: 4px;
+		margin-left: auto;
+		height: 24px;
+		width: 180px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	&-channels{
+		display: flex;
+		margin-bottom: 10px;
+
+		> div{
+			width: 40px;
+			height: 40px;
+			margin: 4px;
+			border: 3px solid #ccc;
+			cursor: pointer;
+		}
+
+		.active{
+			border-color: #555;
+
+			@at-root .theme-dark &{
+				border-color: #eee;
+			}
+		}
+	}
+
+	&-names{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+		line-height: 36px;
+		font-size: 16px;
+
+		> div{
+			margin-right: 20px;
+			cursor: pointer;
+		}
+
+		.active{
+			color: #3a6cf6;
+		}
+	}
+
+	&-additional-toolbar{
+		display: flex;
+		margin-top: 8px;
+		margin-bottom: 0px;
+
+		f-buttongroup{
+			margin-right: 12px;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+
+		> button{
+			margin-right: 12px;
+		}
+
+		button{
+			font-size: 12px;
+			min-width: 55px;
+		}
+
+		> *:last-child{
+			margin-right: 0;
+		}
+	}
+
+	&-progress{
+		flex: 1;
+	}
+}
+
+
+
+.aegl-preview{
+	margin-top: -12px;
+	
+	.preview-progress{
+		width: 100%;
+		margin-top: -4px;
+	}
+}
+
+.aegl-editor{
+	height: 320px;
+
+	.editor-scenes{
+		height: 71px;
+		margin-top: 4px;
+		padding: 0 2px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	}
+
+	.editor-scenes-slider{
+		position: relative;
+		height: 100%;
+	}
+
+	.editor-scene{
+		position: absolute;
+		top: 0;
+		height: 100%;
+		opacity: 0.4;
+		cursor: pointer;
+		transition: opacity 0.2s ease-out;
+		background: #fff;
+		margin-right: -4px;
+
+		&:hover{
+			opacity: 0.7;
+		}
+
+		&.active{
+			opacity: 1;
+		}
+
+		img{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			object-position: center;
+			object-fit: cover;
+			border: 4px solid transparent;
+		}
+	}
+
+	img{
+		position: relative;
+		box-shadow: none;
+
+		&::after{
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background: #ddd;
+
+			@at-root .theme-dark &{
+				background: #444;
+			}
+		}
+	}
+
+	.current-scene{
+		margin-top: 16px;
+	}
+
+	.scene-title{
+		font-weight: bold;
+		font-size: 14px;
+		color: #888;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+	}
+
+	.scene-content{
+		display: flex;
+	}
+
+	.scene-photo{
+		img{
+			width: 100%;
+			margin-bottom: 0;
+			border: 0;
+		}
+
+		button{
+			margin-top: 8px;
+			color: #666;
+		}
+	}
+
+	.photo-area{
+		position: relative;
+		width: 100%;
+		height: 188px;
+		padding: 4px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+		
+		&:hover .photo-full{
+			opacity: 0.3;
+			pointer-events: auto;
+		}
+	}
+
+	.photo-full, .photo-clip{
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		right: 4px;
+		bottom: 4px;
+
+		img{
+			position: absolute;
+		}
+	}
+
+	.photo-full{
+		pointer-events: none;
+		transition: opacity 0.2s ease-out;
+		opacity: 0;
+		cursor: grab;
+	}
+
+	.photo-clip{
+		overflow: hidden;
+	}
+
+	.scene-text{
+		flex: 1;
+		margin-left: 20px;
+	}
+
+	.text-label{
+		text-align: right;
+		padding-right: 12px;
+		font-size: 12px;
+		line-height: 26px;
+	}
+
+	f-row{
+		margin-bottom: 12px;
+	}
+
+	f-col{
+		display: flex;
+	}
+
+	f-input, aegl-font-weight-select, aegl-font-family-select{
+		width: 100%;
+		height: 28px;
+		line-height: 28px;
+		font-size: 14px;
+	}
+
+	f-textarea{
+		width: 100%;
+		height: 34px;
+		line-height: 24px;
+		font-size: 14px;
+	}
+
+	input[type=color]{
+		color: inherit;
+		width: 64px;
+		height: 28px;
+
+		@at-root .theme-dark &{
+			background: #404040;
+			border-color: #888;
+		}
+	}
+
+	f-slider{
+		height: 28px;
+		flex: 1;
+	}
+
+	button{
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+	@at-root .list__aegl-font-family-select, .list__aegl-font-weight-select{
+		.text__f-list{
+			height: 30px;
+		}
+	}
+}
+
+.aegl-encoding-config{
+	width: 430px;
+	height: 420px;
+
+	f-row{
+		margin-top: 10px;
+	}
+
+	f-col:first-child{
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	f-select, f-input{
+		width: 100%;
+	}
+
+	.encoding-tips{
+		margin-top: 40px;
+		min-height: 40px;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.encoding-progress{
+		margin-top: 40px;
+		margin-bottom: -6px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	f-progress{
+		width: 100%;
+	}
+
+	button{
+		margin: 16px auto 0;
+		width: 120px;
+	}
+
+	@at-root .secondary-choice{
+		opacity: 0.4;
+	}
+}
+

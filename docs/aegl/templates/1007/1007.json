@@ -1,0 +1,717 @@
+{
+	"id": 1007,
+	"name": "Dreamy Watercolor",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 8,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 46,
+			"layers": [
+				{
+					"id": 901007001,
+					"type": "text",
+					"name": "text1080-1",
+					"inPoint": 0,
+					"outPoint": 5.04,
+					"replaceable": true,
+					"text": "For a good time for you and me",
+					"fontFamily": "SJNMDJW",
+					"fontStyle": "Regular",
+					"fontSize": 120,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [978, 264],
+					"transform": {
+						"position": [1280, 880, 0],
+						"opacity": [
+							{ "time": 0.52, "value": 0 },
+							{ "time": 1.64, "value": 100 },
+							{ "time": 2.96, "value": 100 },
+							{ "time": 4, "value": 0 }
+						]
+					}
+				},
+				{
+					"id": 901007002,
+					"type": "text",
+					"name": "text1080-2",
+					"inPoint": 5,
+					"outPoint": 11,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [962, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007003,
+					"type": "text",
+					"name": "text1080-3",
+					"inPoint": 10.96,
+					"outPoint": 17,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [960, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007004,
+					"type": "text",
+					"name": "text1080-4",
+					"inPoint": 17,
+					"outPoint": 23,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [960, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007005,
+					"type": "text",
+					"name": "text1080-5",
+					"inPoint": 23,
+					"outPoint": 29,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [960, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007006,
+					"type": "text",
+					"name": "text1080-6",
+					"inPoint": 29,
+					"outPoint": 35,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [962, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007007,
+					"type": "text",
+					"name": "text1080-7",
+					"inPoint": 35,
+					"outPoint": 41,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [960, 106],
+					"transform": {
+						"position": [960, 1010, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901007008,
+					"type": "video",
+					"name": "Pre-comp 2.mov",
+					"inPoint": 41,
+					"outPoint": 47,
+					"isTrackMatte": true,
+					"path": {
+						"1080p": "footage/pre_comp_2-720p.webm",
+						"720p": "footage/pre_comp_2-720p.webm",
+						"540p": "footage/pre_comp_2-540p.webm"
+					},
+					"width": 1280,
+					"height": 720,
+					"duration": 6,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [640, 360, 0],
+						"position": [960, 540, 0],
+						"scale": [176.7, 269.2, 100]
+					}
+				},
+				{
+					"id": 901007009,
+					"type": "text",
+					"name": "text1080-8",
+					"inPoint": 41,
+					"outPoint": 46,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"replaceable": true,
+					"text": "a good time to spend with you",
+					"fontFamily": "SJNMDJW",
+					"fontStyle": "Regular",
+					"fontSize": 120,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"tracking": 50,
+					"boxTextSize": [1530, 334],
+					"transform": {
+						"position": [960, 574, 0]
+					}
+				},
+				{
+					"id": 901007011,
+					"type": "video",
+					"name": "bg.mp4",
+					"inPoint": 0,
+					"outPoint": 46,
+					"path": {
+						"1080p": "footage/bg-720p.webm",
+						"720p": "footage/bg-720p.webm",
+						"540p": "footage/bg-540p.webm"
+					},
+					"width": 1280,
+					"height": 720,
+					"duration": 46.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [640, 360, 0],
+						"position": [1098, 717, 0],
+						"scale": [294, 294, 100]
+					}
+				},
+				{
+					"id": 901007012,
+					"type": "image",
+					"name": "file720-6",
+					"inPoint": 35,
+					"outPoint": 41,
+					"replaceable": true,
+					"path": "footage/1080p/6.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 35, "value": [950, 566, 0] },
+							{ "time": 38.96, "value": [966, 559, 0] },
+							{ "time": 40.12, "value": [966, 544, 0] },
+							{ "time": 41, "value": [1348, 1355, 0] }
+						],
+						"scale": [
+							{ "time": 35, "value": [142.6, 142.6, 100] },
+							{ "time": 36.8, "value": [149, 149, 100] }
+						]
+					}
+				},
+				{
+					"id": 901007013,
+					"type": "image",
+					"name": "file720-5",
+					"inPoint": 29,
+					"outPoint": 35,
+					"replaceable": true,
+					"path": "footage/1080p/5.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 543, 0],
+						"scale": [
+							{ "time": 49.96, "value": [158.5, 158.5, 100] },
+							{ "time": 53.96, "value": [147, 147, 100] },
+							{ "time": 54.68, "value": [142.5, 142.5, 100] },
+							{ "time": 55.92, "value": [120.1, 120.1, 100] }
+						]
+					}
+				},
+				{
+					"id": 901007014,
+					"type": "image",
+					"name": "file720-4",
+					"inPoint": 23,
+					"outPoint": 29,
+					"replaceable": true,
+					"path": "footage/1080p/4.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 44, "value": [974, 540.9, 0] },
+							{ "time": 44.92, "value": [907, 575, 0] },
+							{ "time": 48.76, "value": [1000, 535, 0] },
+							{ "time": 49.92, "value": [1434, 425.5, 0] }
+						],
+						"scale": [
+							{ "time": 44, "value": [150, 150, 100] },
+							{ "time": 48.76, "value": [141.1, 141.1, 100] }
+						]
+					}
+				},
+				{
+					"id": 901007015,
+					"type": "image",
+					"name": "file720-3",
+					"inPoint": 17,
+					"outPoint": 23,
+					"replaceable": true,
+					"path": "footage/1080p/3.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 17,
+								"value": [1009, 533.2, 0],
+								"outEase": [{ "speed": 0, "influence": 10.67 }]
+							},
+							{
+								"time": 20.44,
+								"value": [966.7, 543.2, 0],
+								"inEase": [{ "speed": 0, "influence": 79.26 }],
+								"outEase": [{ "speed": 0, "influence": 26.68 }]
+							},
+							{
+								"time": 21.96,
+								"value": [966.7, 543.2, 0],
+								"inEase": [{ "speed": 0, "influence": 33.96 }],
+								"outEase": [{ "speed": 0, "influence": 54.81 }]
+							},
+							{
+								"time": 22.96,
+								"value": [966.7, 543.2, 0],
+								"inEase": [{ "speed": 0, "influence": 0.0006 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 17,
+								"value": [124.6, 124.6, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 10.67 },
+									{ "speed": 0, "influence": 10.67 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 20.44,
+								"value": [149.5, 149.5, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 79.26 },
+									{ "speed": 0, "influence": 79.26 },
+									{ "speed": 0, "influence": 33.33 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 29.64 },
+									{ "speed": 0, "influence": 29.64 },
+									{ "speed": 0, "influence": 29.64 }
+								]
+							},
+							{
+								"time": 21.96,
+								"value": [145, 145, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 32.9 },
+									{ "speed": 0, "influence": 32.9 },
+									{ "speed": 0, "influence": 32.9 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 42.99 },
+									{ "speed": 0, "influence": 42.99 },
+									{ "speed": 0, "influence": 42.99 }
+								]
+							},
+							{
+								"time": 22.96,
+								"value": [104.5, 104.5, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 19.37 },
+									{ "speed": 0, "influence": 19.37 },
+									{ "speed": 0, "influence": 19.37 }
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": 901007016,
+					"type": "image",
+					"name": "file720-2",
+					"inPoint": 11,
+					"outPoint": 17,
+					"replaceable": true,
+					"path": "footage/1080p/2.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 15.8,
+								"value": [1027, 544.9, 1259],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 16.96,
+								"value": [2089, -52.8, 1259],
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						],
+						"scale": [
+							{ "time": 11, "value": [247.4, 247.4, 170.6] },
+							{ "time": 15.8, "value": [195.1, 195.1, 195.1] }
+						]
+					}
+				},
+				{
+					"id": 901007017,
+					"type": "image",
+					"name": "file720-1",
+					"inPoint": 5,
+					"outPoint": 11,
+					"replaceable": true,
+					"path": "footage/1080p/1.webp",
+					"width": 1920,
+					"height": 1080,
+					"masks": [
+						{
+							"maskMode": 2,
+							"maskPath": {
+								"closed": true,
+								"inTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"outTangents": [
+									[0, 0],
+									[0, 0],
+									[0, 0],
+									[0, 0]
+								],
+								"vertices": [
+									[0, 0],
+									[0, 1080],
+									[1920, 1080],
+									[1920, 0]
+								]
+							},
+							"maskFeather": [68, 68],
+							"maskExpansion": -55
+						}
+					],
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 5.04, "value": [964, 537.5, 0] },
+							{
+								"time": 9.76,
+								"value": [1026, 548.9, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 12.31 }]
+							},
+							{
+								"time": 11,
+								"value": [525.1, 715.8, 0],
+								"inEase": [{ "speed": 0, "influence": 87.31 }]
+							}
+						],
+						"scale": [
+							{ "time": 5.04, "value": [128.5, 128.5, 128.5] },
+							{
+								"time": 9.76,
+								"value": [135.6, 135.6, 135.6],
+								"inEase": [
+									{ "speed": 0, "influence": 33.07 },
+									{ "speed": 0, "influence": 33.07 },
+									{ "speed": 0, "influence": 33.07 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 12.31 },
+									{ "speed": 0, "influence": 12.31 },
+									{ "speed": 0, "influence": 12.31 }
+								]
+							},
+							{
+								"time": 11,
+								"value": [190.1, 190.1, 190.1],
+								"inEase": [
+									{ "speed": 0, "influence": 87.31 },
+									{ "speed": 0, "influence": 87.31 },
+									{ "speed": 0, "influence": 87.31 }
+								]
+							}
+						],
+						"orientation": [
+							{ "time": 5.04, "value": [0, 0, 0] },
+							{
+								"time": 9.76,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 12.31 }]
+							},
+							{
+								"time": 11,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 87.31 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901007018,
+					"type": "audio",
+					"name": "1007.mp3",
+					"inPoint": 0,
+					"outPoint": 88.27,
+					"replaceable": true,
+					"path": "1007.mp3",
+					"audioLevels": [
+						{ "time": 43.92, "value": [0, 0] },
+						{ "time": 45.96, "value": [-20, -20] }
+					],
+					"duration": 88.03
+				}
+			],
+			"compItems": []
+		}
+	]
+}

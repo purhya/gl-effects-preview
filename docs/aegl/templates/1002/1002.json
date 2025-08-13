@@ -1,0 +1,3155 @@
+{
+	"id": 1002,
+	"name": "Travel Records",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 10,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1000p",
+			"width": 1000,
+			"height": 1000,
+			"duration": 34,
+			"layers": [
+				{
+					"id": 901002001,
+					"type": "adjustment",
+					"name": "Adjustment Layer 1",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"effects": [
+						{
+							"type": "transform",
+							"name": "Transform",
+							"anchorPoint": [500, 500],
+							"position": [500, 500],
+							"opacity": [
+								{ "time": -1.6, "value": 0 },
+								{
+									"time": -0.6,
+									"value": 100,
+									"inEase": [{ "speed": 0, "influence": 33.33 }],
+									"outEase": [{ "speed": 0, "influence": 16.67 }]
+								},
+								{ "time": 31.4, "value": 100 },
+								{ "time": 32.36, "value": 0 }
+							],
+							"scale": [
+								{ "time": -1.6, "value": [184, 184] },
+								{
+									"time": 3.36,
+									"value": [100, 100],
+									"inEase": [{ "speed": -0.0924, "influence": 59.02 }]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901002002,
+					"type": "text",
+					"name": "text1000-6",
+					"inPoint": 24,
+					"outPoint": 28,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 72,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [500, 929.2, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002003,
+					"type": "text",
+					"name": "text1000-5",
+					"inPoint": 20,
+					"outPoint": 24,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 72,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [500, 929.2, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002004,
+					"type": "text",
+					"name": "text1000-4",
+					"inPoint": 16,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 72,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [500, 929.2, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002005,
+					"type": "text",
+					"name": "text1000-3",
+					"inPoint": 12,
+					"outPoint": 16,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 72,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [500, 929.2, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002006,
+					"type": "text",
+					"name": "text1000-2",
+					"inPoint": 8,
+					"outPoint": 12,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 72,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [500, 929.2, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002007,
+					"type": "image",
+					"name": "window-light.png",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"blendingMode": "OVERLAY",
+					"path": "footage/window_light.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [660, 500, 0],
+						"scale": [92.59, 92.59, 100]
+					}
+				},
+				{
+					"id": 901002008,
+					"type": "composite",
+					"name": "预合成 13-1000p",
+					"inPoint": 0,
+					"outPoint": 40,
+					"compItemId": 901002009,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [500, 500, 0],
+						"scale": [100, 100, 100]
+					}
+				},
+				{
+					"id": 901002012,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 28,
+					"outPoint": 34.04,
+					"isTrackMatte": true,
+					"path": {
+						"1000p": "footage/text_brush_mask-1080p.webm",
+						"500p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [500, 500, 0],
+						"scale": [42.39, 92.59, 100]
+					}
+				},
+				{
+					"id": 901002013,
+					"type": "composite",
+					"name": "I miss those days 合成 1-1000p",
+					"inPoint": 28,
+					"outPoint": 34,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002014
+				},
+				{
+					"id": 901002019,
+					"type": "composite",
+					"name": "预合成 8-1000p",
+					"inPoint": 24,
+					"outPoint": 28,
+					"compItemId": 901002020,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [
+							{
+								"time": 24,
+								"value": [1457, -43.9, 0],
+								"outEase": [{ "speed": 0, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": [487, 513, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": [487, 513, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27.96,
+								"value": [-657.7, 513, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 24,
+								"value": -20,
+								"outEase": [{ "speed": -0.0001, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 27.96,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002023,
+					"type": "composite",
+					"name": "预合成 7-1000p",
+					"inPoint": 20,
+					"outPoint": 24,
+					"compItemId": 901002024,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [359, 507.4, 0],
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23.96,
+								"value": [-592.7, 540.7, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [635.4, 635.4, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 22,
+								"value": [109.9, 109.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 33.33 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 }
+								]
+							},
+							{
+								"time": 22.4,
+								"value": [101.9, 101.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 }
+								]
+							},
+							{
+								"time": 23,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							},
+							{
+								"time": 23.96,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							}
+						],
+						"rotation": [
+							{
+								"time": 20,
+								"value": -48,
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002027,
+					"type": "composite",
+					"name": "预合成 6-1000p",
+					"inPoint": 16,
+					"outPoint": 20,
+					"compItemId": 901002028,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [
+							{
+								"time": 16,
+								"value": [563.5, -776.5, 0],
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.96,
+								"value": [204.5, 1725, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 16,
+								"value": 13,
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 19.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002031,
+					"type": "composite",
+					"name": "预合成 5-1000p",
+					"inPoint": 12,
+					"outPoint": 16,
+					"compItemId": 901002032,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [
+							{
+								"time": 12,
+								"value": [-568.7, 944, 0],
+								"outEase": [{ "speed": 0, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.96,
+								"value": [1125, 1532, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 12,
+								"value": -25,
+								"outEase": [{ "speed": -0.0001, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 15.96,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002035,
+					"type": "composite",
+					"name": "预合成 4-1000p",
+					"inPoint": 8,
+					"outPoint": 12,
+					"compItemId": 901002036,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [
+							{
+								"time": 8,
+								"value": [355.4, 1869, 0],
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11,
+								"value": [500, 500, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11.96,
+								"value": [680, -639.6, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }]
+							}
+						],
+						"scale": [109.9, 109.9, 100],
+						"rotation": [
+							{
+								"time": 8,
+								"value": 10,
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 30.29 }]
+							},
+							{
+								"time": 11,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 11.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002039,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 1.96,
+					"outPoint": 8,
+					"isTrackMatte": true,
+					"path": {
+						"1000p": "footage/text_brush_mask-1080p.webm",
+						"500p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [500, 500, 0],
+						"scale": [52.08, 92.59, 100]
+					}
+				},
+				{
+					"id": 901002040,
+					"type": "composite",
+					"name": "预合成 1-1000p",
+					"inPoint": 0,
+					"outPoint": 8,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002041,
+					"transform": {
+						"anchorPoint": [500, 500, 0],
+						"position": [489.6, 500, 0]
+					}
+				},
+				{
+					"id": 901002048,
+					"type": "image",
+					"name": "bg-1000p.jpg",
+					"inPoint": 0,
+					"outPoint": 34,
+					"path": "footage/bg_1000p.webp",
+					"width": 1000,
+					"height": 1000
+				},
+				{
+					"id": 901002049,
+					"type": "audio",
+					"name": "1002.mp3",
+					"inPoint": 0,
+					"outPoint": 105.8,
+					"replaceable": true,
+					"path": "1002.mp3",
+					"duration": 105.5
+				}
+			],
+			"compItems": [
+				{
+					"id": 901002009,
+					"name": "预合成 13-1000p",
+					"duration": 40,
+					"layers": [
+						{
+							"id": 901002011,
+							"type": "video",
+							"name": "leaves-shadow.mp4",
+							"inPoint": 0,
+							"outPoint": 40,
+							"path": {
+								"1000p": "footage/leaves_shadow-1080p.webm",
+								"500p": "footage/leaves_shadow-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25,
+							"loop": 4,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [800, 500, 0],
+								"scale": [92.59, 92.59, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002016,
+					"name": "I miss those days 合成 2-1000p",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901002017,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [52.08, 92.59, 100]
+							},
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 3,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 6,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002018,
+							"type": "text",
+							"name": "text1000-7",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"text": "I miss those days",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 62,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [528, 282],
+							"transform": {
+								"position": [512, 534, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002014,
+					"name": "I miss those days 合成 1-1000p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901002015,
+							"type": "composite",
+							"name": "I miss those days 合成 2-1000p",
+							"inPoint": 0,
+							"outPoint": 7,
+							"compItemId": 901002016
+						}
+					]
+				},
+				{
+					"id": 901002020,
+					"name": "预合成 8-1000p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002021,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1000,
+							"height": 1000,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [500, 500, 0],
+								"position": [500, 500, 0],
+								"scale": [50, 50, 100]
+							}
+						},
+						{
+							"id": 901002022,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [-50, 70, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002024,
+					"name": "预合成 7-1000p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002025,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1000,
+							"height": 1000,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [500, 500, 0],
+								"position": [500, 500, 0],
+								"scale": [50, 50, 100]
+							}
+						},
+						{
+							"id": 901002026,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [-50, 70, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002028,
+					"name": "预合成 6-1000p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002029,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1000,
+							"height": 1000,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [500, 500, 0],
+								"position": [500, 500, 0],
+								"scale": [50, 50, 100]
+							}
+						},
+						{
+							"id": 901002030,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [-50, 70, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002032,
+					"name": "预合成 5-1000p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002033,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1000,
+							"height": 1000,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [500, 500, 0],
+								"position": [500, 500, 0],
+								"scale": [50, 50, 100]
+							}
+						},
+						{
+							"id": 901002034,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [-50, 70, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002036,
+					"name": "预合成 4-1000p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002037,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1000,
+							"height": 1000,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [500, 500, 0],
+								"position": [500, 500, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.742, 0]
+						},
+						{
+							"id": 901002038,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [-50, 70, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002046,
+					"name": "The memories of my wonderful travel  合成 1-1000p",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002047,
+							"type": "text",
+							"name": "text1000-1",
+							"inPoint": 0,
+							"outPoint": 16.28,
+							"replaceable": true,
+							"text": "The memories of my wonderful travel",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 62,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [530, 532],
+							"transform": {
+								"position": [512, 534, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002043,
+					"name": "预合成 14-1000p",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002044,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 16,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [500, 500, 0],
+								"scale": [52.08, 92.59, 100]
+							},
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 7,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 8,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002045,
+							"type": "composite",
+							"name": "The memories of my wonderful travel  合成 1-1000p",
+							"inPoint": 0,
+							"outPoint": 16,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"compItemId": 901002046
+						}
+					]
+				},
+				{
+					"id": 901002041,
+					"name": "预合成 1-1000p",
+					"duration": 8,
+					"layers": [
+						{
+							"id": 901002042,
+							"type": "composite",
+							"name": "预合成 14-1000p",
+							"inPoint": 0,
+							"outPoint": 16,
+							"compItemId": 901002043
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 34,
+			"layers": [
+				{
+					"id": 901002050,
+					"type": "adjustment",
+					"name": "Adjustment Layer 1",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"effects": [
+						{
+							"type": "transform",
+							"name": "Transform",
+							"anchorPoint": [960, 540],
+							"position": [960, 540],
+							"opacity": [
+								{ "time": -1.6, "value": 0 },
+								{
+									"time": -0.6,
+									"value": 100,
+									"inEase": [{ "speed": 0, "influence": 33.33 }],
+									"outEase": [{ "speed": 0, "influence": 16.67 }]
+								},
+								{ "time": 31.4, "value": 100 },
+								{ "time": 32.36, "value": 0 }
+							],
+							"scale": [
+								{ "time": -1.6, "value": [184, 184] },
+								{
+									"time": 3.36,
+									"value": [100, 100],
+									"inEase": [{ "speed": -0.0924, "influence": 59.02 }]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901002051,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 24,
+					"outPoint": 28,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [960, 1004, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002052,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 20,
+					"outPoint": 24,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [960, 1004, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002053,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 16,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [960, 1004, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002054,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 12,
+					"outPoint": 16,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [960, 1004, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002055,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 8,
+					"outPoint": 12,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [960, 1004, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002056,
+					"type": "image",
+					"name": "window-light.png",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"blendingMode": "OVERLAY",
+					"path": "footage/window_light.webp",
+					"width": 1920,
+					"height": 1080
+				},
+				{
+					"id": 901002057,
+					"type": "composite",
+					"name": "预合成 13",
+					"inPoint": 0,
+					"outPoint": 40,
+					"compItemId": 901002058,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 540, 0],
+						"scale": [100, 100, 100]
+					}
+				},
+				{
+					"id": 901002061,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 28,
+					"outPoint": 34.04,
+					"isTrackMatte": true,
+					"path": {
+						"1080p": "footage/text_brush_mask-1080p.webm",
+						"720p": "footage/text_brush_mask-720p.webm",
+						"540p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 540, 0],
+						"scale": [81.4, 100, 100]
+					}
+				},
+				{
+					"id": 901002062,
+					"type": "composite",
+					"name": "I miss those days 合成 1",
+					"inPoint": 28,
+					"outPoint": 34,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002063
+				},
+				{
+					"id": 901002068,
+					"type": "composite",
+					"name": "预合成 8",
+					"inPoint": 24,
+					"outPoint": 28,
+					"compItemId": 901002069,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 24,
+								"value": [2798, -47.41, 0],
+								"outEase": [{ "speed": 0, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": [935, 554, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": [935, 554, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27.96,
+								"value": [-1263, 554, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 24,
+								"value": -20,
+								"outEase": [{ "speed": -0.0001, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 27.96,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002072,
+					"type": "composite",
+					"name": "预合成 7",
+					"inPoint": 20,
+					"outPoint": 24,
+					"compItemId": 901002073,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [689.3, 548, 0],
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23.96,
+								"value": [-1138, 584, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [635.4, 635.4, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 22,
+								"value": [109.9, 109.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 33.33 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 }
+								]
+							},
+							{
+								"time": 22.4,
+								"value": [101.9, 101.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 }
+								]
+							},
+							{
+								"time": 23,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							},
+							{
+								"time": 23.96,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							}
+						],
+						"rotation": [
+							{
+								"time": 20,
+								"value": -48,
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002076,
+					"type": "composite",
+					"name": "预合成 6",
+					"inPoint": 16,
+					"outPoint": 20,
+					"compItemId": 901002077,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 16,
+								"value": [1082, -838.6, 0],
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.96,
+								"value": [392.6, 1863, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 16,
+								"value": 13,
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 19.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002080,
+					"type": "composite",
+					"name": "预合成 5",
+					"inPoint": 12,
+					"outPoint": 16,
+					"compItemId": 901002081,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 12,
+								"value": [-1092, 1020, 0],
+								"outEase": [{ "speed": 0, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.96,
+								"value": [2161, 1655, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 12,
+								"value": -25,
+								"outEase": [{ "speed": -0.0001, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 15.96,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002084,
+					"type": "composite",
+					"name": "预合成 4",
+					"inPoint": 8,
+					"outPoint": 12,
+					"compItemId": 901002085,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 8,
+								"value": [682.3, 2019, 0],
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11.96,
+								"value": [1306, -690.8, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }]
+							}
+						],
+						"scale": [109.9, 109.9, 100],
+						"rotation": [
+							{
+								"time": 8,
+								"value": 10,
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 30.29 }]
+							},
+							{
+								"time": 11,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 11.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002088,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 1.96,
+					"outPoint": 8,
+					"isTrackMatte": true,
+					"path": {
+						"1080p": "footage/text_brush_mask-1080p.webm",
+						"720p": "footage/text_brush_mask-720p.webm",
+						"540p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25
+				},
+				{
+					"id": 901002089,
+					"type": "composite",
+					"name": "预合成 1",
+					"inPoint": 0,
+					"outPoint": 8,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002090,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [940, 540, 0]
+					}
+				},
+				{
+					"id": 901002097,
+					"type": "image",
+					"name": "bg-1080p.png",
+					"inPoint": 0,
+					"outPoint": 34,
+					"path": "footage/bg_1080p.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 540, 0]
+					}
+				},
+				{
+					"id": 901002098,
+					"type": "audio",
+					"name": "1002.mp3",
+					"inPoint": 0,
+					"outPoint": 105.8,
+					"replaceable": true,
+					"path": "1002.mp3",
+					"duration": 105.5
+				}
+			],
+			"compItems": [
+				{
+					"id": 901002058,
+					"name": "预合成 13",
+					"duration": 40,
+					"layers": [
+						{
+							"id": 901002060,
+							"type": "video",
+							"name": "leaves-shadow.mp4",
+							"inPoint": 0,
+							"outPoint": 40,
+							"path": {
+								"1080p": "footage/leaves_shadow-1080p.webm",
+								"720p": "footage/leaves_shadow-720p.webm",
+								"540p": "footage/leaves_shadow-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25,
+							"loop": 4
+						}
+					]
+				},
+				{
+					"id": 901002065,
+					"name": "I miss those days 合成 2",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901002066,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 3,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 6,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002067,
+							"type": "text",
+							"name": "text720-7",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"text": "I miss those days",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 90,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [892, 282],
+							"transform": {
+								"position": [980, 580, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002063,
+					"name": "I miss those days 合成 1",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901002064,
+							"type": "composite",
+							"name": "I miss those days 合成 2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"compItemId": 901002065
+						}
+					]
+				},
+				{
+					"id": 901002069,
+					"name": "预合成 8",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002070,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [55.44, 55.44, 100]
+							},
+							"mediaPosition": [0.4863, 0]
+						},
+						{
+							"id": 901002071,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901002073,
+					"name": "预合成 7",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002074,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [55.44, 55.44, 100]
+							}
+						},
+						{
+							"id": 901002075,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901002077,
+					"name": "预合成 6",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002078,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [55.44, 55.44, 100]
+							},
+							"mediaPosition": [0.8886, 0]
+						},
+						{
+							"id": 901002079,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901002081,
+					"name": "预合成 5",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002082,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [55.44, 55.44, 100]
+							},
+							"mediaPosition": [0.7514, 0]
+						},
+						{
+							"id": 901002083,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901002085,
+					"name": "预合成 4",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002086,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [55.44, 55.44, 100]
+							},
+							"mediaPosition": [0.7052, 0]
+						},
+						{
+							"id": 901002087,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901002095,
+					"name": "The memories of my wonderful travel  合成 1",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002096,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 16.28,
+							"replaceable": true,
+							"text": "The memories of my wonderful travel",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 90,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [894, 532],
+							"transform": {
+								"position": [980, 580, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002092,
+					"name": "预合成 14",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002093,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 16,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 7,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 8,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002094,
+							"type": "composite",
+							"name": "The memories of my wonderful travel  合成 1",
+							"inPoint": 0,
+							"outPoint": 16,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"compItemId": 901002095
+						}
+					]
+				},
+				{
+					"id": 901002090,
+					"name": "预合成 1",
+					"duration": 8,
+					"layers": [
+						{
+							"id": 901002091,
+							"type": "composite",
+							"name": "预合成 14",
+							"inPoint": 0,
+							"outPoint": 16,
+							"compItemId": 901002092
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Main1920p",
+			"width": 1080,
+			"height": 1920,
+			"duration": 34,
+			"layers": [
+				{
+					"id": 901002099,
+					"type": "adjustment",
+					"name": "Adjustment Layer 1",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"effects": [
+						{
+							"type": "transform",
+							"name": "Transform",
+							"anchorPoint": [540, 960],
+							"position": [540, 960],
+							"opacity": [
+								{ "time": -1.6, "value": 0 },
+								{
+									"time": -0.6,
+									"value": 100,
+									"inEase": [{ "speed": 0, "influence": 33.33 }],
+									"outEase": [{ "speed": 0, "influence": 16.67 }]
+								},
+								{ "time": 31.4, "value": 100 },
+								{ "time": 32.36, "value": 0 }
+							],
+							"scale": [
+								{ "time": -1.6, "value": [184, 184] },
+								{
+									"time": 3.36,
+									"value": [100, 100],
+									"inEase": [{ "speed": -0.0924, "influence": 59.02 }]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901002100,
+					"type": "text",
+					"name": "text1920-6",
+					"inPoint": 24,
+					"outPoint": 28,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [540, 1784, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002101,
+					"type": "text",
+					"name": "text1920-5",
+					"inPoint": 20,
+					"outPoint": 24,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [540, 1784, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002102,
+					"type": "text",
+					"name": "text1920-4",
+					"inPoint": 16,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [540, 1784, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002103,
+					"type": "text",
+					"name": "text1920-3",
+					"inPoint": 12,
+					"outPoint": 16,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [540, 1784, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002104,
+					"type": "text",
+					"name": "text1920-2",
+					"inPoint": 8,
+					"outPoint": 12,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 105,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1240, 94],
+					"transform": {
+						"position": [540, 1784, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901002105,
+					"type": "image",
+					"name": "window-light.png",
+					"inPoint": 0,
+					"outPoint": 34.04,
+					"blendingMode": "OVERLAY",
+					"path": "footage/window_light.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [1000, 960, 0],
+						"scale": [177.8, 177.8, 100]
+					}
+				},
+				{
+					"id": 901002106,
+					"type": "composite",
+					"name": "预合成 13-1920p",
+					"inPoint": 0,
+					"outPoint": 40,
+					"compItemId": 901002107,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [540, 960, 0],
+						"scale": [100, 100, 100]
+					}
+				},
+				{
+					"id": 901002110,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 28,
+					"outPoint": 34.04,
+					"isTrackMatte": true,
+					"path": {
+						"1920p": "footage/text_brush_mask-1080p.webm",
+						"1280p": "footage/text_brush_mask-720p.webm",
+						"960p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [540, 960, 0],
+						"scale": [100, 177.8, 100]
+					}
+				},
+				{
+					"id": 901002111,
+					"type": "composite",
+					"name": "I miss those days 合成 1-1920p",
+					"inPoint": 28,
+					"outPoint": 34,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002112
+				},
+				{
+					"id": 901002117,
+					"type": "composite",
+					"name": "预合成 8-1920p",
+					"inPoint": 24,
+					"outPoint": 28,
+					"compItemId": 901002118,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [
+							{
+								"time": 24,
+								"value": [1574, -84.29, 0],
+								"outEase": [{ "speed": 0, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": [526, 984.9, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": [526, 984.9, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27.96,
+								"value": [-710.3, 984.9, 0],
+								"inEase": [{ "speed": 0, "influence": 88.57 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 24,
+								"value": -20,
+								"outEase": [{ "speed": -0.0001, "influence": 20.8 }]
+							},
+							{
+								"time": 26,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 88.57 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 27,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 27.96,
+								"value": 3,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002121,
+					"type": "composite",
+					"name": "预合成 7-1920p",
+					"inPoint": 20,
+					"outPoint": 24,
+					"compItemId": 901002122,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [387.7, 974.2, 0],
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23.96,
+								"value": [-640.1, 1038, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [635.4, 635.4, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 12.77 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 22,
+								"value": [109.9, 109.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 100 },
+									{ "speed": 0, "influence": 33.33 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 },
+									{ "speed": 0, "influence": 29.89 }
+								]
+							},
+							{
+								"time": 22.4,
+								"value": [101.9, 101.9, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 },
+									{ "speed": 0, "influence": 34.85 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 },
+									{ "speed": 0, "influence": 41.53 }
+								]
+							},
+							{
+								"time": 23,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 },
+									{ "speed": 0, "influence": 17.81 }
+								],
+								"outEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							},
+							{
+								"time": 23.96,
+								"value": [110, 110, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 },
+									{ "speed": 0, "influence": 16.67 }
+								]
+							}
+						],
+						"rotation": [
+							{
+								"time": 20,
+								"value": -48,
+								"outEase": [{ "speed": 0, "influence": 12.77 }]
+							},
+							{
+								"time": 22,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 100 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002125,
+					"type": "composite",
+					"name": "预合成 6-1920p",
+					"inPoint": 16,
+					"outPoint": 20,
+					"compItemId": 901002126,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [
+							{
+								"time": 16,
+								"value": [608.6, -1491, 0],
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.96,
+								"value": [220.8, 3311, 0],
+								"inEase": [{ "speed": 0, "influence": 88.14 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 16,
+								"value": 13,
+								"outEase": [{ "speed": 0.0001, "influence": 19.74 }]
+							},
+							{
+								"time": 18,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 88.14 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 19.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002129,
+					"type": "composite",
+					"name": "预合成 5-1920p",
+					"inPoint": 12,
+					"outPoint": 16,
+					"compItemId": 901002130,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [
+							{
+								"time": 12,
+								"value": [-614.2, 1812, 0],
+								"outEase": [{ "speed": 0, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.96,
+								"value": [1215, 2942, 0],
+								"inEase": [{ "speed": 0, "influence": 89.21 }]
+							}
+						],
+						"scale": [110, 110, 100],
+						"rotation": [
+							{
+								"time": 12,
+								"value": -25,
+								"outEase": [{ "speed": -0.0001, "influence": 12.72 }]
+							},
+							{
+								"time": 14,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 89.21 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 15.96,
+								"value": 5,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002133,
+					"type": "composite",
+					"name": "预合成 4-1920p",
+					"inPoint": 8,
+					"outPoint": 12,
+					"compItemId": 901002134,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [
+							{
+								"time": 8,
+								"value": [383.8, 3588, 0],
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11,
+								"value": [540, 960, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 48.75 }]
+							},
+							{
+								"time": 11.96,
+								"value": [734.4, -1228, 0],
+								"inEase": [{ "speed": 0, "influence": 75.97 }]
+							}
+						],
+						"scale": [109.9, 109.9, 100],
+						"rotation": [
+							{
+								"time": 8,
+								"value": 10,
+								"outEase": [{ "speed": 0, "influence": 14.08 }]
+							},
+							{
+								"time": 10,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 75.97 }],
+								"outEase": [{ "speed": 0, "influence": 30.29 }]
+							},
+							{
+								"time": 11,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 11.96,
+								"value": -7,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901002137,
+					"type": "video",
+					"name": "text-brush-mask.mp4",
+					"inPoint": 1.96,
+					"outPoint": 8,
+					"isTrackMatte": true,
+					"path": {
+						"1920p": "footage/text_brush_mask-1080p.webm",
+						"1280p": "footage/text_brush_mask-720p.webm",
+						"960p": "footage/text_brush_mask-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 6.04,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [519.8, 960, 0],
+						"scale": [100, 177.8, 100]
+					}
+				},
+				{
+					"id": 901002138,
+					"type": "composite",
+					"name": "预合成 1-1920p",
+					"inPoint": 0,
+					"outPoint": 8,
+					"hasTrackMatte": true,
+					"trackMatteType": "LUMAINANCE",
+					"compItemId": 901002139,
+					"transform": {
+						"anchorPoint": [540, 960, 0],
+						"position": [528.8, 960, 0]
+					}
+				},
+				{
+					"id": 901002146,
+					"type": "image",
+					"name": "bg-1920p.jpg",
+					"inPoint": 0,
+					"outPoint": 34,
+					"path": "footage/bg_1920p.webp",
+					"width": 1080,
+					"height": 1920
+				},
+				{
+					"id": 901002147,
+					"type": "audio",
+					"name": "1002.mp3",
+					"inPoint": 0,
+					"outPoint": 105.8,
+					"replaceable": true,
+					"path": "1002.mp3",
+					"duration": 105.5
+				}
+			],
+			"compItems": [
+				{
+					"id": 901002107,
+					"name": "预合成 13-1920p",
+					"duration": 40,
+					"layers": [
+						{
+							"id": 901002109,
+							"type": "video",
+							"name": "leaves-shadow.mp4",
+							"inPoint": 0,
+							"outPoint": 40,
+							"path": {
+								"1920p": "footage/leaves_shadow-1080p.webm",
+								"1280p": "footage/leaves_shadow-720p.webm",
+								"960p": "footage/leaves_shadow-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25,
+							"loop": 4,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [1000, 960, 0],
+								"scale": [177.8, 177.8, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002114,
+					"name": "I miss those days 合成 2-1920p",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901002115,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [56.25, 177.8, 100]
+							},
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 3,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 6,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002116,
+							"type": "text",
+							"name": "text1920-7",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"text": "I miss those days",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 90,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [644, 282],
+							"transform": {
+								"position": [556, 990, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002112,
+					"name": "I miss those days 合成 1-1920p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901002113,
+							"type": "composite",
+							"name": "I miss those days 合成 2-1920p",
+							"inPoint": 0,
+							"outPoint": 7,
+							"compItemId": 901002114
+						}
+					]
+				},
+				{
+					"id": 901002118,
+					"name": "预合成 8-1920p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002119,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1080,
+							"height": 1920,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [540, 960, 0],
+								"position": [540, 960, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.4817, 0]
+						},
+						{
+							"id": 901002120,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [90, 77, 100],
+								"rotation": 270
+							}
+						}
+					]
+				},
+				{
+					"id": 901002122,
+					"name": "预合成 7-1920p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002123,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1080,
+							"height": 1920,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [540, 960, 0],
+								"position": [540, 960, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.5274, 0]
+						},
+						{
+							"id": 901002124,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [90, 77, 100],
+								"rotation": 270
+							}
+						}
+					]
+				},
+				{
+					"id": 901002126,
+					"name": "预合成 6-1920p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002127,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1080,
+							"height": 1920,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [540, 960, 0],
+								"position": [540, 960, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.8931, 0]
+						},
+						{
+							"id": 901002128,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [90, 77, 100],
+								"rotation": 270
+							}
+						}
+					]
+				},
+				{
+					"id": 901002130,
+					"name": "预合成 5-1920p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002131,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1080,
+							"height": 1920,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [540, 960, 0],
+								"position": [540, 960, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.7469, 0]
+						},
+						{
+							"id": 901002132,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [90, 77, 100],
+								"rotation": 270
+							}
+						}
+					]
+				},
+				{
+					"id": 901002134,
+					"name": "预合成 4-1920p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901002135,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1080,
+							"height": 1920,
+							"mediaWidth": 1920,
+							"mediaHeight": 1080,
+							"transform": {
+								"anchorPoint": [540, 960, 0],
+								"position": [540, 960, 0],
+								"scale": [50, 50, 100]
+							},
+							"mediaPosition": [0.692, 1]
+						},
+						{
+							"id": 901002136,
+							"type": "image",
+							"name": "paper 1 [D] [C] [T] TOP",
+							"inPoint": 0,
+							"outPoint": 4,
+							"path": "footage/photo_container.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [90, 77, 100],
+								"rotation": 270
+							}
+						}
+					]
+				},
+				{
+					"id": 901002144,
+					"name": "The memories of my wonderful travel  合成 1-1920p",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002145,
+							"type": "text",
+							"name": "text1920-1",
+							"inPoint": 0,
+							"outPoint": 16.28,
+							"replaceable": true,
+							"text": "The memories of my wonderful travel",
+							"fontFamily": "Cursive Serif",
+							"fontStyle": "Italic",
+							"fontSize": 90,
+							"fillColor": [0.2271, 0.5733, 0.8157],
+							"boxTextSize": [650, 532],
+							"transform": {
+								"position": [556, 990, 0]
+							}
+						}
+					]
+				},
+				{
+					"id": 901002141,
+					"name": "预合成 14-1920p",
+					"duration": 16,
+					"layers": [
+						{
+							"id": 901002142,
+							"type": "solid",
+							"name": "黑色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 16,
+							"isTrackMatte": true,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [540, 960, 0],
+								"scale": [56.25, 177.8, 100]
+							},
+							"effects": [
+								{
+									"type": "fractalNoise",
+									"name": "Fractal Noise",
+									"fractalType": 1,
+									"noiseType": 3,
+									"contrast": 648,
+									"brightness": [
+										{
+											"time": 7,
+											"value": 308,
+											"outEase": [{ "speed": 0, "influence": 10.33 }]
+										},
+										{
+											"time": 8,
+											"value": -315,
+											"inEase": [{ "speed": 0, "influence": 83.88 }]
+										}
+									],
+									"scale": [398, 398],
+									"offsetTurbulence": [960, 540],
+									"complexity": 4.49,
+									"subInfluence": 70,
+									"subScaling": 56,
+									"blendingMode": 2
+								}
+							]
+						},
+						{
+							"id": 901002143,
+							"type": "composite",
+							"name": "The memories of my wonderful travel  合成 1-1920p",
+							"inPoint": 0,
+							"outPoint": 16,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"compItemId": 901002144
+						}
+					]
+				},
+				{
+					"id": 901002139,
+					"name": "预合成 1-1920p",
+					"duration": 8,
+					"layers": [
+						{
+							"id": 901002140,
+							"type": "composite",
+							"name": "预合成 14-1920p",
+							"inPoint": 0,
+							"outPoint": 16,
+							"compItemId": 901002141
+						}
+					]
+				}
+			]
+		}
+	]
+}

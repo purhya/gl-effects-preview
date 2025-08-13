@@ -1,0 +1,1729 @@
+{
+	"id": 1012,
+	"name": " We Are Young",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 10,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 39,
+			"layers": [
+				{
+					"id": 901012001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 7,
+					"compItemId": 901012002
+				},
+				{
+					"id": 901012003,
+					"type": "composite",
+					"name": "loop-1080p-1",
+					"inPoint": 7,
+					"outPoint": 13,
+					"compItemId": 901012004
+				},
+				{
+					"id": 901012005,
+					"type": "composite",
+					"name": "loop-1080p-2",
+					"inPoint": 13,
+					"outPoint": 19,
+					"compItemId": 901012006
+				},
+				{
+					"id": 901012007,
+					"type": "composite",
+					"name": "loop-1080p-3",
+					"inPoint": 19,
+					"outPoint": 25,
+					"compItemId": 901012008
+				},
+				{
+					"id": 901012009,
+					"type": "composite",
+					"name": "loop-1080p-4",
+					"inPoint": 25,
+					"outPoint": 31,
+					"compItemId": 901012010
+				},
+				{
+					"id": 901012011,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 31,
+					"outPoint": 39,
+					"compItemId": 901012012
+				},
+				{
+					"id": 901012013,
+					"type": "audio",
+					"name": "1012.mp3",
+					"inPoint": 0,
+					"outPoint": 69.8,
+					"replaceable": true,
+					"path": "1012.mp3",
+					"duration": 69.62
+				}
+			],
+			"compItems": [
+				{
+					"id": 901012002,
+					"name": "start-1080p",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901012014,
+							"type": "composite",
+							"name": "开始",
+							"parentId": 901012016,
+							"inPoint": 0,
+							"outPoint": 7,
+							"threeD": true,
+							"compItemId": 901012015,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012016,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 7,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [353, 352, 0], "autoBezier": true },
+									{ "time": 1.55, "value": [356.7, 357.3, 0.3428], "autoBezier": true },
+									{ "time": 2, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 2.35, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 2.4, "value": [360.1, 362.4, 0.3514], "autoBezier": true },
+									{ "time": 3.95, "value": [364, 368, 0.0007], "autoBezier": true },
+									{ "time": 5.5, "value": [360.5, 362.9, 0.3333], "autoBezier": true },
+									{ "time": 5.65, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 5.95, "value": [358.7, 360.3, 0.3844], "autoBezier": true },
+									{ "time": 6, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 7, "value": [354.7, 354.5, 0.2037], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012004,
+					"name": "loop-1080p-1",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012017,
+							"type": "composite",
+							"name": "场景1",
+							"parentId": 901012019,
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"compItemId": 901012018,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012019,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 6.24,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [354.7, 354.5, 0.2037], "autoBezier": true },
+									{ "time": 1.55, "value": [353.6, 352.8, 0.0757], "autoBezier": true },
+									{ "time": 2.95, "value": [358.3, 359.7, 0.3844], "autoBezier": true },
+									{ "time": 3, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 3.35, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 3.4, "value": [360.1, 362.4, 0.3514], "autoBezier": true },
+									{ "time": 4.95, "value": [364, 368, 0.0007], "autoBezier": true },
+									{ "time": 6.24, "value": [361.5, 364.3, 0.2722], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012006,
+					"name": "loop-1080p-2",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012020,
+							"type": "composite",
+							"name": "场景2",
+							"parentId": 901012022,
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"compItemId": 901012021,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012022,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [2.268, 5.504, 0.2037], "autoBezier": true },
+									{ "time": 0.6, "value": [0.1183, 2.371, 0.3514], "autoBezier": true },
+									{ "time": 0.65, "value": [-0.0797, 2.082, 0.3591], "autoBezier": true },
+									{ "time": 0.95, "value": [-1.295, 0.3004, 0.3844], "autoBezier": true },
+									{ "time": 1, "value": [-1.5, 0, 0.3849], "autoBezier": true },
+									{ "time": 3.8, "value": [-5.845, -6.34, 0.1441], "autoBezier": true },
+									{ "time": 4.95, "value": [-1.705, -0.3004, 0.3844], "autoBezier": true },
+									{ "time": 5, "value": [-1.5, 0, 0.3849], "autoBezier": true },
+									{ "time": 5.35, "value": [-0.0797, 2.082, 0.3591], "autoBezier": true },
+									{ "time": 5.4, "value": [0.1183, 2.371, 0.3514], "autoBezier": true },
+									{ "time": 6, "value": [2.268, 5.504, 0.2037], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012008,
+					"name": "loop-1080p-3",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012023,
+							"type": "composite",
+							"name": "场景3",
+							"parentId": 901012025,
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"compItemId": 901012024,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012025,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [2.268, 5.504, 0.2037], "autoBezier": true },
+									{ "time": 1.55, "value": [3.427, 7.178, 0.0757], "autoBezier": true },
+									{ "time": 2.6, "value": [0.1183, 2.371, 0.3514], "autoBezier": true },
+									{ "time": 2.65, "value": [-0.0797, 2.082, 0.3591], "autoBezier": true },
+									{ "time": 2.95, "value": [-1.295, 0.3004, 0.3844], "autoBezier": true },
+									{ "time": 3, "value": [-1.5, 0, 0.3849], "autoBezier": true },
+									{ "time": 5.8, "value": [-5.845, -6.34, 0.1441], "autoBezier": true },
+									{ "time": 6, "value": [-5.268, -5.504, 0.2037], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012010,
+					"name": "loop-1080p-4",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012026,
+							"type": "composite",
+							"name": "场景4",
+							"parentId": 901012028,
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"compItemId": 901012027,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012028,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [354.7, 354.5, 0.2037], "autoBezier": true },
+									{ "time": 0.95, "value": [358.3, 359.7, 0.3844], "autoBezier": true },
+									{ "time": 1, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 1.35, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 1.4, "value": [360.1, 362.4, 0.3514], "autoBezier": true },
+									{ "time": 2.95, "value": [364, 368, 0.0007], "autoBezier": true },
+									{ "time": 4.5, "value": [360.5, 362.9, 0.3333], "autoBezier": true },
+									{ "time": 4.65, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 4.95, "value": [358.7, 360.3, 0.3844], "autoBezier": true },
+									{ "time": 5, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 6, "value": [354.7, 354.5, 0.2037], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012012,
+					"name": "end-1080p",
+					"duration": 8,
+					"layers": [
+						{
+							"id": 901012029,
+							"type": "composite",
+							"name": "结束",
+							"parentId": 901012031,
+							"inPoint": 0,
+							"outPoint": 8,
+							"threeD": true,
+							"compItemId": 901012030,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [91, 91, 91]
+							}
+						},
+						{
+							"id": 901012031,
+							"type": "image",
+							"name": "448",
+							"inPoint": 0,
+							"outPoint": 8,
+							"threeD": true,
+							"path": "footage/blackboard.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [110, 110, 110],
+								"orientation": [
+									{ "time": 0, "value": [354.7, 354.5, 0.2037], "autoBezier": true },
+									{ "time": 1.55, "value": [353.6, 352.8, 0.0757], "autoBezier": true },
+									{ "time": 2.95, "value": [358.3, 359.7, 0.3844], "autoBezier": true },
+									{ "time": 3, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 3.35, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 3.4, "value": [360.1, 362.4, 0.3514], "autoBezier": true },
+									{ "time": 4.95, "value": [364, 368, 0.0007], "autoBezier": true },
+									{ "time": 6.5, "value": [360.5, 362.9, 0.3333], "autoBezier": true },
+									{ "time": 6.65, "value": [359.9, 362.1, 0.3591], "autoBezier": true },
+									{ "time": 6.95, "value": [358.7, 360.3, 0.3844], "autoBezier": true },
+									{ "time": 7, "value": [358.5, 360, 0.3849], "autoBezier": true },
+									{ "time": 8, "value": [354.7, 354.5, 0.2037], "autoBezier": true }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012015,
+					"name": "开始",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901012032,
+							"type": "video",
+							"name": "text_mask_1_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/text_mask_1_composite-1080p.webm",
+								"720p": "footage/text_mask_1_composite-720p.webm",
+								"540p": "footage/text_mask_1_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 7,
+							"frameRate": 25
+						},
+						{
+							"id": 901012033,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"text": "We Graduated",
+							"fontFamily": "HappyZcool-2016",
+							"fontStyle": "Regular",
+							"fontSize": 100,
+							"fillColor": [0.9137, 0.9137, 0.9137],
+							"boxTextSize": [1286, 390],
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": [
+										{
+											"time": 5.28,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[-53.6, -444.6],
+													[-995.6, 109],
+													[196, 679],
+													[1111, -101.6]
+												]
+											}
+										},
+										{
+											"time": 6.96,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[724.4, -188.6],
+													[260.4, 351],
+													[393, 433],
+													[852, -134.6]
+												]
+											}
+										}
+									],
+									"maskFeather": [65, 65]
+								}
+							],
+							"transform": {
+								"position": [960, 520, 0]
+							},
+							"effects": [
+								{
+									"type": "roughenEdges",
+									"name": "Roughen Edges",
+									"edgeType": 1,
+									"border": 2.9,
+									"edgeSharpness": 1,
+									"scale": 10,
+									"complexity": 2,
+									"cycle": 1
+								}
+							]
+						},
+						{
+							"id": 901012034,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0.04,
+							"outPoint": 7.04,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012035,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0.04,
+							"outPoint": 7.04,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012018,
+					"name": "场景1",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012036,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 983, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 6,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.0118, 0.0118, 0.0118, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901012037,
+							"type": "composite",
+							"name": "1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"compItemId": 901012038
+						},
+						{
+							"id": 901012039,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 22.24,
+							"startTime": -7,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012040,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 22.24,
+							"startTime": -7,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012021,
+					"name": "场景2",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012041,
+							"type": "text",
+							"name": "text720-3",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 983, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 6,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.0118, 0.0118, 0.0118, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901012042,
+							"type": "composite",
+							"name": "2",
+							"inPoint": 0,
+							"outPoint": 6,
+							"compItemId": 901012043
+						},
+						{
+							"id": 901012044,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -13,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012045,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -13,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012024,
+					"name": "场景3",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012046,
+							"type": "text",
+							"name": "text720-4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 983, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 6,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.0118, 0.0118, 0.0118, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901012047,
+							"type": "composite",
+							"name": "3",
+							"inPoint": 0,
+							"outPoint": 6,
+							"compItemId": 901012048
+						},
+						{
+							"id": 901012049,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -19,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012050,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -19,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012027,
+					"name": "场景4",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012051,
+							"type": "text",
+							"name": "text720-5",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 983, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 6,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.0118, 0.0118, 0.0118, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901012052,
+							"type": "composite",
+							"name": "4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"compItemId": 901012053
+						},
+						{
+							"id": 901012054,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -25,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012055,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": -25,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012030,
+					"name": "结束",
+					"duration": 8,
+					"layers": [
+						{
+							"id": 901012056,
+							"type": "video",
+							"name": "text_mask_6_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 8,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/text_mask_6_composite-1080p.webm",
+								"720p": "footage/text_mask_6_composite-720p.webm",
+								"540p": "footage/text_mask_6_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 8,
+							"frameRate": 25
+						},
+						{
+							"id": 901012057,
+							"type": "text",
+							"name": "text720-6",
+							"inPoint": 0,
+							"outPoint": 8,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"text": "Graduation, do not say goodbye",
+							"fontFamily": "HappyZcool-2016",
+							"fontStyle": "Regular",
+							"fontSize": 100,
+							"fillColor": [0.9137, 0.9137, 0.9137],
+							"boxTextSize": [1192, 370],
+							"transform": {
+								"position": [980, 520, 0]
+							},
+							"effects": [
+								{
+									"type": "roughenEdges",
+									"name": "Roughen Edges",
+									"edgeType": 1,
+									"border": 2.9,
+									"edgeSharpness": 1,
+									"scale": 10,
+									"complexity": 2,
+									"cycle": 1
+								}
+							]
+						},
+						{
+							"id": 901012058,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 8,
+							"startTime": -31,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012059,
+							"type": "video",
+							"name": "background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 8,
+							"startTime": -31,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/background_composite-720p.webm",
+								"720p": "footage/background_composite-720p.webm",
+								"540p": "footage/background_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 39,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901012038,
+					"name": "1",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012060,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012061,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012062,
+							"type": "composite",
+							"name": "预合成 6",
+							"inPoint": 0,
+							"outPoint": 20,
+							"compItemId": 901012063,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										},
+										{
+											"time": 2,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 4,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 5.96,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										}
+									],
+									"maskFeather": [40, 40]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901012043,
+					"name": "2",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012064,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012065,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012066,
+							"type": "composite",
+							"name": "预合成 7",
+							"inPoint": 0,
+							"outPoint": 20,
+							"compItemId": 901012067,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										},
+										{
+											"time": 2,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 4,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 5.96,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										}
+									],
+									"maskFeather": [40, 40]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901012048,
+					"name": "3",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012068,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012069,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012070,
+							"type": "composite",
+							"name": "预合成 8",
+							"inPoint": 0,
+							"outPoint": 20,
+							"compItemId": 901012071,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										},
+										{
+											"time": 2,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 4,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 5.96,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										}
+									],
+									"maskFeather": [40, 40]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901012053,
+					"name": "4",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901012072,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"isTrackMatte": true,
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012073,
+							"type": "video",
+							"name": "dribble_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"path": {
+								"1080p": "footage/dribble_composite-720p.webm",
+								"720p": "footage/dribble_composite-720p.webm",
+								"540p": "footage/dribble_composite-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901012074,
+							"type": "composite",
+							"name": "预合成 9",
+							"inPoint": 0,
+							"outPoint": 20,
+							"compItemId": 901012075,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										},
+										{
+											"time": 2,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 4,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[836, -540],
+													[-320, 330],
+													[906, 1452],
+													[2298, 384]
+												]
+											}
+										},
+										{
+											"time": 5.96,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[872, -508],
+													[-302, 348],
+													[-380, 600],
+													[1212, -322]
+												]
+											}
+										}
+									],
+									"maskFeather": [40, 40]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901012063,
+					"name": "预合成 6",
+					"duration": 20,
+					"layers": [
+						{
+							"id": 901012076,
+							"type": "shape",
+							"name": "file-mask-1",
+							"inPoint": 0,
+							"outPoint": 20.8,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "形状 1",
+									"type": "group",
+									"path": {
+										"closed": true,
+										"vertices": [
+											[702, -344],
+											[-626, -342],
+											[-696, 356],
+											[672, 378]
+										]
+									},
+									"fill": {
+										"color": [1, 1, 1, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [948, 512, 0]
+							}
+						},
+						{
+							"id": 901012077,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 20,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901012067,
+					"name": "预合成 7",
+					"duration": 20,
+					"layers": [
+						{
+							"id": 901012078,
+							"type": "shape",
+							"name": "框 2",
+							"inPoint": 0,
+							"outPoint": 20.8,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "形状 1",
+									"type": "group",
+									"path": {
+										"closed": true,
+										"vertices": [
+											[702, -344],
+											[-626, -342],
+											[-696, 356],
+											[672, 378]
+										]
+									},
+									"fill": {
+										"color": [1, 1, 1, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [948, 512, 0]
+							}
+						},
+						{
+							"id": 901012079,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 20,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901012071,
+					"name": "预合成 8",
+					"duration": 20,
+					"layers": [
+						{
+							"id": 901012080,
+							"type": "shape",
+							"name": "框 2",
+							"inPoint": 0,
+							"outPoint": 20.8,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "形状 1",
+									"type": "group",
+									"path": {
+										"closed": true,
+										"vertices": [
+											[702, -344],
+											[-626, -342],
+											[-696, 356],
+											[672, 378]
+										]
+									},
+									"fill": {
+										"color": [1, 1, 1, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [948, 512, 0]
+							}
+						},
+						{
+							"id": 901012081,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 20,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901012075,
+					"name": "预合成 9",
+					"duration": 20,
+					"layers": [
+						{
+							"id": 901012082,
+							"type": "shape",
+							"name": "框 2",
+							"inPoint": 0,
+							"outPoint": 20.8,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "形状 1",
+									"type": "group",
+									"path": {
+										"closed": true,
+										"vertices": [
+											[702, -344],
+											[-626, -342],
+											[-696, 356],
+											[672, 378]
+										]
+									},
+									"fill": {
+										"color": [1, 1, 1, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [948, 512, 0]
+							}
+						},
+						{
+							"id": 901012083,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 20,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				}
+			]
+		}
+	]
+}

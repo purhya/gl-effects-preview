@@ -1,0 +1,1389 @@
+{
+	"id": 1061,
+	"name": " Shining Time",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 10,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 44.04,
+			"layers": [
+				{
+					"id": 901061001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 7.04,
+					"compItemId": 901061002
+				},
+				{
+					"id": 901061003,
+					"type": "composite",
+					"name": "loop-720p-1",
+					"inPoint": 7,
+					"outPoint": 17,
+					"compItemId": 901061004
+				},
+				{
+					"id": 901061005,
+					"type": "composite",
+					"name": "loop-720p-2",
+					"inPoint": 17,
+					"outPoint": 27,
+					"compItemId": 901061006
+				},
+				{
+					"id": 901061007,
+					"type": "composite",
+					"name": "loop-720p-3",
+					"inPoint": 27,
+					"outPoint": 37,
+					"compItemId": 901061008
+				},
+				{
+					"id": 901061009,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 37,
+					"outPoint": 44.04,
+					"compItemId": 901061010
+				},
+				{
+					"id": 901061011,
+					"type": "audio",
+					"name": "1061.mp3",
+					"inPoint": 0,
+					"outPoint": 136.4,
+					"replaceable": true,
+					"path": "1061.mp3",
+					"duration": 136.1
+				}
+			],
+			"compItems": [
+				{
+					"id": 901061002,
+					"name": "start-1080p",
+					"duration": 7.04,
+					"layers": [
+						{
+							"id": 901061012,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"zoom": 2667,
+							"depthOfField": 1,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901061013,
+							"type": "empty",
+							"name": "crtl_1",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 5.64,
+										"value": [960, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 67.72 }]
+									},
+									{
+										"time": 7.72,
+										"value": [960, 540, 1649],
+										"inEase": [{ "speed": 0, "influence": 70.93 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061014,
+							"type": "adjustment",
+							"name": "Adjustment Layer 8",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{
+											"time": 0,
+											"value": 20,
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 1,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 33.33 }],
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 5.32,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 16.67 }],
+											"outEase": [{ "speed": 0, "influence": 16.67 }]
+										},
+										{
+											"time": 7,
+											"value": 30,
+											"inEase": [{ "speed": 0, "influence": 16.67 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901061015,
+							"type": "text",
+							"name": "text1080-1",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"threeD": true,
+							"replaceable": true,
+							"text": "PLEASE ENTER YOUR TEXT",
+							"fontFamily": "Georgia",
+							"fontStyle": "Regular",
+							"fontSize": 75,
+							"fillColor": [0.8431, 0.7765, 0.6353],
+							"tracking": -52,
+							"boxTextSize": [1276, 366],
+							"animaters": [
+								{
+									"name": "Evaporate Animator",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 17,
+											"offset": [
+												{ "time": 0, "value": 29 },
+												{ "time": 2.28, "value": -17 }
+											],
+											"units": 2,
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100,
+											"randomizeOrder": 1
+										}
+									],
+									"properties": {
+										"scale": [263, 263, 100],
+										"opacity": 0,
+										"blur": [113, 113]
+									}
+								}
+							],
+							"groupingAlignment": [0, -31],
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, -34, -600],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 7,
+										"value": [0, -34, 0],
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								],
+								"opacity": [
+									{
+										"time": 6.44,
+										"value": 100,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 7,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"parentId": 901061013
+						},
+						{
+							"id": 901061016,
+							"type": "video",
+							"name": "start_background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"path": {
+								"1080p": "footage/start_background_composite-1080p.webm",
+								"720p": "footage/start_background_composite-720p.webm",
+								"540p": "footage/start_background_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 7.04,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901061004,
+					"name": "loop-720p-1",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061017,
+							"type": "adjustment",
+							"name": "Adjustment Layer 5",
+							"inPoint": 0,
+							"outPoint": 10,
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{
+											"time": 0,
+											"value": 30,
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 0.68,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 33.33 }],
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 8,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 33.33 }],
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 9.96,
+											"value": 35,
+											"inEase": [{ "speed": 0, "influence": 33.33 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901061018,
+							"type": "video",
+							"name": "Particular_04.mov",
+							"inPoint": 0,
+							"outPoint": 10,
+							"blendingMode": "SCREEN",
+							"threeD": true,
+							"path": {
+								"1080p": "footage/particular_04-1080p.webm",
+								"720p": "footage/particular_04-720p.webm",
+								"540p": "footage/particular_04-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 30
+						},
+						{
+							"id": 901061019,
+							"type": "composite",
+							"name": "Final Image 1",
+							"inPoint": 0,
+							"outPoint": 10,
+							"threeD": true,
+							"compItemId": 901061020,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": {
+										"closed": true,
+										"vertices": [
+											[1882, 38.48],
+											[37.92, 38.48],
+											[37.92, 1039],
+											[1882, 1039]
+										]
+									},
+									"maskFeather": [111, 111],
+									"maskExpansion": -36
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [-840, 540, 0],
+										"outEase": [{ "speed": 0.0002, "influence": 5.111 }]
+									},
+									{
+										"time": 2,
+										"value": [960, 540, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 8,
+										"value": [960, 540, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0.0003, "influence": 100 }]
+									},
+									{
+										"time": 9.96,
+										"value": [2707, 540, 0],
+										"inEase": [{ "speed": 0.0003, "influence": 5.742 }]
+									}
+								],
+								"scale": [
+									{
+										"time": 0.68,
+										"value": [77, 77, 77],
+										"outEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 7,
+										"value": [83, 83, 83],
+										"inEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 }
+										]
+									},
+									{
+										"time": 8,
+										"value": [77, 77, 77],
+										"inEase": [
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 }
+										]
+									}
+								],
+								"opacity": [
+									{ "time": 9.52, "value": 100 },
+									{ "time": 9.96, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901061021,
+							"type": "video",
+							"name": "loop_1_background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 10,
+							"path": {
+								"1080p": "footage/loop_1_background_composite-1080p.webm",
+								"720p": "footage/loop_1_background_composite-720p.webm",
+								"540p": "footage/loop_1_background_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901061006,
+					"name": "loop-720p-2",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061022,
+							"type": "adjustment",
+							"name": "Adjustment Layer 6",
+							"inPoint": 0,
+							"outPoint": 10,
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 20 },
+										{ "time": 0.68, "value": 0 },
+										{ "time": 8, "value": 0 },
+										{ "time": 9.96, "value": 25 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901061023,
+							"type": "video",
+							"name": "Particular_04.mov",
+							"inPoint": 0,
+							"outPoint": 10,
+							"blendingMode": "SCREEN",
+							"threeD": true,
+							"path": {
+								"1080p": "footage/particular_04-1080p.webm",
+								"720p": "footage/particular_04-720p.webm",
+								"540p": "footage/particular_04-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 30
+						},
+						{
+							"id": 901061024,
+							"type": "composite",
+							"name": "Final Image 2All seens ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"threeD": true,
+							"compItemId": 901061025,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": {
+										"closed": true,
+										"vertices": [
+											[1882, 38.48],
+											[37.92, 38.48],
+											[37.92, 1039],
+											[1882, 1039]
+										]
+									},
+									"maskFeather": [111, 111],
+									"maskExpansion": -36
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [948, -492, 0],
+										"outEase": [{ "speed": 0.0002, "influence": 5.111 }]
+									},
+									{
+										"time": 2,
+										"value": [960, 576, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 8,
+										"value": [960, 576, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0.0003, "influence": 100 }]
+									},
+									{
+										"time": 9.96,
+										"value": [959, 1824, 0],
+										"inEase": [{ "speed": 0.0003, "influence": 5.742 }]
+									}
+								],
+								"scale": [
+									{
+										"time": 0.68,
+										"value": [77, 77, 77],
+										"outEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 7,
+										"value": [83, 83, 83],
+										"inEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 }
+										]
+									},
+									{
+										"time": 8,
+										"value": [77, 77, 77],
+										"inEase": [
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 }
+										]
+									}
+								],
+								"opacity": [
+									{ "time": 9.56, "value": 100 },
+									{ "time": 9.96, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901061026,
+							"type": "video",
+							"name": "loop_1_background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 10,
+							"path": {
+								"1080p": "footage/loop_1_background_composite-1080p.webm",
+								"720p": "footage/loop_1_background_composite-720p.webm",
+								"540p": "footage/loop_1_background_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901061008,
+					"name": "loop-720p-3",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061027,
+							"type": "adjustment",
+							"name": "Adjustment Layer 7",
+							"inPoint": 0,
+							"outPoint": 10,
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{
+											"time": 0,
+											"value": 25,
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 1,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 33.33 }],
+											"outEase": [{ "speed": 0, "influence": 16.67 }]
+										},
+										{
+											"time": 8,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 16.67 }],
+											"outEase": [{ "speed": 0, "influence": 16.67 }]
+										},
+										{
+											"time": 9.96,
+											"value": 35,
+											"inEase": [{ "speed": 0, "influence": 16.67 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901061028,
+							"type": "video",
+							"name": "Particular_04.mov",
+							"inPoint": 0,
+							"outPoint": 10,
+							"blendingMode": "SCREEN",
+							"threeD": true,
+							"path": {
+								"1080p": "footage/particular_04-1080p.webm",
+								"720p": "footage/particular_04-720p.webm",
+								"540p": "footage/particular_04-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 30
+						},
+						{
+							"id": 901061029,
+							"type": "composite",
+							"name": "Final Image 3All seens ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"threeD": true,
+							"compItemId": 901061030,
+							"masks": [
+								{
+									"maskMode": 2,
+									"maskPath": {
+										"closed": true,
+										"vertices": [
+											[1882, 38.48],
+											[37.92, 38.48],
+											[37.92, 1039],
+											[1882, 1039]
+										]
+									},
+									"maskFeather": [111, 111],
+									"maskExpansion": -36
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [2972, 540, 0],
+										"outEase": [{ "speed": 0.0002, "influence": 5.111 }]
+									},
+									{
+										"time": 2,
+										"value": [960, 576, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 8,
+										"value": [960, 576, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 100 }],
+										"outEase": [{ "speed": 0.0003, "influence": 100 }]
+									},
+									{
+										"time": 9.96,
+										"value": [-1049, 560, 0],
+										"inEase": [{ "speed": 0.0003, "influence": 5.742 }]
+									}
+								],
+								"scale": [
+									{
+										"time": 0.68,
+										"value": [77, 77, 77],
+										"outEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 7,
+										"value": [83, 83, 83],
+										"inEase": [
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 },
+											{ "speed": 0, "influence": 78.94 }
+										]
+									},
+									{
+										"time": 8,
+										"value": [77, 77, 77],
+										"inEase": [
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 },
+											{ "speed": 0, "influence": 63.3 }
+										]
+									}
+								],
+								"opacity": [
+									{ "time": 9.28, "value": 100 },
+									{ "time": 9.96, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901061031,
+							"type": "video",
+							"name": "loop_1_background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 10,
+							"path": {
+								"1080p": "footage/loop_1_background_composite-1080p.webm",
+								"720p": "footage/loop_1_background_composite-720p.webm",
+								"540p": "footage/loop_1_background_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 10,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901061010,
+					"name": "end-1080p",
+					"duration": 7.04,
+					"layers": [
+						{
+							"id": 901061032,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"zoom": 2667,
+							"depthOfField": 1,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901061033,
+							"type": "empty",
+							"name": "crtl_1",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 5.64,
+										"value": [960, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 67.72 }]
+									},
+									{
+										"time": 7.72,
+										"value": [960, 540, 1649],
+										"inEase": [{ "speed": 0, "influence": 70.93 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061034,
+							"type": "adjustment",
+							"name": "Adjustment Layer 8",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{
+											"time": 0,
+											"value": 20,
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 1,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 33.33 }],
+											"outEase": [{ "speed": 0, "influence": 33.33 }]
+										},
+										{
+											"time": 5.32,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 16.67 }],
+											"outEase": [{ "speed": 0, "influence": 16.67 }]
+										},
+										{
+											"time": 7,
+											"value": 30,
+											"inEase": [{ "speed": 0, "influence": 16.67 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901061035,
+							"type": "text",
+							"name": "text1080-2",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"threeD": true,
+							"replaceable": true,
+							"text": "PLEASE ENTER YOUR TEXT",
+							"fontFamily": "Georgia",
+							"fontStyle": "Regular",
+							"fontSize": 75,
+							"fillColor": [0.8431, 0.7765, 0.6353],
+							"tracking": -52,
+							"boxTextSize": [2204, 374],
+							"animaters": [
+								{
+									"name": "Evaporate Animator",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 17,
+											"offset": [
+												{ "time": 0, "value": 29 },
+												{ "time": 2.28, "value": -17 }
+											],
+											"units": 2,
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100,
+											"randomizeOrder": 1
+										}
+									],
+									"properties": {
+										"scale": [263, 263, 100],
+										"opacity": 0,
+										"blur": [113, 113]
+									}
+								}
+							],
+							"groupingAlignment": [0, -31],
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, -34, -600],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 7,
+										"value": [0, -34, 0],
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 26.21 }]
+									},
+									{
+										"time": 0.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 39.89 }],
+										"outEase": [{ "speed": 0, "influence": 23.87 }]
+									},
+									{
+										"time": 6.44,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 31.37 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 7,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }]
+									}
+								]
+							},
+							"parentId": 901061033
+						},
+						{
+							"id": 901061036,
+							"type": "video",
+							"name": "end_background_composite.mp4",
+							"inPoint": 0,
+							"outPoint": 7.04,
+							"path": {
+								"1080p": "footage/end_background_composite-1080p.webm",
+								"720p": "footage/end_background_composite-720p.webm",
+								"540p": "footage/end_background_composite-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 7.04,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901061020,
+					"name": "Final Image 1",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061037,
+							"type": "composite",
+							"name": "Image 1 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061038,
+							"masks": [
+								{
+									"maskMode": 3,
+									"maskPath": {
+										"closed": true,
+										"vertices": [
+											[1724, -75.17],
+											[319.1, -79.39],
+											[203.5, 1201],
+											[1831, 1265]
+										]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1057, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 1.505,
+										"value": [912.2, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [110, 110, 100]
+							},
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 10,
+									"blurDimensions": 3,
+									"repeatEdgePixels": 1
+								},
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 100,
+									"direction": 135,
+									"softness": 150
+								}
+							]
+						},
+						{
+							"id": 901061039,
+							"type": "composite",
+							"name": "Image 1 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061038,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1008, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 2.517,
+										"value": [912.2, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [105, 105, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061025,
+					"name": "Final Image 2All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061040,
+							"type": "empty",
+							"name": "Null 11",
+							"inPoint": 0,
+							"outPoint": 10,
+							"transform": {
+								"position": [960, 540, 0],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061041,
+							"type": "composite",
+							"name": "Image 2 ",
+							"parentId": 901061040,
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061042,
+							"masks": [
+								{
+									"maskMode": 3,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[1521, -92.23],
+													[383.7, -53.61],
+													[222.3, 1103],
+													[1693, 1163]
+												]
+											},
+											"outEase": [{ "speed": 0, "influence": 13.1 }]
+										},
+										{
+											"time": 2.767,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[1836, -180.9],
+													[162.6, -92.53],
+													[265.8, 1141],
+													[1743, 1241]
+												]
+											},
+											"inEase": [{ "speed": 0, "influence": 71.56 }]
+										}
+									]
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [96.85, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 5.017,
+										"value": [-47.75, 0, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [110, 110, 100]
+							},
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 15,
+									"blurDimensions": 3,
+									"repeatEdgePixels": 1
+								},
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 100,
+									"direction": 135,
+									"softness": 150
+								}
+							]
+						},
+						{
+							"id": 901061043,
+							"type": "composite",
+							"name": "Image 2 ",
+							"parentId": 901061040,
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061042,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [48, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 5.017,
+										"value": [-47.75, 0, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [105, 105, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061030,
+					"name": "Final Image 3All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061044,
+							"type": "composite",
+							"name": "Image 3 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061045,
+							"masks": [
+								{
+									"maskMode": 3,
+									"maskPath": [
+										{
+											"time": 0,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[1879, -157.5],
+													[116.5, -82.92],
+													[21.29, 1133],
+													[1791, 1214]
+												]
+											},
+											"outEase": [{ "speed": 1, "influence": 16.67 }]
+										},
+										{
+											"time": 2.733,
+											"value": {
+												"closed": true,
+												"vertices": [
+													[1846, -145.8],
+													[266.9, -151.9],
+													[147.1, 1162],
+													[1757, 1162]
+												]
+											},
+											"inEase": [{ "speed": 0, "influence": 33.33 }]
+										}
+									]
+								}
+							],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1057, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 5.017,
+										"value": [912.2, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [110, 110, 100]
+							},
+							"effects": [
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 15,
+									"blurDimensions": 3
+								},
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 100,
+									"direction": 86,
+									"softness": 130
+								}
+							]
+						},
+						{
+							"id": 901061046,
+							"type": "composite",
+							"name": "Image 3 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061045,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1008, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 22.84 }]
+									},
+									{
+										"time": 5.017,
+										"value": [912.2, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }]
+									}
+								],
+								"scale": [105, 105, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061038,
+					"name": "Image 1 ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061047,
+							"type": "composite",
+							"name": "Image 1 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061048,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [100, 100, 100] },
+									{ "time": 9.983, "value": [120, 120, 100] }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061042,
+					"name": "Image 2 All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061049,
+							"type": "composite",
+							"name": "Image 2 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061050,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [100, 100, 100] },
+									{ "time": 9.983, "value": [120, 120, 100] }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061045,
+					"name": "Image 3 All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061051,
+							"type": "composite",
+							"name": "Image 3 ",
+							"inPoint": 0,
+							"outPoint": 10,
+							"compItemId": 901061052,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [100, 100, 100] },
+									{ "time": 9.983, "value": [120, 120, 100] }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061048,
+					"name": "Image 1 ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061053,
+							"type": "empty",
+							"name": "Null 3",
+							"inPoint": 0,
+							"outPoint": 10,
+							"threeD": true,
+							"transform": {
+								"position": [1298, 710, -167],
+								"scale": [122, 122, 122],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061054,
+							"type": "image",
+							"name": "file720-1",
+							"parentId": 901061053,
+							"inPoint": 0,
+							"outPoint": 19.96,
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-285.7, -160.7, 288.4],
+								"scale": [100, 100, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061050,
+					"name": "Image 2 All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061055,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 12.57,
+							"threeD": true,
+							"transform": {
+								"position": [1272, 712, -387],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061056,
+							"type": "image",
+							"name": "file720-2",
+							"parentId": 901061055,
+							"inPoint": 0,
+							"outPoint": 19.96,
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-320, -180, 70]
+							}
+						}
+					]
+				},
+				{
+					"id": 901061052,
+					"name": "Image 3 All seens ",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901061057,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 12.57,
+							"threeD": true,
+							"transform": {
+								"position": [960, 540, 845],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901061058,
+							"type": "image",
+							"name": "file720-3",
+							"parentId": 901061057,
+							"inPoint": 0,
+							"outPoint": 19.96,
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-8, -8, -860]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

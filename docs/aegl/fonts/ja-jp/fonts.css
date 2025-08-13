@@ -1,0 +1,1268 @@
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+20-ff;
+	src: url(mplus-1p/mplus1p-bold-00.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+100-1ff;
+	src: url(mplus-1p/mplus1p-bold-01.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+200-2ff;
+	src: url(mplus-1p/mplus1p-bold-02.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+300-3ff;
+	src: url(mplus-1p/mplus1p-bold-03.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+400-4ff;
+	src: url(mplus-1p/mplus1p-bold-04.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+500-e3f;
+	src: url(mplus-1p/mplus1p-bold-05-0e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+1d00-1dc9;
+	src: url(mplus-1p/mplus1p-bold-1d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+1e00-1eff;
+	src: url(mplus-1p/mplus1p-bold-1e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+1f00-1ffe;
+	src: url(mplus-1p/mplus1p-bold-1f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2002-20b5;
+	src: url(mplus-1p/mplus1p-bold-20.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2102-21ed;
+	src: url(mplus-1p/mplus1p-bold-21.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2200-23cf;
+	src: url(mplus-1p/mplus1p-bold-22-23.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2400-24ff;
+	src: url(mplus-1p/mplus1p-bold-24.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2500-25ef;
+	src: url(mplus-1p/mplus1p-bold-25.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2605-2c7d;
+	src: url(mplus-1p/mplus1p-bold-26-2c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2e17-2ef2;
+	src: url(mplus-1p/mplus1p-bold-2e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+2f00-2fd5;
+	src: url(mplus-1p/mplus1p-bold-2f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+3000-30ff;
+	src: url(mplus-1p/mplus1p-bold-30.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+31f0-471f;
+	src: url(mplus-1p/mplus1p-bold-31-47.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+4e00-4efb;
+	src: url(mplus-1p/mplus1p-bold-4e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+4f01-4ffe;
+	src: url(mplus-1p/mplus1p-bold-4f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5005-50fb;
+	src: url(mplus-1p/mplus1p-bold-50.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5100-51fd;
+	src: url(mplus-1p/mplus1p-bold-51.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5200-52ff;
+	src: url(mplus-1p/mplus1p-bold-52.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5301-53fa;
+	src: url(mplus-1p/mplus1p-bold-53.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5403-54fd;
+	src: url(mplus-1p/mplus1p-bold-54.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5504-56fd;
+	src: url(mplus-1p/mplus1p-bold-55-56.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5700-58fd;
+	src: url(mplus-1p/mplus1p-bold-57-58.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5902-5ae6;
+	src: url(mplus-1p/mplus1p-bold-59-5a.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5b09-5bff;
+	src: url(mplus-1p/mplus1p-bold-5b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5c01-5cfd;
+	src: url(mplus-1p/mplus1p-bold-5c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5d07-5dfe;
+	src: url(mplus-1p/mplus1p-bold-5d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5e02-5eff;
+	src: url(mplus-1p/mplus1p-bold-5e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+5f01-5ffd;
+	src: url(mplus-1p/mplus1p-bold-5f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6010-60fb;
+	src: url(mplus-1p/mplus1p-bold-60.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6100-61ff;
+	src: url(mplus-1p/mplus1p-bold-61.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6200-62ff;
+	src: url(mplus-1p/mplus1p-bold-62.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6301-64fe;
+	src: url(mplus-1p/mplus1p-bold-63-64.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6500-65fb;
+	src: url(mplus-1p/mplus1p-bold-65.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6602-66ff;
+	src: url(mplus-1p/mplus1p-bold-66.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6700-67ff;
+	src: url(mplus-1p/mplus1p-bold-67.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6802-68fa;
+	src: url(mplus-1p/mplus1p-bold-68.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6900-69ff;
+	src: url(mplus-1p/mplus1p-bold-69.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6a02-6bf3;
+	src: url(mplus-1p/mplus1p-bold-6a-6b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6c0f-6cf3;
+	src: url(mplus-1p/mplus1p-bold-6c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6d0b-6dfb;
+	src: url(mplus-1p/mplus1p-bold-6d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+6e05-6ffe;
+	src: url(mplus-1p/mplus1p-bold-6e-6f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7006-71ff;
+	src: url(mplus-1p/mplus1p-bold-70-71.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7200-73fe;
+	src: url(mplus-1p/mplus1p-bold-72-73.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7403-75fa;
+	src: url(mplus-1p/mplus1p-bold-74-75.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+760d-77fc;
+	src: url(mplus-1p/mplus1p-bold-76-77.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7802-79fb;
+	src: url(mplus-1p/mplus1p-bold-78-79.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7a00-7bf3;
+	src: url(mplus-1p/mplus1p-bold-7a-7b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7c12-7cfe;
+	src: url(mplus-1p/mplus1p-bold-7c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7d00-7dfb;
+	src: url(mplus-1p/mplus1p-bold-7d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+7e01-7ffc;
+	src: url(mplus-1p/mplus1p-bold-7e-7f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8000-80fd;
+	src: url(mplus-1p/mplus1p-bold-80.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8102-81fc;
+	src: url(mplus-1p/mplus1p-bold-81.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8205-83f1;
+	src: url(mplus-1p/mplus1p-bold-82-83.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8403-85fb;
+	src: url(mplus-1p/mplus1p-bold-84-85.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8602-87fe;
+	src: url(mplus-1p/mplus1p-bold-86-87.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8805-89f8;
+	src: url(mplus-1p/mplus1p-bold-88-89.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8a00-8afe;
+	src: url(mplus-1p/mplus1p-bold-8a.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8b00-8cfd;
+	src: url(mplus-1p/mplus1p-bold-8b-8c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8d04-8efe;
+	src: url(mplus-1p/mplus1p-bold-8d-8e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+8f03-8ffd;
+	src: url(mplus-1p/mplus1p-bold-8f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9000-90fd;
+	src: url(mplus-1p/mplus1p-bold-90.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9102-92fc;
+	src: url(mplus-1p/mplus1p-bold-91-92.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9306-95e2;
+	src: url(mplus-1p/mplus1p-bold-93-95.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+961c-96fb;
+	src: url(mplus-1p/mplus1p-bold-96.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9700-98fe;
+	src: url(mplus-1p/mplus1p-bold-97-98.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9903-9bf5;
+	src: url(mplus-1p/mplus1p-bold-99-9b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+9c06-fe46;
+	src: url(mplus-1p/mplus1p-bold-9c-fe.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+ff01-ffe6;
+	src: url(mplus-1p/mplus1p-bold-ff.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 700;
+	unicode-range: U+1b000-27fb7;
+	src: url(mplus-1p/mplus1p-bold-1b0-27f.woff2) format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+20-ff;
+	src: url(mplus-1p/mplus1p-regular-00.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+100-1ff;
+	src: url(mplus-1p/mplus1p-regular-01.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+200-2ff;
+	src: url(mplus-1p/mplus1p-regular-02.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+300-3ff;
+	src: url(mplus-1p/mplus1p-regular-03.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+400-4ff;
+	src: url(mplus-1p/mplus1p-regular-04.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+500-e3f;
+	src: url(mplus-1p/mplus1p-regular-05-0e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+1d00-1dc9;
+	src: url(mplus-1p/mplus1p-regular-1d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+1e00-1eff;
+	src: url(mplus-1p/mplus1p-regular-1e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+1f00-1ffe;
+	src: url(mplus-1p/mplus1p-regular-1f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2002-20b5;
+	src: url(mplus-1p/mplus1p-regular-20.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2102-21ed;
+	src: url(mplus-1p/mplus1p-regular-21.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2200-23cf;
+	src: url(mplus-1p/mplus1p-regular-22-23.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2400-24ff;
+	src: url(mplus-1p/mplus1p-regular-24.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2500-25ef;
+	src: url(mplus-1p/mplus1p-regular-25.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2605-2c7d;
+	src: url(mplus-1p/mplus1p-regular-26-2c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2e17-2ef2;
+	src: url(mplus-1p/mplus1p-regular-2e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2f00-2fd5;
+	src: url(mplus-1p/mplus1p-regular-2f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+3000-30ff;
+	src: url(mplus-1p/mplus1p-regular-30.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+31f0-471f;
+	src: url(mplus-1p/mplus1p-regular-31-47.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+4e00-4efb;
+	src: url(mplus-1p/mplus1p-regular-4e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+4f01-4ffe;
+	src: url(mplus-1p/mplus1p-regular-4f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5005-50fb;
+	src: url(mplus-1p/mplus1p-regular-50.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5100-51fd;
+	src: url(mplus-1p/mplus1p-regular-51.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5200-52ff;
+	src: url(mplus-1p/mplus1p-regular-52.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5301-53fa;
+	src: url(mplus-1p/mplus1p-regular-53.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5403-54fd;
+	src: url(mplus-1p/mplus1p-regular-54.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5504-56fd;
+	src: url(mplus-1p/mplus1p-regular-55-56.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5700-58fd;
+	src: url(mplus-1p/mplus1p-regular-57-58.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5902-5ae6;
+	src: url(mplus-1p/mplus1p-regular-59-5a.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5b09-5bff;
+	src: url(mplus-1p/mplus1p-regular-5b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5c01-5cfd;
+	src: url(mplus-1p/mplus1p-regular-5c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5d07-5dfe;
+	src: url(mplus-1p/mplus1p-regular-5d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5e02-5eff;
+	src: url(mplus-1p/mplus1p-regular-5e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+5f01-5ffd;
+	src: url(mplus-1p/mplus1p-regular-5f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6010-60fb;
+	src: url(mplus-1p/mplus1p-regular-60.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6100-61ff;
+	src: url(mplus-1p/mplus1p-regular-61.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6200-62ff;
+	src: url(mplus-1p/mplus1p-regular-62.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6301-64fe;
+	src: url(mplus-1p/mplus1p-regular-63-64.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6500-65fb;
+	src: url(mplus-1p/mplus1p-regular-65.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6602-66ff;
+	src: url(mplus-1p/mplus1p-regular-66.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6700-67ff;
+	src: url(mplus-1p/mplus1p-regular-67.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6802-68fa;
+	src: url(mplus-1p/mplus1p-regular-68.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6900-69ff;
+	src: url(mplus-1p/mplus1p-regular-69.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6a02-6bf3;
+	src: url(mplus-1p/mplus1p-regular-6a-6b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6c0f-6cf3;
+	src: url(mplus-1p/mplus1p-regular-6c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6d0b-6dfb;
+	src: url(mplus-1p/mplus1p-regular-6d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+6e05-6ffe;
+	src: url(mplus-1p/mplus1p-regular-6e-6f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7006-71ff;
+	src: url(mplus-1p/mplus1p-regular-70-71.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7200-73fe;
+	src: url(mplus-1p/mplus1p-regular-72-73.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7403-75fa;
+	src: url(mplus-1p/mplus1p-regular-74-75.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+760d-77fc;
+	src: url(mplus-1p/mplus1p-regular-76-77.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7802-79fb;
+	src: url(mplus-1p/mplus1p-regular-78-79.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7a00-7bf3;
+	src: url(mplus-1p/mplus1p-regular-7a-7b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7c12-7cfe;
+	src: url(mplus-1p/mplus1p-regular-7c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7d00-7dfb;
+	src: url(mplus-1p/mplus1p-regular-7d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+7e01-7ffc;
+	src: url(mplus-1p/mplus1p-regular-7e-7f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8000-80fd;
+	src: url(mplus-1p/mplus1p-regular-80.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8102-81fc;
+	src: url(mplus-1p/mplus1p-regular-81.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8205-83f1;
+	src: url(mplus-1p/mplus1p-regular-82-83.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8403-85fb;
+	src: url(mplus-1p/mplus1p-regular-84-85.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8602-87fe;
+	src: url(mplus-1p/mplus1p-regular-86-87.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8805-89f8;
+	src: url(mplus-1p/mplus1p-regular-88-89.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8a00-8afe;
+	src: url(mplus-1p/mplus1p-regular-8a.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8b00-8cfd;
+	src: url(mplus-1p/mplus1p-regular-8b-8c.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8d04-8efe;
+	src: url(mplus-1p/mplus1p-regular-8d-8e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+8f03-8ffd;
+	src: url(mplus-1p/mplus1p-regular-8f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9000-90fd;
+	src: url(mplus-1p/mplus1p-regular-90.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9102-92fc;
+	src: url(mplus-1p/mplus1p-regular-91-92.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9306-95e2;
+	src: url(mplus-1p/mplus1p-regular-93-95.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+961c-96fb;
+	src: url(mplus-1p/mplus1p-regular-96.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9700-98fe;
+	src: url(mplus-1p/mplus1p-regular-97-98.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9903-9bf5;
+	src: url(mplus-1p/mplus1p-regular-99-9b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+9c06-fe46;
+	src: url(mplus-1p/mplus1p-regular-9c-fe.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+ff01-ffe6;
+	src: url(mplus-1p/mplus1p-regular-ff.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+1b000-27fb7;
+	src: url(mplus-1p/mplus1p-regular-1b0-27f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mplus 1p";
+	font-weight: 400;
+	unicode-range: U+2D, U+31, U+4C-4D, U+50, U+52-53, U+55, U+61, U+65, U+67, U+6C, U+70, U+72, U+75;
+	src: url(data:font/woff2;charset=utf-8;base64,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) format("woff2");
+}
+
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+20-ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-00.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+100-1ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-01.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+200-2468;
+	src: url(sawarabi-mincho/sawarabimincho-regular-02-24.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+2500-25ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-25.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+2600-273f;
+	src: url(sawarabi-mincho/sawarabimincho-regular-26-27.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+2801-28ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-28.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+2b00-2b0d;
+	src: url(sawarabi-mincho/sawarabimincho-regular-2b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+3000-30ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-30.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+4e00-4efb;
+	src: url(sawarabi-mincho/sawarabimincho-regular-4e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+4f01-50e7;
+	src: url(sawarabi-mincho/sawarabimincho-regular-4f-50.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5100-52ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-51-52.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5302-54f2;
+	src: url(sawarabi-mincho/sawarabimincho-regular-53-54.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5504-58f2;
+	src: url(sawarabi-mincho/sawarabimincho-regular-55-58.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5909-5bff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-59-5b.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5c01-5eff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-5c-5e.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+5f01-61f2;
+	src: url(sawarabi-mincho/sawarabimincho-regular-5f-61.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+620a-64fe;
+	src: url(sawarabi-mincho/sawarabimincho-regular-62-64.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+652f-66ff;
+	src: url(sawarabi-mincho/sawarabimincho-regular-65-66.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+6700-6a5f;
+	src: url(sawarabi-mincho/sawarabimincho-regular-67-6a.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+6b20-6dfb;
+	src: url(sawarabi-mincho/sawarabimincho-regular-6b-6d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+6e05-73fe;
+	src: url(sawarabi-mincho/sawarabimincho-regular-6e-73.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+7403-79fb;
+	src: url(sawarabi-mincho/sawarabimincho-regular-74-79.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+7a0b-7df4;
+	src: url(sawarabi-mincho/sawarabimincho-regular-7a-7d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+7e01-82f1;
+	src: url(sawarabi-mincho/sawarabimincho-regular-7e-82.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+8302-89e6;
+	src: url(sawarabi-mincho/sawarabimincho-regular-83-89.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+8a00-8df5;
+	src: url(sawarabi-mincho/sawarabimincho-regular-8a-8d.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+8e0a-91e7;
+	src: url(sawarabi-mincho/sawarabimincho-regular-8e-91.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+920d-97f3;
+	src: url(sawarabi-mincho/sawarabimincho-regular-92-97.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+9801-9f8d;
+	src: url(sawarabi-mincho/sawarabimincho-regular-98-9f.woff2) format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Sawarabi Mincho";
+	font-weight: 400;
+	unicode-range: U+2D, U+4D, U+52-53, U+61-63, U+65, U+67-69, U+6C, U+6E-6F, U+72, U+75, U+77;
+	src: url(data:font/woff2;charset=utf-8;base64,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) format("woff2");
+}
+

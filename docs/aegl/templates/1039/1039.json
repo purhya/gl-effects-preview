@@ -1,0 +1,2930 @@
+{
+	"id": 1039,
+	"name": "Honeymoon",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 8,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 40.32,
+			"layers": [
+				{
+					"id": 901039001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 5.04,
+					"compItemId": 901039002
+				},
+				{
+					"id": 901039003,
+					"type": "composite",
+					"name": "loop-1080p-1",
+					"inPoint": 5.04,
+					"outPoint": 10.08,
+					"compItemId": 901039004
+				},
+				{
+					"id": 901039005,
+					"type": "composite",
+					"name": "loop-1080p-2",
+					"inPoint": 10.08,
+					"outPoint": 15.12,
+					"compItemId": 901039006
+				},
+				{
+					"id": 901039007,
+					"type": "composite",
+					"name": "loop-1080p-3",
+					"inPoint": 15.12,
+					"outPoint": 20.16,
+					"compItemId": 901039008
+				},
+				{
+					"id": 901039009,
+					"type": "composite",
+					"name": "loop-1080p-4",
+					"inPoint": 20.16,
+					"outPoint": 25.2,
+					"compItemId": 901039010
+				},
+				{
+					"id": 901039011,
+					"type": "composite",
+					"name": "loop-1080p-5",
+					"inPoint": 25.2,
+					"outPoint": 30.24,
+					"compItemId": 901039012
+				},
+				{
+					"id": 901039013,
+					"type": "composite",
+					"name": "loop-1080p-6",
+					"inPoint": 30.24,
+					"outPoint": 35.28,
+					"compItemId": 901039014
+				},
+				{
+					"id": 901039015,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 35.28,
+					"outPoint": 40.32,
+					"compItemId": 901039016
+				},
+				{
+					"id": 901039017,
+					"type": "audio",
+					"name": "1039.mp3",
+					"inPoint": 0,
+					"outPoint": 159.3,
+					"replaceable": true,
+					"path": "1039.mp3",
+					"duration": 158.9
+				}
+			],
+			"compItems": [
+				{
+					"id": 901039002,
+					"name": "start-1080p",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039018,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039019,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039020,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039021,
+							"type": "composite",
+							"name": "text_start",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039022
+						},
+						{
+							"id": 901039023,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039004,
+					"name": "loop-1080p-1",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039025,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039026,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039027,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039028,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039029,
+							"type": "empty",
+							"name": "Null 3",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 4.56,
+										"value": [960, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 100 }]
+									},
+									{
+										"time": 5,
+										"value": [1707, 540, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 26.08 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039030,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039029,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039031,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039030,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 2042],
+										"outEase": [{ "speed": 0.0001, "influence": 5.789 }]
+									},
+									{
+										"time": 1.44,
+										"value": [0, 0, 0],
+										"inEase": [{ "speed": 0.0002, "influence": 80.71 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 7.04, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039032,
+							"type": "composite",
+							"name": "1",
+							"parentId": 901039031,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039033,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.68, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039034,
+							"type": "composite",
+							"name": "4pic",
+							"parentId": 901039031,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039035,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.68, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039036,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039031,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.92, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039038,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039031,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039040,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039031,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039042,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039006,
+					"name": "loop-1080p-2",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039043,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039044,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039045,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039046,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [34, 540, 0],
+										"outEase": [{ "speed": 0.0002, "influence": 33.76 }]
+									},
+									{
+										"time": 0.36,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 70.93 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.68,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0.0001, "influence": 58.9 }]
+									},
+									{
+										"time": 4.96,
+										"value": [879, -304, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 16.5 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039047,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039046,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039048,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039047,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 5, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039049,
+							"type": "composite",
+							"name": "2",
+							"parentId": 901039048,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039050,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.68, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039051,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039048,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.68, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039052,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039048,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.88, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039053,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039048,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039054,
+							"type": "composite",
+							"name": "4pic",
+							"parentId": 901039048,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039035,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.68, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039055,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039008,
+					"name": "loop-1080p-3",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039056,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039057,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039058,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039059,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039060,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [879, 1140, 0],
+										"outEase": [{ "speed": 0.0001, "influence": 21.45 }]
+									},
+									{
+										"time": 0.4,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 76.69 }],
+										"outEase": [{ "speed": 0, "influence": 28.88 }]
+									},
+									{
+										"time": 4.64,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 18.88 }],
+										"outEase": [{ "speed": 0.0003, "influence": 77.03 }]
+									},
+									{
+										"time": 5,
+										"value": [-1, -54, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 0 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039061,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039060,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039062,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039061,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 5, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039063,
+							"type": "composite",
+							"name": "3",
+							"parentId": 901039062,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039064,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.64, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039065,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039062,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.64, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039066,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039062,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.88, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.64, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039067,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039062,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.64, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039068,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039062,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.64, "value": 90 },
+									{ "time": 5, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039069,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039010,
+					"name": "loop-1080p-4",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039070,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039071,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039072,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039073,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039074,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [1973, 1110, 0],
+										"outEase": [{ "speed": 0.0002, "influence": 17.87 }]
+									},
+									{
+										"time": 0.68,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 94.56 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 4.6,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0.0001, "influence": 94.56 }],
+										"outEase": [{ "speed": 0, "influence": 78.46 }]
+									},
+									{
+										"time": 4.96,
+										"value": [879, -580, 0],
+										"inEase": [{ "speed": 0, "influence": 19.19 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039075,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039074,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039076,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039075,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 5, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039077,
+							"type": "composite",
+							"name": "4",
+							"parentId": 901039076,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039078,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.6, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039079,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039076,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.6, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039080,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039076,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.88, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.6, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039081,
+							"type": "composite",
+							"name": "4pic",
+							"parentId": 901039076,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039035,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.6, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039082,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039076,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.6, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039083,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039012,
+					"name": "loop-1080p-5",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039084,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0]
+							}
+						},
+						{
+							"id": 901039085,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039086,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039087,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039088,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [879, 1170, 0],
+										"outEase": [{ "speed": 0, "influence": 21.86 }]
+									},
+									{
+										"time": 0.76,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 82.23 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 4.32,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 68.86 }],
+										"outEase": [{ "speed": 0, "influence": 85.77 }]
+									},
+									{
+										"time": 4.96,
+										"value": [2493, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 11.49 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039089,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039088,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039090,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039089,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 5, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039091,
+							"type": "composite",
+							"name": "5",
+							"parentId": 901039090,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039092,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.32, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039093,
+							"type": "composite",
+							"name": "4pic",
+							"parentId": 901039090,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039035,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.32, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039094,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039090,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.88, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039095,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039090,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039096,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039090,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039097,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039014,
+					"name": "loop-1080p-6",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039098,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [962, 1506, 0]
+							}
+						},
+						{
+							"id": 901039099,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0]
+							}
+						},
+						{
+							"id": 901039100,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"zoom": 1493,
+							"depthOfField": 1,
+							"focusDistance": 1493,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -1493]
+							}
+						},
+						{
+							"id": 901039101,
+							"type": "empty",
+							"name": "Null 4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [-205, 540, 0],
+										"outEase": [{ "speed": 0, "influence": 24.66 }]
+									},
+									{
+										"time": 0.72,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.32,
+										"value": [879, 540, 0],
+										"inEase": [{ "speed": 0, "influence": 100 }],
+										"outEase": [{ "speed": 0, "influence": 93.99 }]
+									},
+									{
+										"time": 4.96,
+										"value": [879, -676, 0],
+										"inEase": [{ "speed": 0, "influence": 14.57 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039102,
+							"type": "empty",
+							"name": "Null 2",
+							"parentId": 901039101,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"position": [
+									{
+										"time": 0,
+										"value": [0, 0, 0],
+										"outEase": [{ "speed": 0, "influence": 17.27 }]
+									},
+									{
+										"time": 5,
+										"value": [0, 0, -964],
+										"inEase": [{ "speed": 0, "influence": 80.75 }]
+									}
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039103,
+							"type": "empty",
+							"name": "ctrl",
+							"parentId": 901039102,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"transform": {
+								"orientation": [
+									{ "time": 0, "value": [0, 0, 14] },
+									{ "time": 5, "value": [0, 0, 0] }
+								],
+								"opacity": 0
+							}
+						},
+						{
+							"id": 901039104,
+							"type": "composite",
+							"name": "6",
+							"parentId": 901039103,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"motionBlur": true,
+							"threeD": true,
+							"compItemId": 901039105,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [0, 0, 1991],
+								"orientation": [0, 0, 354],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 4.32, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": [
+										{ "time": 0, "value": 288 },
+										{ "time": 0.4, "value": 0 }
+									]
+								}
+							]
+						},
+						{
+							"id": 901039106,
+							"type": "composite",
+							"name": "1pic",
+							"parentId": 901039103,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [-262.3, 542.5, 3914],
+										"outEase": [{ "speed": 0.0001, "influence": 20.28 }]
+									},
+									{
+										"time": 1.52,
+										"value": [-1714, 826.6, 3914],
+										"inEase": [{ "speed": 0.0001, "influence": 77.17 }]
+									}
+								],
+								"orientation": [0, 0, 348.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 100 },
+									{ "time": 4.32, "value": 100 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039107,
+							"type": "composite",
+							"name": "2pic",
+							"parentId": 901039103,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039039,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [1079, 599.8, 642.3] },
+									{ "time": 3.88, "value": [1020, 576.4, 656.2] }
+								],
+								"orientation": [0, 0, 345.8],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 100
+								}
+							]
+						},
+						{
+							"id": 901039108,
+							"type": "composite",
+							"name": "3pic",
+							"parentId": 901039103,
+							"inPoint": 0.4,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039037,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0.4,
+										"value": [185.7, 234.2, 3508],
+										"outEase": [{ "speed": 0.0001, "influence": 16.43 }]
+									},
+									{
+										"time": 1.6,
+										"value": [1923, -508.1, 3508],
+										"inEase": [{ "speed": 0.0001, "influence": 74.44 }]
+									}
+								],
+								"orientation": [0, 0, 336.9],
+								"opacity": [
+									{ "time": 0.4, "value": 0 },
+									{ "time": 0.8, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 70
+								}
+							]
+						},
+						{
+							"id": 901039109,
+							"type": "composite",
+							"name": "4pic",
+							"parentId": 901039103,
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901039035,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [-1103, -354.6, 59],
+								"scale": [90, 90, 90],
+								"orientation": [0, 0, 346],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 90 },
+									{ "time": 4.32, "value": 90 },
+									{ "time": 4.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 20,
+									"direction": 123,
+									"distance": 33
+								},
+								{
+									"type": "fastBlur",
+									"name": "Fast Blur",
+									"blurriness": 89
+								}
+							]
+						},
+						{
+							"id": 901039110,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024
+						}
+					]
+				},
+				{
+					"id": 901039016,
+					"name": "end-1080p",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039111,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 1506, 0],
+								"opacity": [
+									{ "time": 4.56, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901039112,
+							"type": "solid",
+							"name": "Black Solid 1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"color": [0, 0, 0],
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, -438, 0],
+								"opacity": [
+									{ "time": 4.56, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901039113,
+							"type": "video",
+							"name": "foreground.mp4",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/foreground-720p.webm",
+								"720p": "footage/foreground-720p.webm",
+								"540p": "footage/foreground-540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901039114,
+							"type": "composite",
+							"name": "text_end",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039115,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"opacity": [
+									{ "time": 4.56, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901039116,
+							"type": "composite",
+							"name": "bg",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"compItemId": 901039024,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"opacity": [
+									{ "time": 4.56, "value": 100 },
+									{ "time": 5, "value": 0 }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039022,
+					"name": "text_start",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039117,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"replaceable": true,
+							"text": "Personal Photo Album",
+							"fontFamily": "Comic Sans MS",
+							"fontStyle": "Bold",
+							"fontSize": 60,
+							"fillColor": [0.0205, 0.0271, 0.1137],
+							"tracking": 5,
+							"boxTextSize": [1440, 166],
+							"animaters": [
+								{
+									"name": "Evaporate Animator",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 17,
+											"offset": [
+												{ "time": 0, "value": 20 },
+												{ "time": 1.36, "value": -17 },
+												{ "time": 3.881, "value": -17 },
+												{ "time": 5, "value": 20 }
+											],
+											"units": 2,
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100,
+											"randomizeOrder": 1
+										}
+									],
+									"properties": {
+										"scale": [263, 263, 100],
+										"opacity": 0,
+										"blur": [113, 113]
+									}
+								}
+							],
+							"groupingAlignment": [0, -31],
+							"transform": {
+								"position": [
+									{ "time": 0, "value": [960, 560, 0] },
+									{ "time": 5, "value": [960, 560, 0] }
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039024,
+					"name": "bg",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039118,
+							"type": "image",
+							"name": "background.jpg",
+							"inPoint": 0,
+							"outPoint": 44,
+							"path": "footage/background.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039033,
+					"name": "1",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039119,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039120,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [100, 100, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039035,
+					"name": "4pic",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039121,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039122,
+							"type": "image",
+							"name": "4.jpg",
+							"inPoint": 0,
+							"outPoint": 44,
+							"path": "footage/4.webp",
+							"width": 1280,
+							"height": 720,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039037,
+					"name": "3pic",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039123,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039124,
+							"type": "image",
+							"name": "3.jpg",
+							"inPoint": 0,
+							"outPoint": 44,
+							"path": "footage/3.webp",
+							"width": 1280,
+							"height": 720,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039039,
+					"name": "2pic",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039125,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039126,
+							"type": "image",
+							"name": "2.jpg",
+							"inPoint": 0,
+							"outPoint": 44,
+							"path": "footage/2.webp",
+							"width": 1280,
+							"height": 720,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039041,
+					"name": "1pic",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039127,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039128,
+							"type": "image",
+							"name": "1.jpg",
+							"inPoint": 0,
+							"outPoint": 44,
+							"path": "footage/1.webp",
+							"width": 1280,
+							"height": 720,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901039050,
+					"name": "2",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039129,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039130,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039064,
+					"name": "3",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039131,
+							"type": "shape",
+							"name": "borader 2",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039132,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039078,
+					"name": "4",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039133,
+							"type": "shape",
+							"name": "borader 2",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039134,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039092,
+					"name": "5",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039135,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039136,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039105,
+					"name": "6",
+					"duration": 44,
+					"layers": [
+						{
+							"id": 901039137,
+							"type": "shape",
+							"name": "borader",
+							"inPoint": 0,
+							"outPoint": 44,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1900, 1060],
+									"stroke": {
+										"color": [1, 1, 1, 1],
+										"strokeWidth": 20,
+										"dashes": [10, 10, 10, 10, 10, 10]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901039138,
+							"type": "image",
+							"name": "file720-6",
+							"inPoint": 0,
+							"outPoint": 44,
+							"replaceable": true,
+							"path": "footage/1080p/6.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901039115,
+					"name": "text_end",
+					"duration": 5.04,
+					"layers": [
+						{
+							"id": 901039139,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"replaceable": true,
+							"text": "Personal Photo Album",
+							"fontFamily": "Comic Sans MS",
+							"fontStyle": "Bold",
+							"fontSize": 60,
+							"fillColor": [0.0205, 0.0271, 0.1137],
+							"tracking": 5,
+							"boxTextSize": [1364, 166],
+							"animaters": [
+								{
+									"name": "Evaporate Animator",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 17,
+											"offset": [
+												{ "time": 0, "value": 29 },
+												{ "time": 1.36, "value": -17 },
+												{ "time": 3.881, "value": -17 },
+												{ "time": 5, "value": 29 }
+											],
+											"units": 2,
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100,
+											"randomizeOrder": 1
+										}
+									],
+									"properties": {
+										"scale": [263, 263, 100],
+										"opacity": 0,
+										"blur": [113, 113]
+									}
+								}
+							],
+							"groupingAlignment": [0, -31],
+							"transform": {
+								"position": [
+									{ "time": 0, "value": [960, 560, -202] },
+									{ "time": 5, "value": [960, 560, 274] }
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

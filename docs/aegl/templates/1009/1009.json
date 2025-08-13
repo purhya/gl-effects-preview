@@ -1,0 +1,620 @@
+{
+	"id": 1009,
+	"name": "Beautiful Memory",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 7,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 29,
+			"layers": [
+				{
+					"id": 901009001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 4,
+					"compItemId": 901009002
+				},
+				{
+					"id": 901009006,
+					"type": "composite",
+					"name": "loop-1080p-1",
+					"inPoint": 4,
+					"outPoint": 11,
+					"compItemId": 901009007
+				},
+				{
+					"id": 901009016,
+					"type": "composite",
+					"name": "loop-1080p-2",
+					"inPoint": 11,
+					"outPoint": 18,
+					"compItemId": 901009017
+				},
+				{
+					"id": 901009026,
+					"type": "composite",
+					"name": "loop-1080p-3",
+					"inPoint": 18,
+					"outPoint": 25,
+					"compItemId": 901009027
+				},
+				{
+					"id": 901009036,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 25,
+					"outPoint": 29,
+					"compItemId": 901009037
+				},
+				{
+					"id": 901009041,
+					"type": "audio",
+					"name": "1009.mp3",
+					"inPoint": 0,
+					"outPoint": 98.3,
+					"replaceable": true,
+					"path": "1009.mp3",
+					"duration": 98.04
+				}
+			],
+			"compItems": [
+				{
+					"id": 901009002,
+					"name": "start-1080p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901009003,
+							"type": "video",
+							"name": "start-720p.mp4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/start_720p.webm",
+								"720p": "footage/start_720p.webm",
+								"540p": "footage/start_540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 4,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901009004,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"text": "Good Time",
+							"fontFamily": "SJNMDJW",
+							"fontStyle": "Regular",
+							"fontSize": 120,
+							"fillColor": [0.0039, 0.0039, 0.0039],
+							"boxTextSize": [1444, 580],
+							"transform": {
+								"position": [960, 550, 0],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 1, "value": 100 },
+									{ "time": 3, "value": 100 },
+									{ "time": 3.96, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901009005,
+							"type": "solid",
+							"name": "浅色 红色 纯色 1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"color": [1, 0.9137, 0.9137],
+							"effects": [
+								{
+									"type": "ramp",
+									"name": "Gradient Ramp",
+									"startOfRamp": [1786, 1022],
+									"startColor": [0.9373, 0.691, 0.691, 1],
+									"endOfRamp": [128, 58],
+									"endColor": [1, 0.902, 0.902, 1],
+									"rampShape": 1
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901009011,
+					"name": "mat",
+					"duration": 100,
+					"layers": [
+						{
+							"id": 901009013,
+							"type": "video",
+							"name": "brush_mat_720p.mp4",
+							"inPoint": 0,
+							"outPoint": 100,
+							"path": {
+								"1080p": "footage/brush_mat_720p.webm",
+								"720p": "footage/brush_mat_720p.webm",
+								"540p": "footage/brush_mat_540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 100,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901009007,
+					"name": "loop-1080p-1",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901009008,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1218, 74],
+							"transform": {
+								"position": [960, 1004, 0],
+								"scale": [150, 150, 100],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 6.6, "value": 100 },
+									{ "time": 6.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4392, 0.1137, 0.1951, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5
+								}
+							]
+						},
+						{
+							"id": 901009009,
+							"type": "video",
+							"name": "loop-720p-1.mp4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/loop_720p_1.webm",
+								"720p": "footage/loop_720p_1.webm",
+								"540p": "footage/loop_540p_1.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 7,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901009010,
+							"type": "composite",
+							"name": "mat",
+							"inPoint": 0,
+							"outPoint": 100,
+							"motionBlur": true,
+							"isTrackMatte": true,
+							"compItemId": 901009011,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [195, 195, 100] },
+									{ "time": 6.96, "value": [255, 255, 100] }
+								]
+							}
+						},
+						{
+							"id": 901009014,
+							"type": "solid",
+							"name": "浅色 红色 纯色 1",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA_INVERTED",
+							"color": [1, 0.9137, 0.9137],
+							"effects": [
+								{
+									"type": "ramp",
+									"name": "Gradient Ramp",
+									"startOfRamp": [1786, 1022],
+									"startColor": [0.9373, 0.691, 0.691, 1],
+									"endOfRamp": [128, 58],
+									"endColor": [1, 0.902, 0.902, 1],
+									"rampShape": 1
+								}
+							]
+						},
+						{
+							"id": 901009015,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901009021,
+					"name": "mat_2",
+					"duration": 100,
+					"layers": [
+						{
+							"id": 901009023,
+							"type": "video",
+							"name": "brush_mat_720p_2.mp4",
+							"inPoint": 0,
+							"outPoint": 100,
+							"path": {
+								"1080p": "footage/brush_mat_720p_2.webm",
+								"720p": "footage/brush_mat_720p_2.webm",
+								"540p": "footage/brush_mat_540p_2.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 100,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901009017,
+					"name": "loop-1080p-2",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901009018,
+							"type": "text",
+							"name": "text720-3",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1218, 74],
+							"transform": {
+								"position": [960, 1004, 0],
+								"scale": [150, 150, 100],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 6.6, "value": 100 },
+									{ "time": 6.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4392, 0.1137, 0.1951, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5
+								}
+							]
+						},
+						{
+							"id": 901009019,
+							"type": "video",
+							"name": "loop-720p-2.mp4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/loop_720p_2.webm",
+								"720p": "footage/loop_720p_2.webm",
+								"540p": "footage/loop_540p_2.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 7,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901009020,
+							"type": "composite",
+							"name": "mat_2",
+							"inPoint": 0,
+							"outPoint": 100,
+							"motionBlur": true,
+							"isTrackMatte": true,
+							"compItemId": 901009021,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [225, 225, 100] },
+									{ "time": 6.96, "value": [274.5, 274.5, 100] }
+								]
+							}
+						},
+						{
+							"id": 901009024,
+							"type": "solid",
+							"name": "浅色 红色 纯色 1",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA_INVERTED",
+							"color": [1, 0.9137, 0.9137],
+							"effects": [
+								{
+									"type": "ramp",
+									"name": "Gradient Ramp",
+									"startOfRamp": [1786, 1022],
+									"startColor": [0.9373, 0.691, 0.691, 1],
+									"endOfRamp": [128, 58],
+									"endColor": [1, 0.902, 0.902, 1],
+									"rampShape": 1
+								}
+							]
+						},
+						{
+							"id": 901009025,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901009031,
+					"name": "mat_3",
+					"duration": 31.2,
+					"layers": [
+						{
+							"id": 901009033,
+							"type": "video",
+							"name": "brush_mat_720p_3.mp4",
+							"inPoint": 0,
+							"outPoint": 31.2,
+							"path": {
+								"1080p": "footage/brush_mat_720p_3.webm",
+								"720p": "footage/brush_mat_720p_3.webm",
+								"540p": "footage/brush_mat_540p_3.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 31.2,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901009027,
+					"name": "loop-1080p-3",
+					"duration": 7,
+					"layers": [
+						{
+							"id": 901009028,
+							"type": "text",
+							"name": "text720-4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 60,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1218, 74],
+							"transform": {
+								"position": [960, 1004, 0],
+								"scale": [150, 150, 100],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 0.4, "value": 100 },
+									{ "time": 6.6, "value": 100 },
+									{ "time": 6.96, "value": 0 }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4392, 0.1137, 0.1951, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5
+								}
+							]
+						},
+						{
+							"id": 901009029,
+							"type": "video",
+							"name": "loop-720p-3.mp4",
+							"inPoint": 0,
+							"outPoint": 7,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/loop_720p_3.webm",
+								"720p": "footage/loop_720p_3.webm",
+								"540p": "footage/loop_540p_3.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 7.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901009030,
+							"type": "composite",
+							"name": "mat_3",
+							"inPoint": 0,
+							"outPoint": 31.2,
+							"motionBlur": true,
+							"isTrackMatte": true,
+							"compItemId": 901009031,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{ "time": 0, "value": [150, 150, 100] },
+									{ "time": 6.96, "value": [357, 357, 100] }
+								]
+							}
+						},
+						{
+							"id": 901009034,
+							"type": "solid",
+							"name": "浅色 红色 纯色 1",
+							"inPoint": 0,
+							"outPoint": 7,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA_INVERTED",
+							"color": [1, 0.9137, 0.9137],
+							"effects": [
+								{
+									"type": "ramp",
+									"name": "Gradient Ramp",
+									"startOfRamp": [1786, 1022],
+									"startColor": [0.9373, 0.691, 0.691, 1],
+									"endOfRamp": [128, 58],
+									"endColor": [1, 0.902, 0.902, 1],
+									"rampShape": 1
+								}
+							]
+						},
+						{
+							"id": 901009035,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 7,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901009037,
+					"name": "end-1080p",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901009038,
+							"type": "video",
+							"name": "end-720p.mp4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"blendingMode": "SCREEN",
+							"path": {
+								"1080p": "footage/end_720p.webm",
+								"720p": "footage/end_720p.webm",
+								"540p": "footage/end_540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 4,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						},
+						{
+							"id": 901009039,
+							"type": "text",
+							"name": "text720-5",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"text": "Thanks for watching",
+							"fontFamily": "SJNMDJW",
+							"fontStyle": "Regular",
+							"fontSize": 120,
+							"fillColor": [0.0039, 0.0039, 0.0039],
+							"boxTextSize": [1504, 652],
+							"transform": {
+								"position": [960, 550, 0],
+								"opacity": [
+									{ "time": 0, "value": 0 },
+									{ "time": 1, "value": 100 },
+									{ "time": 3, "value": 100 },
+									{ "time": 3.96, "value": 0 }
+								]
+							}
+						},
+						{
+							"id": 901009040,
+							"type": "solid",
+							"name": "浅色 红色 纯色 1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"color": [1, 0.9137, 0.9137],
+							"effects": [
+								{
+									"type": "ramp",
+									"name": "Gradient Ramp",
+									"startOfRamp": [1786, 1022],
+									"startColor": [0.9373, 0.691, 0.691, 1],
+									"endOfRamp": [128, 58],
+									"endColor": [1, 0.902, 0.902, 1],
+									"rampShape": 1
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

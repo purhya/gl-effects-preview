@@ -1,0 +1,891 @@
+{
+	"id": 1006,
+	"name": "Happy Childhood",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 24,
+			"layers": [
+				{
+					"id": 901006001,
+					"type": "text",
+					"name": "text1080-5",
+					"inPoint": 15,
+					"outPoint": 18,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 90,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1266, 94],
+					"transform": {
+						"position": [960, 989, 0],
+						"opacity": [
+							{
+								"time": 14.96,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.4,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 17.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 18,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 26.56,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 26.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.1465, 0.1915, 0.2941, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901006002,
+					"type": "text",
+					"name": "text1080-4",
+					"inPoint": 12,
+					"outPoint": 15,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 90,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1266, 94],
+					"transform": {
+						"position": [960, 989, 0],
+						"opacity": [
+							{
+								"time": 12,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 12.4,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 23.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 24,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.1465, 0.1915, 0.2941, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901006003,
+					"type": "text",
+					"name": "text1080-3",
+					"inPoint": 9,
+					"outPoint": 12,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 90,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1266, 94],
+					"transform": {
+						"position": [960, 989, 0],
+						"opacity": [
+							{
+								"time": 9,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.4,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 11.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 12,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 21,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.1465, 0.1915, 0.2941, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901006004,
+					"type": "text",
+					"name": "text1080-2",
+					"inPoint": 6,
+					"outPoint": 9,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 90,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1266, 94],
+					"transform": {
+						"position": [960, 989, 0],
+						"opacity": [
+							{
+								"time": 6,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 6.4,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 8.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 17.6,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 16.67 }],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 18,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.1465, 0.1915, 0.2941, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 5,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901006005,
+					"type": "camera",
+					"name": "摄像机 1",
+					"inPoint": 6,
+					"outPoint": 18,
+					"zoom": 1920,
+					"depthOfField": 1,
+					"focusDistance": 1920,
+					"aperture": 18.22,
+					"transform": {
+						"pointOfInterest": [960, 540, 0],
+						"position": [960, 540, -1920]
+					}
+				},
+				{
+					"id": 901006007,
+					"type": "video",
+					"name": "transition.mp4",
+					"inPoint": 17.6,
+					"outPoint": 18.04,
+					"startTime": 6,
+					"path": {
+						"1080p": "footage/videos/transition-1080p.webm",
+						"720p": "footage/videos/transition-720p.webm",
+						"540p": "footage/videos/transition-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 12.07,
+					"frameRate": 25
+				},
+				{
+					"id": 901006009,
+					"type": "video",
+					"name": "transition.mp4",
+					"inPoint": 6,
+					"outPoint": 14.84,
+					"path": {
+						"1080p": "footage/videos/transition-1080p.webm",
+						"720p": "footage/videos/transition-720p.webm",
+						"540p": "footage/videos/transition-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 12.07,
+					"frameRate": 25
+				},
+				{
+					"id": 901006011,
+					"type": "video",
+					"name": "photo-frame.mp4",
+					"inPoint": 6,
+					"outPoint": 18.04,
+					"path": {
+						"1080p": "footage/videos/photo_frame-1080p.webm",
+						"720p": "footage/videos/photo_frame-720p.webm",
+						"540p": "footage/videos/photo_frame-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 12.07,
+					"frameRate": 25
+				},
+				{
+					"id": 901006012,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 6,
+					"compItemId": 901006013
+				},
+				{
+					"id": 901006014,
+					"type": "composite",
+					"name": "1",
+					"inPoint": 6,
+					"outPoint": 9,
+					"compItemId": 901006015
+				},
+				{
+					"id": 901006016,
+					"type": "composite",
+					"name": "2",
+					"inPoint": 9,
+					"outPoint": 12,
+					"startTime": 6,
+					"compItemId": 901006017
+				},
+				{
+					"id": 901006018,
+					"type": "composite",
+					"name": "3",
+					"inPoint": 12,
+					"outPoint": 15,
+					"startTime": 6,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901006019,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 14.84, "value": [960, 540, 0] },
+							{ "time": 14.88, "value": [971.5, 540, 0] },
+							{ "time": 14.92, "value": [967.7, 540, 0] },
+							{ "time": 14.96, "value": [969.7, 526, 0] },
+							{ "time": 15, "value": [960, 540, 0] },
+							{ "time": 15.04, "value": [1022, 540, 0] },
+							{ "time": 15.08, "value": [1017, 541, 0] },
+							{ "time": 15.12, "value": [1021, 540.9, 0] },
+							{ "time": 15.24, "value": [980.5, 540.4, 0] },
+							{ "time": 15.36, "value": [960, 540, 0] }
+						]
+					}
+				},
+				{
+					"id": 901006020,
+					"type": "composite",
+					"name": "4",
+					"inPoint": 15,
+					"outPoint": 18,
+					"startTime": 6,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901006021,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 14.84, "value": [960, 540, 0] },
+							{ "time": 14.88, "value": [971.5, 540, -27.72] },
+							{ "time": 14.92, "value": [967.7, 540, -18.48] },
+							{ "time": 14.96, "value": [969.7, 526, 70.22] },
+							{ "time": 15, "value": [960, 540, 0] },
+							{ "time": 15.04, "value": [1022, 540, 0] },
+							{ "time": 15.08, "value": [1017, 541, -20] },
+							{ "time": 15.12, "value": [1021, 540.9, 35.86] },
+							{ "time": 15.24, "value": [980.5, 540.4, 114.4] },
+							{ "time": 15.36, "value": [960, 540, 0] }
+						],
+						"yRotation": [
+							{ "time": 14.84, "value": 0 },
+							{ "time": 15, "value": -90 },
+							{ "time": 15.08, "value": -154 },
+							{ "time": 15.12, "value": -197.4 },
+							{ "time": 15.32, "value": -353 },
+							{ "time": 15.36, "value": -360 }
+						]
+					}
+				},
+				{
+					"id": 901006022,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 18,
+					"outPoint": 24,
+					"compItemId": 901006023
+				},
+				{
+					"id": 901006024,
+					"type": "solid",
+					"name": "中间色品蓝色 纯色 2",
+					"inPoint": 0,
+					"outPoint": 18,
+					"color": [0.6275, 0.7414, 1]
+				},
+				{
+					"id": 901006025,
+					"type": "audio",
+					"name": "1006.mp3",
+					"inPoint": 0,
+					"outPoint": 88.27,
+					"replaceable": true,
+					"path": "1006.mp3",
+					"duration": 88.03
+				}
+			],
+			"compItems": [
+				{
+					"id": 901006013,
+					"name": "start-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901006027,
+							"type": "video",
+							"name": "start.mp4",
+							"inPoint": 1.44,
+							"outPoint": 6.04,
+							"startTime": 0,
+							"path": {
+								"1080p": "footage/videos/start-1080p.webm",
+								"720p": "footage/videos/start-720p.webm",
+								"540p": "footage/videos/start-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.08,
+							"frameRate": 25
+						},
+						{
+							"id": 901006028,
+							"type": "text",
+							"name": "text1080-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"replaceable": true,
+							"text": "My growth record",
+							"fontFamily": "HappyZcool-2016",
+							"fontStyle": "Regular",
+							"fontSize": 110,
+							"fauxBold": true,
+							"fillColor": [0.9843, 0.9497, 0.5636],
+							"boxTextSize": [1472, 500],
+							"animaters": [
+								{
+									"name": "Animator 1",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 25,
+											"offset": [
+												{ "time": 0, "value": -25, "autoBezier": true },
+												{ "time": 0.15, "value": -21.5, "autoBezier": true },
+												{ "time": 0.3, "value": -12, "autoBezier": true },
+												{ "time": 0.65, "value": 25.07, "autoBezier": true },
+												{ "time": 1.25, "value": 90.74, "autoBezier": true },
+												{ "time": 1.4, "value": 98.41, "autoBezier": true },
+												{ "time": 1.75, "value": 100, "autoBezier": true },
+												{ "time": 6, "value": 100, "autoBezier": true }
+											],
+											"basedOn": 2,
+											"shape": 2,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"scale": [150, 150, 150],
+										"zRotation": -360,
+										"opacity": 0,
+										"strokeColor": [0.9843, 0.9497, 0.5636, 1],
+										"strokeWidth": 30,
+										"trackingAmount": 0
+									}
+								},
+								{
+									"name": "Animator 2",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": 0,
+											"basedOn": 4,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"position": [
+											{ "time": 0, "value": [0, 0, 0], "autoBezier": true },
+											{ "time": 6, "value": [0, 0, -360], "autoBezier": true }
+										]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 580, 0]
+							}
+						},
+						{
+							"id": 901006030,
+							"type": "video",
+							"name": "start.mp4",
+							"inPoint": 0,
+							"outPoint": 1.44,
+							"path": {
+								"1080p": "footage/videos/start-1080p.webm",
+								"720p": "footage/videos/start-720p.webm",
+								"540p": "footage/videos/start-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.08,
+							"frameRate": 25
+						}
+					]
+				},
+				{
+					"id": 901006015,
+					"name": "Pre-comp 1",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901006031,
+							"type": "image",
+							"name": "photo_frame_mask_00180.jpg",
+							"inPoint": 0,
+							"outPoint": 3,
+							"isTrackMatte": true,
+							"path": "footage/photo_frame_mask_00180.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.15, "value": [960, 537.2, 0], "autoBezier": true },
+									{ "time": 0.5, "value": [960, 515.9, 0], "autoBezier": true },
+									{ "time": 1.1, "value": [960, 477.3, 0], "autoBezier": true },
+									{ "time": 1.25, "value": [960, 476.3, 0], "autoBezier": true },
+									{ "time": 1.6, "value": [960, 492.6, 0], "autoBezier": true },
+									{ "time": 2.2, "value": [960, 535.3, 0], "autoBezier": true },
+									{ "time": 2.35, "value": [960, 539.7, 0], "autoBezier": true },
+									{ "time": 2.5, "value": [960, 538.7, 0], "autoBezier": true },
+									{ "time": 2.85, "value": [960, 519.7, 0], "autoBezier": true },
+									{ "time": 3, "value": [960, 508, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901006032,
+							"type": "image",
+							"name": "file720-1",
+							"parentId": 901006031,
+							"inPoint": 0,
+							"outPoint": 3,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [75.04, 75.04, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901006017,
+					"name": "Pre-comp 2",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901006033,
+							"type": "image",
+							"name": "photo_frame_mask_00180.jpg",
+							"inPoint": 3,
+							"outPoint": 6.16,
+							"isTrackMatte": true,
+							"path": "footage/photo_frame_mask_00180.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 3, "value": [960, 508, 0], "autoBezier": true },
+									{ "time": 3.35, "value": [960, 483.2, 0], "autoBezier": true },
+									{ "time": 3.7, "value": [960, 477.3, 0], "autoBezier": true },
+									{ "time": 4.05, "value": [960, 496.3, 0], "autoBezier": true },
+									{ "time": 4.65, "value": [960, 537.2, 0], "autoBezier": true },
+									{ "time": 4.8, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 4.95, "value": [960, 537.2, 0], "autoBezier": true },
+									{ "time": 5.3, "value": [960, 515.9, 0], "autoBezier": true },
+									{ "time": 5.9, "value": [960, 477.3, 0], "autoBezier": true },
+									{ "time": 6.05, "value": [960, 476.3, 0], "autoBezier": true },
+									{ "time": 6.16, "value": [960, 479.1, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901006034,
+							"type": "image",
+							"name": "file720-2",
+							"parentId": 901006033,
+							"inPoint": 3,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [75.04, 75.04, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901006019,
+					"name": "Pre-comp 3",
+					"duration": 12,
+					"layers": [
+						{
+							"id": 901006035,
+							"type": "image",
+							"name": "photo_frame_mask_00180.jpg",
+							"inPoint": 6,
+							"outPoint": 9,
+							"isTrackMatte": true,
+							"path": "footage/photo_frame_mask_00180.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 6, "value": [960, 476, 0], "autoBezier": true },
+									{ "time": 6.15, "value": [960, 478.8, 0], "autoBezier": true },
+									{ "time": 6.5, "value": [960, 500.1, 0], "autoBezier": true },
+									{ "time": 7.1, "value": [960, 538.7, 0], "autoBezier": true },
+									{ "time": 7.25, "value": [960, 539.7, 0], "autoBezier": true },
+									{ "time": 7.6, "value": [960, 523.4, 0], "autoBezier": true },
+									{ "time": 8.2, "value": [960, 480.7, 0], "autoBezier": true },
+									{ "time": 8.35, "value": [960, 476.3, 0], "autoBezier": true },
+									{ "time": 8.5, "value": [960, 477.3, 0], "autoBezier": true },
+									{ "time": 8.85, "value": [960, 496.3, 0], "autoBezier": true },
+									{ "time": 9, "value": [960, 508, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901006036,
+							"type": "image",
+							"name": "file720-3",
+							"parentId": 901006035,
+							"inPoint": 6,
+							"outPoint": 12,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [75.04, 75.04, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901006021,
+					"name": "Pre-comp 4",
+					"duration": 12,
+					"layers": [
+						{
+							"id": 901006037,
+							"type": "image",
+							"name": "photo_frame_mask_00180.jpg",
+							"inPoint": 9,
+							"outPoint": 12,
+							"isTrackMatte": true,
+							"path": "footage/photo_frame_mask_00180.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{ "time": 9, "value": [960, 508, 0], "autoBezier": true },
+									{ "time": 9.35, "value": [960, 532.8, 0], "autoBezier": true },
+									{ "time": 9.7, "value": [960, 538.7, 0], "autoBezier": true },
+									{ "time": 10.05, "value": [960, 519.7, 0], "autoBezier": true },
+									{ "time": 10.65, "value": [960, 478.8, 0], "autoBezier": true },
+									{ "time": 10.8, "value": [960, 476, 0], "autoBezier": true },
+									{ "time": 10.95, "value": [960, 478.8, 0], "autoBezier": true },
+									{ "time": 11.3, "value": [960, 500.1, 0], "autoBezier": true },
+									{ "time": 11.9, "value": [960, 538.7, 0], "autoBezier": true },
+									{ "time": 12, "value": [960, 540, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901006038,
+							"type": "image",
+							"name": "file720-4",
+							"parentId": 901006037,
+							"inPoint": 9,
+							"outPoint": 12,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE",
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [75.04, 75.04, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901006023,
+					"name": "end-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901006040,
+							"type": "video",
+							"name": "end.mp4",
+							"inPoint": 1.44,
+							"outPoint": 6.04,
+							"startTime": 0,
+							"path": {
+								"1080p": "footage/videos/end-1080p.webm",
+								"720p": "footage/videos/end-720p.webm",
+								"540p": "footage/videos/end-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.08,
+							"frameRate": 25
+						},
+						{
+							"id": 901006041,
+							"type": "text",
+							"name": "text1080-6",
+							"inPoint": 0,
+							"outPoint": 6,
+							"threeD": true,
+							"replaceable": true,
+							"text": "Happy birthday!",
+							"fontFamily": "HappyZcool-2016",
+							"fontStyle": "Regular",
+							"fontSize": 110,
+							"fauxBold": true,
+							"fillColor": [0.9843, 0.9497, 0.5636],
+							"tracking": 36,
+							"boxTextSize": [1466, 960],
+							"animaters": [
+								{
+									"name": "Animator 1",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 25,
+											"offset": [
+												{ "time": 0, "value": -25, "autoBezier": true },
+												{ "time": 0.15, "value": -21.5, "autoBezier": true },
+												{ "time": 0.3, "value": -12, "autoBezier": true },
+												{ "time": 0.65, "value": 25.07, "autoBezier": true },
+												{ "time": 1.25, "value": 90.74, "autoBezier": true },
+												{ "time": 1.4, "value": 98.41, "autoBezier": true },
+												{ "time": 1.75, "value": 100, "autoBezier": true },
+												{ "time": 6, "value": 100, "autoBezier": true }
+											],
+											"basedOn": 2,
+											"shape": 2,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"scale": [150, 150, 150],
+										"zRotation": -360,
+										"opacity": 0,
+										"strokeColor": [0.9843, 0.9497, 0.5636, 1],
+										"strokeWidth": 30,
+										"trackingAmount": 0
+									}
+								},
+								{
+									"name": "Animator 2",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": 0,
+											"basedOn": 4,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"position": [
+											{ "time": 0, "value": [0, 0, 0], "autoBezier": true },
+											{ "time": 6, "value": [0, 0, -360], "autoBezier": true }
+										]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 580, 0]
+							}
+						},
+						{
+							"id": 901006043,
+							"type": "video",
+							"name": "end.mp4",
+							"inPoint": 0,
+							"outPoint": 1.44,
+							"path": {
+								"1080p": "footage/videos/end-1080p.webm",
+								"720p": "footage/videos/end-720p.webm",
+								"540p": "footage/videos/end-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.08,
+							"frameRate": 25
+						},
+						{
+							"id": 901006044,
+							"type": "solid",
+							"name": "中间色品蓝色 纯色 2",
+							"inPoint": 0,
+							"outPoint": 6,
+							"color": [0.6275, 0.7414, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

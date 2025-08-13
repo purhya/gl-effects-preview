@@ -1,0 +1,1152 @@
+{
+	"id": 1105,
+	"name": "Ink Illusion",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 24,
+			"layers": [
+				{
+					"id": 901105001,
+					"type": "composite",
+					"name": "start-1920p",
+					"inPoint": 0,
+					"outPoint": 6,
+					"compItemId": 901105002
+				},
+				{
+					"id": 901105003,
+					"type": "composite",
+					"name": "loop-1920p-1",
+					"inPoint": 6,
+					"outPoint": 10,
+					"compItemId": 901105004
+				},
+				{
+					"id": 901105005,
+					"type": "composite",
+					"name": "loop-1920p-2",
+					"inPoint": 10,
+					"outPoint": 14,
+					"compItemId": 901105006
+				},
+				{
+					"id": 901105007,
+					"type": "composite",
+					"name": "loop-1920p-3",
+					"inPoint": 14,
+					"outPoint": 18,
+					"compItemId": 901105008
+				},
+				{
+					"id": 901105009,
+					"type": "composite",
+					"name": "end-1920p",
+					"inPoint": 18,
+					"outPoint": 24,
+					"compItemId": 901105010
+				},
+				{
+					"id": 901105011,
+					"type": "audio",
+					"name": "1105.mp3",
+					"inPoint": 0,
+					"outPoint": 171,
+					"replaceable": true,
+					"path": "1105.mp3",
+					"audioLevels": [
+						{ "time": 22, "value": [0, 0] },
+						{ "time": 24, "value": [-20, -20] }
+					],
+					"duration": 170.8
+				}
+			],
+			"compItems": [
+				{
+					"id": 901105002,
+					"name": "start-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901105012,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "Ink Illusion",
+							"fontFamily": "Amandella Script",
+							"fontStyle": "Regular",
+							"fontSize": 180,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1626, 180],
+							"animaters": [
+								{
+									"name": "动画 1",
+									"selectors": [
+										{
+											"start": [
+												{
+													"time": 0,
+													"value": 0,
+													"outEase": [{ "speed": 0, "influence": 33.33 }]
+												},
+												{
+													"time": 2.002,
+													"value": 100,
+													"inEase": [{ "speed": 0, "influence": 33.33 }]
+												}
+											],
+											"end": 100,
+											"offset": 0,
+											"basedOn": 2,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 626, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 244,
+									"distance": 18
+								}
+							]
+						},
+						{
+							"id": 901105013,
+							"type": "camera",
+							"name": "摄像机 1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, -2667] },
+									{ "time": 5.96, "value": [960, 540, -2300] }
+								]
+							}
+						},
+						{
+							"id": 901105014,
+							"type": "video",
+							"name": "Matte horizontal 01.mov",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 6.84, "value": 6.04 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/matte_horizontal_01-1080p.webm",
+								"720p": "footage/mask_videos/matte_horizontal_01-720p.webm",
+								"540p": "footage/mask_videos/matte_horizontal_01-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, -531]
+							}
+						},
+						{
+							"id": 901105015,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 1.3,
+									"greenGamma": 1.3,
+									"blueGamma": 1.3
+								}
+							]
+						},
+						{
+							"id": 901105016,
+							"type": "video",
+							"name": "Matte horizontal 01.mov",
+							"inPoint": 0,
+							"outPoint": 6,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 6.84, "value": 6.04 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/matte_horizontal_01-1080p.webm",
+								"720p": "footage/mask_videos/matte_horizontal_01-720p.webm",
+								"540p": "footage/mask_videos/matte_horizontal_01-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 6.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"zRotation": 180
+							}
+						},
+						{
+							"id": 901105017,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "Tint",
+									"mapBlackTo": [0.0431, 0.0549, 0.3059, 1],
+									"mapWhiteTo": [0.6745, 0.0706, 1, 1]
+								}
+							]
+						},
+						{
+							"id": 901105018,
+							"type": "video",
+							"name": "INK_TRANSITION_01.mov",
+							"inPoint": 0,
+							"outPoint": 2.033,
+							"isTrackMatte": true,
+							"threeD": true,
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_01-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_01-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_01-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.03,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 540],
+								"scale": [120, 120, 120]
+							}
+						},
+						{
+							"id": 901105019,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "色调 2",
+									"mapBlackTo": [0.0275, 0.1569, 0.1569, 1]
+								},
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 0.5,
+									"greenGamma": 0.5,
+									"blueGamma": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901105004,
+					"name": "loop-1080p-1",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901105020,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1732, 154],
+							"transform": {
+								"position": [960, 953, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901105021,
+							"type": "camera",
+							"name": "摄像机 1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, -2667] },
+									{ "time": 3.96, "value": [960, 540, -2300] }
+								]
+							}
+						},
+						{
+							"id": 901105022,
+							"type": "video",
+							"name": "INK_TRANSITION_03.mov",
+							"inPoint": -0.04,
+							"outPoint": 2.52,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.5, "value": 1.7 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_03-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_03-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_03-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 1.7,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, -532]
+							}
+						},
+						{
+							"id": 901105023,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 1.3,
+									"greenGamma": 1.3,
+									"blueGamma": 1.3
+								}
+							]
+						},
+						{
+							"id": 901105024,
+							"type": "video",
+							"name": "INK_TRANSITION_03.mov",
+							"inPoint": -0.04,
+							"outPoint": 2.52,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.5, "value": 1.7 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_03-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_03-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_03-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 1.7,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"zRotation": 180
+							}
+						},
+						{
+							"id": 901105025,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "Tint",
+									"mapBlackTo": [0.098, 0.0628, 0.3333, 1],
+									"mapWhiteTo": [0.9098, 0.3686, 1, 1]
+								}
+							]
+						},
+						{
+							"id": 901105026,
+							"type": "video",
+							"name": "INK_TRANSITION_02.mov",
+							"inPoint": 0,
+							"outPoint": 2.033,
+							"isTrackMatte": true,
+							"threeD": true,
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_02-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_02-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_02-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.03,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 536],
+								"scale": [120, 120, 120]
+							}
+						},
+						{
+							"id": 901105027,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "色调 2",
+									"mapBlackTo": [0.0706, 0.1137, 0.3686, 1]
+								},
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 0.5,
+									"greenGamma": 0.5,
+									"blueGamma": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901105006,
+					"name": "loop-1080p-2",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901105028,
+							"type": "text",
+							"name": "text720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1732, 154],
+							"transform": {
+								"position": [960, 953, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901105029,
+							"type": "camera",
+							"name": "摄像机 1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, -2667] },
+									{ "time": 3.96, "value": [960, 540, -2300] }
+								]
+							}
+						},
+						{
+							"id": 901105030,
+							"type": "video",
+							"name": "INK_TRANSITION_05.mov",
+							"inPoint": 0,
+							"outPoint": 2.84,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.833, "value": 2.033 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_05-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_05-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_05-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.03,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, -540]
+							}
+						},
+						{
+							"id": 901105031,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 1.3,
+									"greenGamma": 1.3,
+									"blueGamma": 1.3
+								}
+							]
+						},
+						{
+							"id": 901105032,
+							"type": "video",
+							"name": "INK_TRANSITION_05.mov",
+							"inPoint": 0,
+							"outPoint": 2.84,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.833, "value": 2.033 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_05-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_05-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_05-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.03,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"zRotation": 180
+							}
+						},
+						{
+							"id": 901105033,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "Tint",
+									"mapBlackTo": [0.0549, 0.0941, 0.3294, 1],
+									"mapWhiteTo": [1, 0.1686, 0.1686, 1]
+								}
+							]
+						},
+						{
+							"id": 901105034,
+							"type": "video",
+							"name": "INK_TRANSITION_04.mov",
+							"inPoint": 0,
+							"outPoint": 2.067,
+							"isTrackMatte": true,
+							"threeD": true,
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_04-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_04-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_04-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.07,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 536],
+								"scale": [120, 120, 120]
+							}
+						},
+						{
+							"id": 901105035,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 0.5,
+									"greenGamma": 0.5,
+									"blueGamma": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901105008,
+					"name": "loop-1080p-3",
+					"duration": 4,
+					"layers": [
+						{
+							"id": 901105036,
+							"type": "text",
+							"name": "text720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1732, 154],
+							"transform": {
+								"position": [960, 953, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901105037,
+							"type": "camera",
+							"name": "摄像机 1",
+							"inPoint": 0,
+							"outPoint": 4,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, -2667] },
+									{ "time": 3.96, "value": [960, 540, -2300] }
+								]
+							}
+						},
+						{
+							"id": 901105038,
+							"type": "video",
+							"name": "INK_TRANSITION_07.mov",
+							"inPoint": 0,
+							"outPoint": 2.56,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.567, "value": 1.767 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_07-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_07-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_07-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 1.77,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, -528]
+							}
+						},
+						{
+							"id": 901105039,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 1.3,
+									"greenGamma": 1.3,
+									"blueGamma": 1.3
+								}
+							]
+						},
+						{
+							"id": 901105040,
+							"type": "video",
+							"name": "INK_TRANSITION_07.mov",
+							"inPoint": 0,
+							"outPoint": 2.56,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.567, "value": 1.767 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_07-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_07-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_07-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 1.77,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"zRotation": 180
+							}
+						},
+						{
+							"id": 901105041,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "Tint",
+									"mapBlackTo": [0.1451, 0.1059, 0.3294, 1],
+									"mapWhiteTo": [1, 0.1804, 0.3216, 1]
+								}
+							]
+						},
+						{
+							"id": 901105042,
+							"type": "video",
+							"name": "INK_TRANSITION_06.mov",
+							"inPoint": 0,
+							"outPoint": 1.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_06-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_06-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_06-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 1.8,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 534],
+								"scale": [120, 120, 120]
+							}
+						},
+						{
+							"id": 901105043,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 4,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "色调 2",
+									"mapBlackTo": [0.0902, 0.2471, 0.4235, 1]
+								},
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 0.5,
+									"greenGamma": 0.5,
+									"blueGamma": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901105010,
+					"name": "end-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901105044,
+							"type": "text",
+							"name": "text720-5",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "The End",
+							"fontFamily": "Amandella Script",
+							"fontStyle": "Regular",
+							"fontSize": 180,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1600, 142],
+							"animaters": [
+								{
+									"name": "动画 1",
+									"selectors": [
+										{
+											"start": [
+												{ "time": 0, "value": 0 },
+												{ "time": 2.002, "value": 100 }
+											],
+											"end": 100,
+											"offset": 0,
+											"basedOn": 2,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								},
+								{
+									"name": "动画 2",
+									"selectors": [
+										{
+											"start": [
+												{ "time": 2.84, "value": 0 },
+												{ "time": 4.809, "value": 100 }
+											],
+											"end": 100,
+											"offset": 0,
+											"basedOn": 2,
+											"mode": 2,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 626, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 244,
+									"distance": 18
+								}
+							]
+						},
+						{
+							"id": 901105045,
+							"type": "camera",
+							"name": "摄像机 1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [
+									{ "time": 0, "value": [960, 540, -2667] },
+									{ "time": 5.96, "value": [960, 540, -2300] }
+								]
+							}
+						},
+						{
+							"id": 901105046,
+							"type": "video",
+							"name": "INK_TRANSITION_09.mov",
+							"inPoint": 0,
+							"outPoint": 2.88,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.867, "value": 2.067 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_09-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_09-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_09-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.07,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, -534]
+							}
+						},
+						{
+							"id": 901105047,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 1.3,
+									"greenGamma": 1.3,
+									"blueGamma": 1.3
+								}
+							]
+						},
+						{
+							"id": 901105048,
+							"type": "video",
+							"name": "INK_TRANSITION_09.mov",
+							"inPoint": 0,
+							"outPoint": 2.88,
+							"startTime": 0.8,
+							"isTrackMatte": true,
+							"threeD": true,
+							"timeRemap": [
+								{ "time": 0.8, "value": 0 },
+								{ "time": 2.867, "value": 2.067 }
+							],
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_09-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_09-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_09-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 2.07,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"zRotation": 180
+							}
+						},
+						{
+							"id": 901105049,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "Tint",
+									"mapBlackTo": [0.102, 0.6392, 0.9255, 1],
+									"mapWhiteTo": [1, 0.2118, 0.2118, 1]
+								}
+							]
+						},
+						{
+							"id": 901105050,
+							"type": "video",
+							"name": "INK_TRANSITION_08.mov",
+							"inPoint": 0,
+							"outPoint": 3.5,
+							"isTrackMatte": true,
+							"threeD": true,
+							"path": {
+								"1080p": "footage/mask_videos/ink_transition_08-1080p.webm",
+								"720p": "footage/mask_videos/ink_transition_08-720p.webm",
+								"540p": "footage/mask_videos/ink_transition_08-540p.webm"
+							},
+							"width": 1920,
+							"height": 1080,
+							"duration": 3.5,
+							"frameRate": 30,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 540],
+								"scale": [120, 120, 120]
+							}
+						},
+						{
+							"id": 901105051,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 6,
+							"hasTrackMatte": true,
+							"trackMatteType": "LUMAINANCE_INVERTED",
+							"threeD": true,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"effects": [
+								{
+									"type": "tint",
+									"name": "色调 2",
+									"mapBlackTo": [0.4157, 0.0392, 0.3725, 1]
+								},
+								{
+									"type": "gamma",
+									"name": "Gamma/Pedestal/Gain",
+									"redGamma": 0.5,
+									"greenGamma": 0.5,
+									"blueGamma": 0.5
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+#include ../includes/header.frag
+#include ../includes/hsl-rgb.frag
+
+in vec2 fTextureCoord;
+
+float adjustLightness(float x, float rate) {
+	// 穿过 (-1, 0.6), (0, 1), (1, 2) 三个点.
+	float exp = (-0.14285714 * rate - 1.0) / (0.42857143 * rate - 1.0);
+	return 1.0 - pow(1.0 - x, exp);
+}
+
+vec4 getFragColor() {
+	vec4 color = texture(iChannel[0], fTextureCoord);
+	vec3 hsl = RGB2HSL(color.rgb);
+	float rate = iPercent / 100.0;
+
+	hsl.z = adjustLightness(hsl.z, rate);
+
+	return vec4(HSL2RGB(hsl), color.a);	
+}
+
+void main() {
+	fragColor = getFragColor(); 
+}

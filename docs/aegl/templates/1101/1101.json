@@ -1,0 +1,673 @@
+{
+	"id": 1101,
+	"name": "Love in The Heart",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 28,
+			"layers": [
+				{
+					"id": 901101001,
+					"type": "video",
+					"name": "light.03.mov",
+					"inPoint": 22.2,
+					"outPoint": 24.2,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.03-1080p.webm",
+						"720p": "footage/transition_videos/light.03-720p.webm",
+						"540p": "footage/transition_videos/light.03-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101002,
+					"type": "composite",
+					"name": "片尾",
+					"inPoint": 23,
+					"outPoint": 28,
+					"compItemId": 901101003
+				},
+				{
+					"id": 901101008,
+					"type": "video",
+					"name": "light.01.mov",
+					"inPoint": 19.2,
+					"outPoint": 21.2,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.01-1080p.webm",
+						"720p": "footage/transition_videos/light.01-720p.webm",
+						"540p": "footage/transition_videos/light.01-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101009,
+					"type": "composite",
+					"name": "场景6",
+					"inPoint": 20,
+					"outPoint": 23,
+					"compItemId": 901101010
+				},
+				{
+					"id": 901101013,
+					"type": "video",
+					"name": "light.04.mov",
+					"inPoint": 16.2,
+					"outPoint": 18.2,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.04-1080p.webm",
+						"720p": "footage/transition_videos/light.04-720p.webm",
+						"540p": "footage/transition_videos/light.04-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101014,
+					"type": "composite",
+					"name": "场景5",
+					"inPoint": 17,
+					"outPoint": 20,
+					"compItemId": 901101015
+				},
+				{
+					"id": 901101018,
+					"type": "video",
+					"name": "light.03.mov",
+					"inPoint": 13.2,
+					"outPoint": 15.2,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.03-1080p.webm",
+						"720p": "footage/transition_videos/light.03-720p.webm",
+						"540p": "footage/transition_videos/light.03-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101019,
+					"type": "composite",
+					"name": "场景4",
+					"inPoint": 14,
+					"outPoint": 17,
+					"compItemId": 901101020
+				},
+				{
+					"id": 901101023,
+					"type": "video",
+					"name": "light.02.mov",
+					"inPoint": 10.4,
+					"outPoint": 12.4,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.02-1080p.webm",
+						"720p": "footage/transition_videos/light.02-720p.webm",
+						"540p": "footage/transition_videos/light.02-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101024,
+					"type": "composite",
+					"name": "场景3",
+					"inPoint": 11,
+					"outPoint": 14,
+					"compItemId": 901101025
+				},
+				{
+					"id": 901101028,
+					"type": "video",
+					"name": "light.01.mov",
+					"inPoint": 7.2,
+					"outPoint": 9.202,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.01-1080p.webm",
+						"720p": "footage/transition_videos/light.01-720p.webm",
+						"540p": "footage/transition_videos/light.01-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101029,
+					"type": "composite",
+					"name": "场景2",
+					"inPoint": 8,
+					"outPoint": 11,
+					"compItemId": 901101030
+				},
+				{
+					"id": 901101033,
+					"type": "video",
+					"name": "light.03.mov",
+					"inPoint": 4.2,
+					"outPoint": 6.202,
+					"blendingMode": "ADD",
+					"path": {
+						"1080p": "footage/transition_videos/light.03-1080p.webm",
+						"720p": "footage/transition_videos/light.03-720p.webm",
+						"540p": "footage/transition_videos/light.03-540p.webm"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 2,
+					"frameRate": 29.97
+				},
+				{
+					"id": 901101034,
+					"type": "composite",
+					"name": "场景1",
+					"inPoint": 5,
+					"outPoint": 8,
+					"compItemId": 901101035
+				},
+				{
+					"id": 901101038,
+					"type": "composite",
+					"name": "片头",
+					"inPoint": 0,
+					"outPoint": 5,
+					"compItemId": 901101039
+				},
+				{
+					"id": 901101044,
+					"type": "audio",
+					"name": "1101.mp3",
+					"inPoint": 0,
+					"outPoint": 28.03,
+					"replaceable": true,
+					"path": "1101.mp3",
+					"duration": 27.97
+				}
+			],
+			"compItems": [
+				{
+					"id": 901101005,
+					"name": "片尾文字",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901101006,
+							"type": "text",
+							"name": "text720-8",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "HOLDING HANDS WITH YOU",
+							"fontFamily": "Arial",
+							"fontStyle": "Bold",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"tracking": 60,
+							"boxTextSize": [1162, 256],
+							"animaters": [
+								{
+									"name": "Animator 1",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": [
+												{ "time": 0.32, "value": 100 },
+												{ "time": 2.32, "value": -100 }
+											],
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100
+										}
+									],
+									"properties": {
+										"position": [6, 0, 0],
+										"yRotation": 255,
+										"opacity": 0
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 554, 0],
+								"scale": [
+									{ "time": 0, "value": [100, 100, 100] },
+									{ "time": 4.96, "value": [144, 144, 100] }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.2196, 0.3216, 0.3922, 1],
+									"opacity": 60,
+									"direction": 135,
+									"distance": 10,
+									"softness": 20
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901101003,
+					"name": "片尾",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901101004,
+							"type": "composite",
+							"name": "片尾文字",
+							"inPoint": 0,
+							"outPoint": 5,
+							"compItemId": 901101005
+						},
+						{
+							"id": 901101007,
+							"type": "image",
+							"name": "file720-8",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"path": "footage/1080p/8.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101010,
+					"name": "场景6",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101011,
+							"type": "text",
+							"name": "text720-7",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101012,
+							"type": "image",
+							"name": "file720-7",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/7.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101015,
+					"name": "场景5",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101016,
+							"type": "text",
+							"name": "text720-6",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101017,
+							"type": "image",
+							"name": "file720-6",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/6.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101020,
+					"name": "场景4",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101021,
+							"type": "text",
+							"name": "text720-5",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101022,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101025,
+					"name": "场景3",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101026,
+							"type": "text",
+							"name": "text720-4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101027,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101030,
+					"name": "场景2",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101031,
+							"type": "text",
+							"name": "text720-3",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101032,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101035,
+					"name": "场景1",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901101036,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"tracking": 50,
+							"boxTextSize": [1514, 126],
+							"transform": {
+								"position": [960, 1010, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901101037,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901101041,
+					"name": "标题文字",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901101042,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "LOVE IN THE HEART",
+							"fontFamily": "Arial",
+							"fontStyle": "Bold",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"tracking": 60,
+							"boxTextSize": [1172, 256],
+							"animaters": [
+								{
+									"name": "Animator 1",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": [
+												{ "time": 0.32, "value": 100 },
+												{ "time": 2.32, "value": -100 }
+											],
+											"shape": 3,
+											"smoothness": 100,
+											"easeLow": 100
+										}
+									],
+									"properties": {
+										"position": [6, 0, 0],
+										"yRotation": 255,
+										"opacity": 0
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 554, 0],
+								"scale": [
+									{ "time": 0, "value": [100, 100, 100] },
+									{ "time": 4.96, "value": [144, 144, 100] }
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.2196, 0.3216, 0.3922, 1],
+									"opacity": 60,
+									"direction": 135,
+									"distance": 10,
+									"softness": 20
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901101039,
+					"name": "片头",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901101040,
+							"type": "composite",
+							"name": "标题文字",
+							"inPoint": 0,
+							"outPoint": 5,
+							"compItemId": 901101041
+						},
+						{
+							"id": 901101043,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				}
+			]
+		}
+	]
+}

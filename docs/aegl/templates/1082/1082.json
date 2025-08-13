@@ -1,0 +1,1568 @@
+{
+	"id": 1082,
+	"name": "Mother's Day",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main",
+			"width": 1920,
+			"height": 1080,
+			"duration": 35.04,
+			"layers": [
+				{
+					"id": 901082001,
+					"type": "empty",
+					"name": "CameraContorl",
+					"inPoint": 0,
+					"outPoint": 35.04,
+					"threeD": true,
+					"transform": {
+						"anchorPoint": [50, 50, 0],
+						"position": [
+							{ "time": 0, "value": [954.7, 535, -2.228], "autoBezier": true },
+							{ "time": 0.75, "value": [966.7, 528.5, -11.68], "autoBezier": true },
+							{ "time": 1.5, "value": [966.6, 530.2, -17.82], "autoBezier": true },
+							{ "time": 2.25, "value": [962.4, 537.1, -19.38], "autoBezier": true },
+							{ "time": 3, "value": [962.2, 540.1, -14.09], "autoBezier": true },
+							{ "time": 3.75, "value": [964.4, 536.7, -12.45], "autoBezier": true },
+							{ "time": 4.5, "value": [962.7, 532.7, -19.31], "autoBezier": true },
+							{ "time": 4.85, "value": [962.7, 536.5, -13.86], "autoBezier": true },
+							{ "time": 5.6, "value": [965.2, 553.7, 14.27], "autoBezier": true },
+							{ "time": 5.95, "value": [965.6, 558.4, 21.8], "autoBezier": true },
+							{ "time": 6.7, "value": [967.1, 547.7, 15.95], "autoBezier": true },
+							{ "time": 7.45, "value": [966.9, 536.6, -1.513], "autoBezier": true },
+							{ "time": 8.2, "value": [955.3, 539.4, -2.921], "autoBezier": true },
+							{ "time": 8.95, "value": [944.8, 541.3, 5.009], "autoBezier": true },
+							{ "time": 9.7, "value": [951.6, 542.6, 5.122], "autoBezier": true },
+							{ "time": 10.45, "value": [957.4, 527.9, -8.229], "autoBezier": true },
+							{ "time": 11.1, "value": [957.2, 525, -14.75], "autoBezier": true },
+							{ "time": 11.85, "value": [960.8, 545.8, -6.451], "autoBezier": true },
+							{ "time": 12.2, "value": [962.1, 549.2, -4.968], "autoBezier": true },
+							{ "time": 12.55, "value": [962.2, 545.2, -7.579], "autoBezier": true },
+							{ "time": 12.9, "value": [960.5, 537.5, -9.865], "autoBezier": true },
+							{ "time": 13.65, "value": [959.3, 528.7, 3.288], "autoBezier": true },
+							{ "time": 14.4, "value": [965, 528.4, 12.83], "autoBezier": true },
+							{ "time": 15.15, "value": [960.7, 537.3, 0.8633], "autoBezier": true },
+							{ "time": 15.9, "value": [953.3, 545.6, -13.05], "autoBezier": true },
+							{ "time": 16.65, "value": [955.3, 534, -13.93], "autoBezier": true },
+							{ "time": 17.4, "value": [950.5, 521.2, 0.5984], "autoBezier": true },
+							{ "time": 18.15, "value": [948.4, 524.1, 9.044], "autoBezier": true },
+							{ "time": 18.9, "value": [955.6, 543.8, 5.91], "autoBezier": true },
+							{ "time": 19.65, "value": [958.2, 559.9, 1.5], "autoBezier": true },
+							{ "time": 20.4, "value": [968.5, 556.6, -3.849], "autoBezier": true },
+							{ "time": 21.15, "value": [968.5, 546.8, -1.425], "autoBezier": true },
+							{ "time": 22.5, "value": [953.3, 536.7, 12.77], "autoBezier": true },
+							{ "time": 22.85, "value": [952.3, 535.6, 18.08], "autoBezier": true },
+							{ "time": 23.6, "value": [942.2, 525.4, 18.29], "autoBezier": true },
+							{ "time": 24.35, "value": [948.8, 524.1, 7.087], "autoBezier": true },
+							{ "time": 25.1, "value": [953.7, 526, 0.3774], "autoBezier": true },
+							{ "time": 25.85, "value": [949.9, 532.5, -10.97], "autoBezier": true },
+							{ "time": 26.6, "value": [955.5, 536.8, -11.11], "autoBezier": true },
+							{ "time": 27.35, "value": [959.7, 528.7, -0.5744], "autoBezier": true },
+							{ "time": 28.1, "value": [960.9, 527.4, 0.576], "autoBezier": true },
+							{ "time": 29.3, "value": [950.9, 518.2, 15.78], "autoBezier": true },
+							{ "time": 30.05, "value": [961.6, 518.7, 16.02], "autoBezier": true },
+							{ "time": 30.8, "value": [968.1, 542.3, 16.86], "autoBezier": true },
+							{ "time": 31.55, "value": [960.5, 558.3, 12.65], "autoBezier": true },
+							{ "time": 31.9, "value": [957.2, 557.5, 7.215], "autoBezier": true },
+							{ "time": 32.65, "value": [950.1, 544.8, -2.747], "autoBezier": true },
+							{ "time": 33.4, "value": [951.4, 537.3, -3.093], "autoBezier": true },
+							{ "time": 34.15, "value": [957.9, 535.1, 0.8226], "autoBezier": true },
+							{ "time": 34.9, "value": [958.8, 542.2, 6.174], "autoBezier": true },
+							{ "time": 35.04, "value": [959.9, 544.6, 7.829], "autoBezier": true }
+						],
+						"opacity": 0
+					}
+				},
+				{
+					"id": 901082002,
+					"type": "camera",
+					"name": "Camera 1",
+					"parentId": 901082001,
+					"inPoint": 0,
+					"outPoint": 35.04,
+					"zoom": 1867,
+					"focusDistance": 3033,
+					"aperture": 17.72,
+					"transform": {
+						"pointOfInterest": [50, 50, 0],
+						"position": [50, 50, -1867]
+					}
+				},
+				{
+					"id": 901082003,
+					"type": "text",
+					"name": "text720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"motionBlur": true,
+					"threeD": true,
+					"replaceable": true,
+					"text": "I LOVE YOU THREE THOUSAND",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 100,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1336, 608],
+					"animaters": [
+						{
+							"name": "AC IN [NBO] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 0, "value": -100, "autoBezier": true },
+										{ "time": 1.55, "value": 100, "autoBezier": true },
+										{ "time": 5, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100
+								}
+							],
+							"properties": {
+								"opacity": 0
+							}
+						},
+						{
+							"name": "AC OUT [V84] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 0, "value": -100, "autoBezier": true },
+										{ "time": 3.25, "value": -98.74, "autoBezier": true },
+										{ "time": 4.95, "value": 98.84, "autoBezier": true },
+										{ "time": 5, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"mode": 2,
+									"shape": 2,
+									"smoothness": 100
+								}
+							],
+							"properties": {
+								"opacity": 0
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 540, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [NBO] Controls",
+							"psuedoName": "MHAC PrCtrl NBO 4",
+							"opacity": 0
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [V84] Controls",
+							"psuedoName": "MHAC PrCtrl V84 4",
+							"opacity": 0
+						}
+					],
+					"markers": [
+						{
+							"time": 0.8008,
+							"comment": "TR In"
+						},
+						{
+							"time": 3.239,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901082004,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 5.04,
+					"outPoint": 10,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 65,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1824, 82],
+					"transform": {
+						"position": [974, 1020, 0],
+						"opacity": [
+							{
+								"time": 5,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 6.04,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.04,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						}
+					]
+				},
+				{
+					"id": 901082005,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 10,
+					"outPoint": 14.96,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 65,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1824, 82],
+					"transform": {
+						"position": [974, 1020, 0],
+						"opacity": [
+							{
+								"time": 9.96,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 11,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						}
+					]
+				},
+				{
+					"id": 901082006,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 15,
+					"outPoint": 19.96,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 65,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1824, 82],
+					"transform": {
+						"position": [974, 1020, 0],
+						"opacity": [
+							{
+								"time": 14.96,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 16,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						}
+					]
+				},
+				{
+					"id": 901082007,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 20,
+					"outPoint": 24.96,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 65,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1824, 82],
+					"transform": {
+						"position": [974, 1020, 0],
+						"opacity": [
+							{
+								"time": 19.96,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 21,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						}
+					]
+				},
+				{
+					"id": 901082008,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 25,
+					"outPoint": 29.96,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 65,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1824, 82],
+					"transform": {
+						"position": [974, 1020, 0],
+						"opacity": [
+							{
+								"time": 24.96,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 26,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 29,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 29.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						}
+					]
+				},
+				{
+					"id": 901082009,
+					"type": "text",
+					"name": "text720-7",
+					"inPoint": 29.96,
+					"outPoint": 34.96,
+					"motionBlur": true,
+					"threeD": true,
+					"replaceable": true,
+					"text": "Thank you Mama Happy Mother’s Day!",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 100,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1336, 554],
+					"animaters": [
+						{
+							"name": "AC IN [NBO] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 29.96, "value": -100, "autoBezier": true },
+										{ "time": 31.51, "value": 100, "autoBezier": true },
+										{ "time": 34.96, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100
+								}
+							],
+							"properties": {
+								"opacity": 0
+							}
+						},
+						{
+							"name": "AC OUT [V84] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 100,
+									"offset": [
+										{ "time": 29.96, "value": -100, "autoBezier": true },
+										{ "time": 33.21, "value": -98.74, "autoBezier": true },
+										{ "time": 34.91, "value": 98.84, "autoBezier": true },
+										{ "time": 34.96, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"mode": 2,
+									"shape": 2,
+									"smoothness": 100
+								}
+							],
+							"properties": {
+								"opacity": 0
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 540, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+							"opacity": 30,
+							"direction": -218,
+							"distance": 20,
+							"softness": 50
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [NBO] Controls",
+							"psuedoName": "MHAC PrCtrl NBO 4",
+							"opacity": 0
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [V84] Controls",
+							"psuedoName": "MHAC PrCtrl V84 4",
+							"opacity": 0
+						}
+					],
+					"markers": [
+						{
+							"time": 30.76,
+							"comment": "TR In"
+						},
+						{
+							"time": 33.2,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901082010,
+					"type": "composite",
+					"name": "1",
+					"inPoint": 5,
+					"outPoint": 10,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901082011,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 5,
+								"value": [3099, 540, 1293],
+								"outEase": [{ "speed": 0, "influence": 0.01 }]
+							},
+							{
+								"time": 6.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 9.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }],
+								"outEase": [{ "speed": 0, "influence": 100 }]
+							},
+							{
+								"time": 10,
+								"value": [-979, 540, 1151],
+								"inEase": [{ "speed": 0.0011, "influence": 4.59 }]
+							}
+						],
+						"orientation": [
+							{
+								"time": 5,
+								"value": [0, 339, 0],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 6.04,
+								"value": [0, 360, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.04,
+								"value": [0, 360, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10,
+								"value": [0, 393, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901082012,
+					"type": "composite",
+					"name": "2",
+					"inPoint": 10,
+					"outPoint": 15,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901082013,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 10,
+								"value": [1050, 2115, 2428],
+								"outEase": [{ "speed": 0, "influence": 0.01 }]
+							},
+							{
+								"time": 11.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 14.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }],
+								"outEase": [{ "speed": 0, "influence": 75.24 }]
+							},
+							{
+								"time": 14.96,
+								"value": [1016, -822.7, 1689],
+								"inEase": [{ "speed": 11760, "influence": 6.26 }]
+							}
+						],
+						"orientation": [
+							{
+								"time": 10,
+								"value": [45, 0, 0],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 11.04,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.04,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.96,
+								"value": [-26, 0, 0],
+								"inEase": [{ "speed": 1, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901082014,
+					"type": "composite",
+					"name": "3",
+					"inPoint": 15,
+					"outPoint": 20,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901082015,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 15,
+								"value": [-848, 540, 686],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 16.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 19.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }],
+								"outEase": [{ "speed": 0, "influence": 100 }]
+							},
+							{
+								"time": 19.96,
+								"value": [2925, 540, 1049],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }]
+							}
+						],
+						"orientation": [
+							{
+								"time": 15,
+								"value": [0, 21, 0],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 16.04,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.04,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.96,
+								"value": [0, -26, 0],
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901082016,
+					"type": "composite",
+					"name": "4",
+					"inPoint": 20,
+					"outPoint": 25,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901082017,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [960, -731, 999],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 21.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 24.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }],
+								"outEase": [{ "speed": 0, "influence": 100 }]
+							},
+							{
+								"time": 24.96,
+								"value": [960, 1623, 720],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }]
+							}
+						],
+						"orientation": [
+							{
+								"time": 20,
+								"value": [324, 0, 0],
+								"outEase": [{ "speed": 0, "influence": 16.67 }]
+							},
+							{
+								"time": 21.04,
+								"value": [360, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.04,
+								"value": [360, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.96,
+								"value": [382, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 16.67 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901082018,
+					"type": "composite",
+					"name": "5",
+					"inPoint": 25,
+					"outPoint": 30,
+					"motionBlur": true,
+					"threeD": true,
+					"compItemId": 901082019,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 25,
+								"value": [959.1, 540, -1174],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 26.04,
+								"value": [962, 546.2, 0],
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 22.25 }]
+							},
+							{
+								"time": 29.04,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }],
+								"outEase": [{ "speed": 0, "influence": 100 }]
+							},
+							{
+								"time": 29.96,
+								"value": [961.1, 545.8, -972],
+								"inEase": [{ "speed": 0.0011, "influence": 24.26 }]
+							}
+						],
+						"orientation": [
+							{
+								"time": 26.04,
+								"value": [0, 0, 0],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 29.04,
+								"value": [0, 0, 0],
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						],
+						"opacity": [
+							{
+								"time": 25,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 4.838 }]
+							},
+							{
+								"time": 26.04,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 100 }],
+								"outEase": [{ "speed": 0, "influence": 23.45 }]
+							},
+							{
+								"time": 29.04,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 25.52 }],
+								"outEase": [{ "speed": 0, "influence": 100 }]
+							},
+							{
+								"time": 29.96,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 7.866 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901082020,
+					"type": "composite",
+					"name": "Heart",
+					"inPoint": 0,
+					"outPoint": 35.04,
+					"startTime": -3.4,
+					"blendingMode": "ADD",
+					"motionBlur": true,
+					"timeRemap": [
+						{ "time": 0, "value": 3.4, "autoBezier": true },
+						{ "time": 0.05, "value": 0.01, "autoBezier": true },
+						{ "time": 3.5, "value": 3.41, "autoBezier": true },
+						{ "time": 3.5, "value": 0.02, "autoBezier": true },
+						{ "time": 6.95, "value": 3.42, "autoBezier": true },
+						{ "time": 6.95, "value": 0.03, "autoBezier": true },
+						{ "time": 10.4, "value": 3.43, "autoBezier": true },
+						{ "time": 10.4, "value": 0.04, "autoBezier": true },
+						{ "time": 13.8, "value": 3.39, "autoBezier": true },
+						{ "time": 13.8, "value": 0, "autoBezier": true },
+						{ "time": 17.25, "value": 3.4, "autoBezier": true },
+						{ "time": 17.25, "value": 0.01, "autoBezier": true },
+						{ "time": 20.7, "value": 3.41, "autoBezier": true },
+						{ "time": 20.7, "value": 0.02, "autoBezier": true },
+						{ "time": 24.15, "value": 3.42, "autoBezier": true },
+						{ "time": 24.15, "value": 0.03, "autoBezier": true },
+						{ "time": 27.6, "value": 3.43, "autoBezier": true },
+						{ "time": 27.6, "value": 0.04, "autoBezier": true },
+						{ "time": 31, "value": 3.39, "autoBezier": true },
+						{ "time": 31, "value": 0, "autoBezier": true },
+						{ "time": 34.45, "value": 3.4, "autoBezier": true },
+						{ "time": 34.45, "value": 0.01, "autoBezier": true }
+					],
+					"compItemId": 901082021,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 540, 0],
+						"opacity": [
+							{ "time": 0.04, "value": 0 },
+							{ "time": 3.28, "value": 40 },
+							{ "time": 29.96, "value": 40 },
+							{ "time": 34.96, "value": 0 }
+						]
+					}
+				},
+				{
+					"id": 901082022,
+					"type": "solid",
+					"name": "BG",
+					"inPoint": 0,
+					"outPoint": 35.04,
+					"color": [1, 1, 1],
+					"effects": [
+						{
+							"type": "fill",
+							"name": "Fill",
+							"color": [0.9569, 0.758, 0.8048, 1],
+							"opacity": 100
+						}
+					]
+				},
+				{
+					"id": 901082023,
+					"type": "audio",
+					"name": "1082.mp3",
+					"inPoint": 0,
+					"outPoint": 138.2,
+					"replaceable": true,
+					"path": "1082.mp3",
+					"duration": 138
+				}
+			],
+			"compItems": [
+				{
+					"id": 901082011,
+					"name": "1",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901082024,
+							"type": "image",
+							"name": "file720-1",
+							"parentId": 901082025,
+							"inPoint": 0,
+							"outPoint": 10,
+							"replaceable": true,
+							"path": "footage/720p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [4, 0, 0],
+								"scale": [66.7, 66.7, 100]
+							}
+						},
+						{
+							"id": 901082025,
+							"type": "shape",
+							"name": "Frame",
+							"inPoint": 0,
+							"outPoint": 10,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1327, 845],
+									"roundness": 20,
+									"fill": {
+										"color": [1, 1, 1, 1]
+									},
+									"stroke": {
+										"color": [0.3858, 0.5891, 0.8706, 1],
+										"dashes": [10, 10, 10, 10, 10, 10]
+									},
+									"transform": {
+										"position": [0.5, 38.5]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [0.5, 38.5, 0],
+								"position": [960, 540, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+									"opacity": 30,
+									"direction": -218,
+									"distance": 20,
+									"softness": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901082013,
+					"name": "2",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901082026,
+							"type": "image",
+							"name": "file720-2",
+							"parentId": 901082027,
+							"inPoint": 0,
+							"outPoint": 10,
+							"replaceable": true,
+							"path": "footage/720p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [4, 0, 0],
+								"scale": [66.7, 66.7, 100]
+							}
+						},
+						{
+							"id": 901082027,
+							"type": "shape",
+							"name": "Frame",
+							"inPoint": 0,
+							"outPoint": 10,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1327, 845],
+									"roundness": 20,
+									"fill": {
+										"color": [1, 1, 1, 1]
+									},
+									"stroke": {
+										"color": [0.3858, 0.5891, 0.8706, 1],
+										"dashes": [10, 10, 10, 10, 10, 10]
+									},
+									"transform": {
+										"position": [0.5, 38.5]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [0.5, 38.5, 0],
+								"position": [960, 540, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+									"opacity": 30,
+									"direction": -218,
+									"distance": 20,
+									"softness": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901082015,
+					"name": "3",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901082028,
+							"type": "image",
+							"name": "file720-3",
+							"parentId": 901082029,
+							"inPoint": 0,
+							"outPoint": 10,
+							"replaceable": true,
+							"path": "footage/720p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [4, 0, 0],
+								"scale": [66.7, 66.7, 100]
+							}
+						},
+						{
+							"id": 901082029,
+							"type": "shape",
+							"name": "Frame",
+							"inPoint": 0,
+							"outPoint": 10,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1327, 845],
+									"roundness": 20,
+									"fill": {
+										"color": [1, 1, 1, 1]
+									},
+									"stroke": {
+										"color": [0.3858, 0.5891, 0.8706, 1],
+										"dashes": [10, 10, 10, 10, 10, 10]
+									},
+									"transform": {
+										"position": [0.5, 38.5]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [0.5, 38.5, 0],
+								"position": [960, 540, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+									"opacity": 30,
+									"direction": -218,
+									"distance": 20,
+									"softness": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901082017,
+					"name": "4",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901082030,
+							"type": "image",
+							"name": "file720-4",
+							"parentId": 901082031,
+							"inPoint": 0,
+							"outPoint": 10,
+							"replaceable": true,
+							"path": "footage/720p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [4, 0, 0],
+								"scale": [66.7, 66.7, 100]
+							}
+						},
+						{
+							"id": 901082031,
+							"type": "shape",
+							"name": "Frame",
+							"inPoint": 0,
+							"outPoint": 10,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1327, 845],
+									"roundness": 20,
+									"fill": {
+										"color": [1, 1, 1, 1]
+									},
+									"stroke": {
+										"color": [0.3858, 0.5891, 0.8706, 1],
+										"dashes": [10, 10, 10, 10, 10, 10]
+									},
+									"transform": {
+										"position": [0.5, 38.5]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [0.5, 38.5, 0],
+								"position": [960, 540, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+									"opacity": 30,
+									"direction": -218,
+									"distance": 20,
+									"softness": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901082019,
+					"name": "5",
+					"duration": 10,
+					"layers": [
+						{
+							"id": 901082032,
+							"type": "image",
+							"name": "file720-5",
+							"parentId": 901082033,
+							"inPoint": 0,
+							"outPoint": 10,
+							"replaceable": true,
+							"path": "footage/720p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [4, 0, 0],
+								"scale": [66.7, 66.7, 100]
+							}
+						},
+						{
+							"id": 901082033,
+							"type": "shape",
+							"name": "Frame",
+							"inPoint": 0,
+							"outPoint": 10,
+							"contents": [
+								{
+									"name": "Rectangle 1",
+									"type": "rect",
+									"size": [1327, 845],
+									"roundness": 20,
+									"fill": {
+										"color": [1, 1, 1, 1]
+									},
+									"stroke": {
+										"color": [0.3858, 0.5891, 0.8706, 1],
+										"dashes": [10, 10, 10, 10, 10, 10]
+									},
+									"transform": {
+										"position": [0.5, 38.5]
+									}
+								}
+							],
+							"transform": {
+								"anchorPoint": [0.5, 38.5, 0],
+								"position": [960, 540, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.4745, 0.3126, 0.3486, 1],
+									"opacity": 30,
+									"direction": -218,
+									"distance": 20,
+									"softness": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901082021,
+					"name": "Heart",
+					"duration": 3.44,
+					"layers": [
+						{
+							"id": 901082034,
+							"type": "image",
+							"name": "heart2@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart23x.webp",
+							"width": 481,
+							"height": 407,
+							"transform": {
+								"anchorPoint": [240.5, 203.5, 0],
+								"position": [244, 214, 0],
+								"scale": [66.74, 66.74, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 26,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 26,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082035,
+							"type": "image",
+							"name": "heart1@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart13x.webp",
+							"width": 476,
+							"height": 404,
+							"transform": {
+								"anchorPoint": [238, 202, 0],
+								"position": [1684, 894, 0],
+								"scale": [84.87, 84.87, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": -25,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": -25,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082036,
+							"type": "image",
+							"name": "heart3@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart33x.webp",
+							"width": 361,
+							"height": 266,
+							"transform": {
+								"anchorPoint": [180.5, 133, 0],
+								"position": [1416, 178, 0],
+								"scale": [53.38, 53.38, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 14,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 14,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082037,
+							"type": "image",
+							"name": "heart4@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart43x.webp",
+							"width": 458,
+							"height": 465,
+							"transform": {
+								"anchorPoint": [229, 232.5, 0],
+								"position": [242, 938, 0],
+								"scale": [31.08, 31.08, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 25,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 25,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082038,
+							"type": "image",
+							"name": "heart5@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart53x.webp",
+							"width": 246,
+							"height": 235,
+							"transform": {
+								"anchorPoint": [123, 117.5, 0],
+								"position": [1086, 840, 0],
+								"scale": [43.39, 43.39, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": -59,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082039,
+							"type": "image",
+							"name": "heart6@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart63x.webp",
+							"width": 194,
+							"height": 154,
+							"transform": {
+								"anchorPoint": [97, 77, 0],
+								"position": [806, 122, 0],
+								"scale": [48.45, 48.45, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 31,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082040,
+							"type": "image",
+							"name": "heart7@3x.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"path": "footage/heart/heart73x.webp",
+							"width": 292,
+							"height": 350,
+							"transform": {
+								"anchorPoint": [146, 175, 0],
+								"position": [380, 512, 0],
+								"scale": [31.51, 31.51, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 56,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 134,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 56,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082041,
+							"type": "image",
+							"name": "hh5.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"blendingMode": "OVERLAY",
+							"path": "footage/heart/hh5.webp",
+							"width": 713,
+							"height": 588,
+							"transform": {
+								"anchorPoint": [356.5, 294, 0],
+								"position": [1764, 366, 0],
+								"scale": [0, 0, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": 23,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": 23,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901082042,
+							"type": "image",
+							"name": "hh1.png",
+							"inPoint": 0,
+							"outPoint": 3.44,
+							"blendingMode": "OVERLAY",
+							"path": "footage/heart/hh1.webp",
+							"width": 497,
+							"height": 586,
+							"transform": {
+								"anchorPoint": [248.5, 293, 0],
+								"position": [116, 708, 0],
+								"scale": [0, 0, 100],
+								"rotation": [
+									{
+										"time": 0,
+										"value": -24,
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 1.8,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 90 }],
+										"outEase": [{ "speed": 0, "influence": 90 }]
+									},
+									{
+										"time": 3.4,
+										"value": -24,
+										"inEase": [{ "speed": 0, "influence": 90 }]
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

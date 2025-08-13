@@ -1,0 +1,1581 @@
+{
+	"id": 1110,
+	"name": "Rise And Run",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"projects": [
+		{
+			"name": "Main1080",
+			"width": 1920,
+			"height": 1080,
+			"duration": 30,
+			"layers": [
+				{
+					"id": 901110001,
+					"type": "composite",
+					"name": "Spl - Mtn Cam Shake - 1x 1",
+					"inPoint": 0,
+					"outPoint": 84,
+					"timeRemap": [
+						{ "time": 0, "value": 0 },
+						{ "time": 84, "value": 60 }
+					],
+					"compItemId": 901110002,
+					"markers": [
+						{
+							"time": 0,
+							"comment": "Motion"
+						}
+					]
+				},
+				{
+					"id": 901110004,
+					"type": "composite",
+					"name": "Spl - Pan Shake 2x - Right Up 2",
+					"inPoint": 24.68,
+					"outPoint": 25.68,
+					"timeRemap": [
+						{ "time": 24.68, "value": 0 },
+						{ "time": 25, "value": 0.32, "autoBezier": true },
+						{ "time": 25.68, "value": 1 }
+					],
+					"compItemId": 901110005,
+					"markers": [
+						{
+							"time": 25,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901110007,
+					"type": "composite",
+					"name": "Spl - Pan Shake 2x - Left Down 1",
+					"inPoint": 19.68,
+					"outPoint": 20.68,
+					"timeRemap": [
+						{ "time": 19.68, "value": 0 },
+						{ "time": 20, "value": 0.32, "autoBezier": true },
+						{ "time": 20.68, "value": 1 }
+					],
+					"compItemId": 901110008,
+					"markers": [
+						{
+							"time": 20,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901110010,
+					"type": "composite",
+					"name": "Spl - Pan Shake 2x - Left Up 1",
+					"inPoint": 14.68,
+					"outPoint": 15.68,
+					"timeRemap": [
+						{ "time": 14.68, "value": 0 },
+						{ "time": 15, "value": 0.32, "autoBezier": true },
+						{ "time": 15.68, "value": 1 }
+					],
+					"compItemId": 901110011,
+					"markers": [
+						{
+							"time": 15,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901110013,
+					"type": "composite",
+					"name": "Spl - Pan Shake 3x - Right Down 1",
+					"inPoint": 9.68,
+					"outPoint": 10.68,
+					"timeRemap": [
+						{ "time": 9.68, "value": 0 },
+						{ "time": 10, "value": 0.32, "autoBezier": true },
+						{ "time": 10.68, "value": 1 }
+					],
+					"compItemId": 901110014,
+					"markers": [
+						{
+							"time": 10,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901110016,
+					"type": "composite",
+					"name": "Spl - Pan Shake 2x - Right Up 1",
+					"inPoint": 4.68,
+					"outPoint": 5.68,
+					"timeRemap": [
+						{ "time": 4.68, "value": 0 },
+						{ "time": 5, "value": 0.32, "autoBezier": true },
+						{ "time": 5.68, "value": 1 }
+					],
+					"compItemId": 901110017,
+					"markers": [
+						{
+							"time": 5,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901110019,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "NEVER TOO LATE",
+					"fontFamily": "KG Broken Vessels Sketch",
+					"fontStyle": "Regular",
+					"fontSize": 160,
+					"fauxItalic": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1700, 510],
+					"animaters": [
+						{
+							"name": "AC IN [9V3] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 50,
+									"offset": [
+										{ "time": 25, "value": -100, "autoBezier": true },
+										{ "time": 26.25, "value": 97.17, "autoBezier": true },
+										{ "time": 26.3, "value": 100, "autoBezier": true },
+										{ "time": 30, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [100, 300, 0],
+								"scale": [0, 0, 100],
+								"rotation": 180
+							}
+						},
+						{
+							"name": "AC OUT [9V3] 2 Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 50,
+									"offset": [
+										{ "time": 25, "value": 100, "autoBezier": true },
+										{ "time": 28.7, "value": 100, "autoBezier": true },
+										{ "time": 28.75, "value": 97.08, "autoBezier": true },
+										{ "time": 29.95, "value": -98.37, "autoBezier": true },
+										{ "time": 30, "value": -100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [100, 300, 0],
+								"scale": [0, 0, 100],
+								"rotation": 180
+							}
+						}
+					],
+					"groupingAlignment": [
+						{ "time": 25, "value": [0, -50], "autoBezier": true },
+						{ "time": 26.25, "value": [0, -50], "autoBezier": true },
+						{ "time": 26.3, "value": [0, 0], "autoBezier": true },
+						{ "time": 28.7, "value": [0, 0], "autoBezier": true },
+						{ "time": 28.75, "value": [0, -50], "autoBezier": true },
+						{ "time": 30, "value": [0, -50], "autoBezier": true }
+					],
+					"transform": {
+						"position": [960, 510, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 30,
+							"direction": 135,
+							"distance": 15,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [9V3] Controls",
+							"psuedoName": "MHAC PrCtrl 9V3 4",
+							"position": [100, 300],
+							"scale": [0, 0],
+							"rotation": 180
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [9V3] 2 Controls",
+							"psuedoName": "MHAC PrCtrl 9V3 4",
+							"position": [100, 300],
+							"scale": [0, 0],
+							"rotation": 180
+						}
+					],
+					"markers": [
+						{
+							"time": 26.27,
+							"comment": "TR In"
+						},
+						{
+							"time": 28.73,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901110020,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 20,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 25,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901110021,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 15,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901110022,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 10,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901110023,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 5,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 5.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901110024,
+					"type": "text",
+					"name": "text720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "FITNESS",
+					"fontFamily": "KG Broken Vessels Sketch",
+					"fontStyle": "Regular",
+					"fontSize": 160,
+					"fauxItalic": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1700, 510],
+					"animaters": [
+						{
+							"name": "AC IN [9V3] Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 50,
+									"offset": [
+										{ "time": 0, "value": -100, "autoBezier": true },
+										{ "time": 1.25, "value": 97.17, "autoBezier": true },
+										{ "time": 1.3, "value": 100, "autoBezier": true },
+										{ "time": 5, "value": 100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [100, 300, 0],
+								"scale": [0, 0, 100],
+								"rotation": 180
+							}
+						},
+						{
+							"name": "AC OUT [9V3] 2 Animator 1",
+							"selectors": [
+								{
+									"start": 0,
+									"end": 50,
+									"offset": [
+										{ "time": 0, "value": 100, "autoBezier": true },
+										{ "time": 3.7, "value": 100, "autoBezier": true },
+										{ "time": 3.75, "value": 97.08, "autoBezier": true },
+										{ "time": 4.95, "value": -98.37, "autoBezier": true },
+										{ "time": 5, "value": -100, "autoBezier": true }
+									],
+									"basedOn": 2,
+									"shape": 2,
+									"smoothness": 100,
+									"easeHigh": -100
+								}
+							],
+							"properties": {
+								"position": [100, 300, 0],
+								"scale": [0, 0, 100],
+								"rotation": 180
+							}
+						}
+					],
+					"groupingAlignment": [
+						{ "time": 0, "value": [0, -50], "autoBezier": true },
+						{ "time": 1.25, "value": [0, -50], "autoBezier": true },
+						{ "time": 1.3, "value": [0, 0], "autoBezier": true },
+						{ "time": 3.7, "value": [0, 0], "autoBezier": true },
+						{ "time": 3.75, "value": [0, -50], "autoBezier": true },
+						{ "time": 5, "value": [0, -50], "autoBezier": true }
+					],
+					"transform": {
+						"position": [960, 510, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 30,
+							"direction": 135,
+							"distance": 15,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [9V3] Controls",
+							"psuedoName": "MHAC PrCtrl 9V3 4",
+							"position": [100, 300],
+							"scale": [0, 0],
+							"rotation": 180
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [9V3] 2 Controls",
+							"psuedoName": "MHAC PrCtrl 9V3 4",
+							"position": [100, 300],
+							"scale": [0, 0],
+							"rotation": 180
+						}
+					],
+					"markers": [
+						{
+							"time": 1.268,
+							"comment": "TR In"
+						},
+						{
+							"time": 3.732,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901110025,
+					"type": "image",
+					"name": "file720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"replaceable": true,
+					"path": "footage/1080p/1.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 0,
+								"value": [922, 540, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 5,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 0,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 5,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.3126, 1]
+				},
+				{
+					"id": 901110026,
+					"type": "image",
+					"name": "file720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"path": "footage/1080p/2.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 5,
+								"value": [917, 564, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 10,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 5,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 10,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.692, 1]
+				},
+				{
+					"id": 901110027,
+					"type": "image",
+					"name": "file720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"path": "footage/1080p/3.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 10,
+								"value": [1004, 562, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 15,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 10,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 15,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": 901110028,
+					"type": "image",
+					"name": "file720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"path": "footage/1080p/4.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 15,
+								"value": [916, 520, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 20,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 15,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 20,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.372, 1]
+				},
+				{
+					"id": 901110029,
+					"type": "image",
+					"name": "file720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"path": "footage/1080p/5.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [1004, 515, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 25,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 25,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": 901110030,
+					"type": "image",
+					"name": "file720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"replaceable": true,
+					"path": "footage/1080p/6.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 25,
+								"value": [1004, 516, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 30,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 25,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 30,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.948, 0]
+				},
+				{
+					"id": 901110031,
+					"type": "audio",
+					"name": "1110.mp3",
+					"inPoint": 0,
+					"outPoint": 135.8,
+					"replaceable": true,
+					"path": "1110.mp3",
+					"duration": 135.7
+				}
+			],
+			"compItems": [
+				{
+					"id": 901110002,
+					"name": "Spl - Mtn Cam Shake - 1x 1",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901110003,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 60,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [959.3, 539.9], "autoBezier": true },
+										{ "time": 0.75, "value": [960.5, 539.6], "autoBezier": true },
+										{ "time": 1.5, "value": [960.2, 541.2], "autoBezier": true },
+										{ "time": 2.25, "value": [961.4, 539.4], "autoBezier": true },
+										{ "time": 3, "value": [959, 540.1], "autoBezier": true },
+										{ "time": 3.75, "value": [957.1, 540.4], "autoBezier": true },
+										{ "time": 4.1, "value": [958.7, 539.4], "autoBezier": true },
+										{ "time": 4.45, "value": [960.3, 540.1], "autoBezier": true },
+										{ "time": 4.8, "value": [959.7, 539.9], "autoBezier": true },
+										{ "time": 6.3, "value": [961.2, 540.6], "autoBezier": true },
+										{ "time": 7.05, "value": [960.2, 539.2], "autoBezier": true },
+										{ "time": 7.8, "value": [959.3, 538.6], "autoBezier": true },
+										{ "time": 8.55, "value": [958.9, 540], "autoBezier": true },
+										{ "time": 9.3, "value": [960.4, 538.9], "autoBezier": true },
+										{ "time": 9.65, "value": [960.7, 539.1], "autoBezier": true },
+										{ "time": 10.4, "value": [959.6, 540], "autoBezier": true },
+										{ "time": 11.15, "value": [958.9, 540.4], "autoBezier": true },
+										{ "time": 11.5, "value": [961.3, 540.7], "autoBezier": true },
+										{ "time": 11.85, "value": [960.8, 539.5], "autoBezier": true },
+										{ "time": 12.6, "value": [961.4, 538.7], "autoBezier": true },
+										{ "time": 12.95, "value": [962.5, 539.5], "autoBezier": true },
+										{ "time": 13.7, "value": [957.1, 539.9], "autoBezier": true },
+										{ "time": 15.2, "value": [960.8, 540.5], "autoBezier": true },
+										{ "time": 15.95, "value": [962.3, 539.6], "autoBezier": true },
+										{ "time": 17.5, "value": [959.3, 537.9], "autoBezier": true },
+										{ "time": 18.25, "value": [960.5, 538.7], "autoBezier": true },
+										{ "time": 19, "value": [957.6, 540.2], "autoBezier": true },
+										{ "time": 21.9, "value": [960.7, 540.1], "autoBezier": true },
+										{ "time": 22.65, "value": [960, 540.9], "autoBezier": true },
+										{ "time": 23.4, "value": [961, 539.7], "autoBezier": true },
+										{ "time": 24.6, "value": [958.7, 538.4], "autoBezier": true },
+										{ "time": 25.35, "value": [962.4, 540.1], "autoBezier": true },
+										{ "time": 26.1, "value": [960, 538.5], "autoBezier": true },
+										{ "time": 26.85, "value": [959.5, 539], "autoBezier": true },
+										{ "time": 27.6, "value": [957.7, 539.5], "autoBezier": true },
+										{ "time": 28.9, "value": [958.1, 540.6], "autoBezier": true },
+										{ "time": 29.65, "value": [959.8, 539.3], "autoBezier": true },
+										{ "time": 30, "value": [958, 539.9], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": -0.0224, "autoBezier": true },
+										{ "time": 1.5, "value": -0.0105, "autoBezier": true },
+										{ "time": 3.05, "value": -0.0401, "autoBezier": true },
+										{ "time": 4.6, "value": -0.0305, "autoBezier": true },
+										{ "time": 6.15, "value": -0.0154, "autoBezier": true },
+										{ "time": 6.9, "value": -0.026, "autoBezier": true },
+										{ "time": 8.45, "value": -0.0637, "autoBezier": true },
+										{ "time": 10, "value": 0.0603, "autoBezier": true },
+										{ "time": 10.75, "value": 0.0577, "autoBezier": true },
+										{ "time": 11.5, "value": -0.0001, "autoBezier": true },
+										{ "time": 13.05, "value": -0.0337, "autoBezier": true },
+										{ "time": 14.5, "value": 0.0008, "autoBezier": true },
+										{ "time": 15.25, "value": 0.0371, "autoBezier": true },
+										{ "time": 16.6, "value": -0.0451, "autoBezier": true },
+										{ "time": 17.35, "value": -0.0531, "autoBezier": true },
+										{ "time": 18.9, "value": 0.1058, "autoBezier": true },
+										{ "time": 20.45, "value": 0.0066, "autoBezier": true },
+										{ "time": 21.9, "value": 0.0121, "autoBezier": true },
+										{ "time": 22.65, "value": 0.0085, "autoBezier": true },
+										{ "time": 23.4, "value": -0.0024, "autoBezier": true },
+										{ "time": 24.15, "value": 0.0145, "autoBezier": true },
+										{ "time": 24.9, "value": 0.0584, "autoBezier": true },
+										{ "time": 25.65, "value": -0.0145, "autoBezier": true },
+										{ "time": 26.4, "value": -0.0007, "autoBezier": true },
+										{ "time": 27.15, "value": -0.0235, "autoBezier": true },
+										{ "time": 28.7, "value": 0.0042, "autoBezier": true },
+										{ "time": 30, "value": -0.0508, "autoBezier": true }
+									],
+									"scale": [101, 101]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [959.3, 539.9], "autoBezier": true },
+										{ "time": 0.75, "value": [960.5, 539.6], "autoBezier": true },
+										{ "time": 1.5, "value": [960.2, 541.2], "autoBezier": true },
+										{ "time": 2.25, "value": [961.4, 539.4], "autoBezier": true },
+										{ "time": 3, "value": [959, 540.1], "autoBezier": true },
+										{ "time": 3.75, "value": [957.1, 540.4], "autoBezier": true },
+										{ "time": 4.1, "value": [958.7, 539.4], "autoBezier": true },
+										{ "time": 4.45, "value": [960.3, 540.1], "autoBezier": true },
+										{ "time": 4.8, "value": [959.7, 539.9], "autoBezier": true },
+										{ "time": 6.3, "value": [961.2, 540.6], "autoBezier": true },
+										{ "time": 7.05, "value": [960.2, 539.2], "autoBezier": true },
+										{ "time": 7.8, "value": [959.3, 538.6], "autoBezier": true },
+										{ "time": 8.55, "value": [958.9, 540], "autoBezier": true },
+										{ "time": 9.3, "value": [960.4, 538.9], "autoBezier": true },
+										{ "time": 9.65, "value": [960.7, 539.1], "autoBezier": true },
+										{ "time": 10.4, "value": [959.6, 540], "autoBezier": true },
+										{ "time": 11.15, "value": [958.9, 540.4], "autoBezier": true },
+										{ "time": 11.5, "value": [961.3, 540.7], "autoBezier": true },
+										{ "time": 11.85, "value": [960.8, 539.5], "autoBezier": true },
+										{ "time": 12.6, "value": [961.4, 538.7], "autoBezier": true },
+										{ "time": 12.95, "value": [962.5, 539.5], "autoBezier": true },
+										{ "time": 13.7, "value": [957.1, 539.9], "autoBezier": true },
+										{ "time": 15.2, "value": [960.8, 540.5], "autoBezier": true },
+										{ "time": 15.95, "value": [962.3, 539.6], "autoBezier": true },
+										{ "time": 17.5, "value": [959.3, 537.9], "autoBezier": true },
+										{ "time": 18.25, "value": [960.5, 538.7], "autoBezier": true },
+										{ "time": 19, "value": [957.6, 540.2], "autoBezier": true },
+										{ "time": 21.9, "value": [960.7, 540.1], "autoBezier": true },
+										{ "time": 22.65, "value": [960, 540.9], "autoBezier": true },
+										{ "time": 23.4, "value": [961, 539.7], "autoBezier": true },
+										{ "time": 24.6, "value": [958.7, 538.4], "autoBezier": true },
+										{ "time": 25.35, "value": [962.4, 540.1], "autoBezier": true },
+										{ "time": 26.1, "value": [960, 538.5], "autoBezier": true },
+										{ "time": 26.85, "value": [959.5, 539], "autoBezier": true },
+										{ "time": 27.6, "value": [957.7, 539.5], "autoBezier": true },
+										{ "time": 28.9, "value": [958.1, 540.6], "autoBezier": true },
+										{ "time": 29.65, "value": [959.8, 539.3], "autoBezier": true },
+										{ "time": 30, "value": [958, 539.9], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": -0.0224, "autoBezier": true },
+										{ "time": 1.5, "value": -0.0105, "autoBezier": true },
+										{ "time": 3.05, "value": -0.0401, "autoBezier": true },
+										{ "time": 4.6, "value": -0.0305, "autoBezier": true },
+										{ "time": 6.15, "value": -0.0154, "autoBezier": true },
+										{ "time": 6.9, "value": -0.026, "autoBezier": true },
+										{ "time": 8.45, "value": -0.0637, "autoBezier": true },
+										{ "time": 10, "value": 0.0603, "autoBezier": true },
+										{ "time": 10.75, "value": 0.0577, "autoBezier": true },
+										{ "time": 11.5, "value": -0.0001, "autoBezier": true },
+										{ "time": 13.05, "value": -0.0337, "autoBezier": true },
+										{ "time": 14.5, "value": 0.0008, "autoBezier": true },
+										{ "time": 15.25, "value": 0.0371, "autoBezier": true },
+										{ "time": 16.6, "value": -0.0451, "autoBezier": true },
+										{ "time": 17.35, "value": -0.0531, "autoBezier": true },
+										{ "time": 18.9, "value": 0.1058, "autoBezier": true },
+										{ "time": 20.45, "value": 0.0066, "autoBezier": true },
+										{ "time": 21.9, "value": 0.0121, "autoBezier": true },
+										{ "time": 22.65, "value": 0.0085, "autoBezier": true },
+										{ "time": 23.4, "value": -0.0024, "autoBezier": true },
+										{ "time": 24.15, "value": 0.0145, "autoBezier": true },
+										{ "time": 24.9, "value": 0.0584, "autoBezier": true },
+										{ "time": 25.65, "value": -0.0145, "autoBezier": true },
+										{ "time": 26.4, "value": -0.0007, "autoBezier": true },
+										{ "time": 27.15, "value": -0.0235, "autoBezier": true },
+										{ "time": 28.7, "value": 0.0042, "autoBezier": true },
+										{ "time": 30, "value": -0.0508, "autoBezier": true }
+									],
+									"scale": [101, 101]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901110005,
+					"name": "Spl - Pan Shake 2x - Right Up 2",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901110006,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 250,
+									"outputHeight": 250
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 1",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [966.5, 536.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.1, 521.7], "autoBezier": true },
+										{ "time": 0.15, "value": [1004, 507.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1164, 464.4], "autoBezier": true },
+										{ "time": 0.25, "value": [1430, 357.2], "autoBezier": true },
+										{ "time": 0.3, "value": [1684, 177.8], "autoBezier": true },
+										{ "time": 0.35, "value": [513.2, 756.4], "autoBezier": true },
+										{ "time": 0.4, "value": [696.6, 659.8], "autoBezier": true },
+										{ "time": 0.45, "value": [810.9, 618.6], "autoBezier": true },
+										{ "time": 0.5, "value": [839.8, 567.8], "autoBezier": true },
+										{ "time": 0.55, "value": [874.1, 542], "autoBezier": true },
+										{ "time": 0.6, "value": [917.8, 541.5], "autoBezier": true },
+										{ "time": 0.65, "value": [935.3, 538.4], "autoBezier": true },
+										{ "time": 0.7, "value": [939, 533.8], "autoBezier": true },
+										{ "time": 0.85, "value": [956.7, 538.2], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.25, "value": 1.876, "autoBezier": true },
+										{ "time": 0.4, "value": -3.561, "autoBezier": true },
+										{ "time": 0.75, "value": -0.1253, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 40
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 2",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [966.5, 536.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.1, 521.7], "autoBezier": true },
+										{ "time": 0.15, "value": [1004, 507.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1164, 464.4], "autoBezier": true },
+										{ "time": 0.25, "value": [1430, 357.2], "autoBezier": true },
+										{ "time": 0.3, "value": [1684, 177.8], "autoBezier": true },
+										{ "time": 0.35, "value": [513.2, 756.4], "autoBezier": true },
+										{ "time": 0.4, "value": [696.6, 659.8], "autoBezier": true },
+										{ "time": 0.45, "value": [810.9, 618.6], "autoBezier": true },
+										{ "time": 0.5, "value": [839.8, 567.8], "autoBezier": true },
+										{ "time": 0.55, "value": [874.1, 542], "autoBezier": true },
+										{ "time": 0.6, "value": [917.8, 541.5], "autoBezier": true },
+										{ "time": 0.65, "value": [935.3, 538.4], "autoBezier": true },
+										{ "time": 0.7, "value": [939, 533.8], "autoBezier": true },
+										{ "time": 0.85, "value": [956.7, 538.2], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.25, "value": 1.876, "autoBezier": true },
+										{ "time": 0.4, "value": -3.561, "autoBezier": true },
+										{ "time": 0.75, "value": -0.1253, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 320
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901110008,
+					"name": "Spl - Pan Shake 2x - Left Down 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901110009,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 250,
+									"outputHeight": 250
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 1",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [953.5, 543.5], "autoBezier": true },
+										{ "time": 0.1, "value": [950.9, 558.3], "autoBezier": true },
+										{ "time": 0.15, "value": [915.7, 572.8], "autoBezier": true },
+										{ "time": 0.2, "value": [756, 615.6], "autoBezier": true },
+										{ "time": 0.25, "value": [490.1, 722.8], "autoBezier": true },
+										{ "time": 0.3, "value": [236.1, 902.2], "autoBezier": true },
+										{ "time": 0.35, "value": [1407, 323.6], "autoBezier": true },
+										{ "time": 0.4, "value": [1223, 420.2], "autoBezier": true },
+										{ "time": 0.45, "value": [1109, 461.4], "autoBezier": true },
+										{ "time": 0.5, "value": [1080, 512.2], "autoBezier": true },
+										{ "time": 0.55, "value": [1046, 538], "autoBezier": true },
+										{ "time": 0.6, "value": [1002, 538.5], "autoBezier": true },
+										{ "time": 0.65, "value": [984.7, 541.6], "autoBezier": true },
+										{ "time": 0.7, "value": [981, 546.2], "autoBezier": true },
+										{ "time": 0.85, "value": [963.3, 541.8], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": -1.551, "autoBezier": true },
+										{ "time": 0.2, "value": -2.065, "autoBezier": true },
+										{ "time": 0.35, "value": 0.7054, "autoBezier": true },
+										{ "time": 0.7, "value": 0.2581, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 40
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 2",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [953.5, 543.5], "autoBezier": true },
+										{ "time": 0.1, "value": [950.9, 558.3], "autoBezier": true },
+										{ "time": 0.15, "value": [915.7, 572.8], "autoBezier": true },
+										{ "time": 0.2, "value": [756, 615.6], "autoBezier": true },
+										{ "time": 0.25, "value": [490.1, 722.8], "autoBezier": true },
+										{ "time": 0.3, "value": [236.1, 902.2], "autoBezier": true },
+										{ "time": 0.35, "value": [1407, 323.6], "autoBezier": true },
+										{ "time": 0.4, "value": [1223, 420.2], "autoBezier": true },
+										{ "time": 0.45, "value": [1109, 461.4], "autoBezier": true },
+										{ "time": 0.5, "value": [1080, 512.2], "autoBezier": true },
+										{ "time": 0.55, "value": [1046, 538], "autoBezier": true },
+										{ "time": 0.6, "value": [1002, 538.5], "autoBezier": true },
+										{ "time": 0.65, "value": [984.7, 541.6], "autoBezier": true },
+										{ "time": 0.7, "value": [981, 546.2], "autoBezier": true },
+										{ "time": 0.85, "value": [963.3, 541.8], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": -1.551, "autoBezier": true },
+										{ "time": 0.2, "value": -2.065, "autoBezier": true },
+										{ "time": 0.35, "value": 0.7054, "autoBezier": true },
+										{ "time": 0.7, "value": 0.2581, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 320
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901110011,
+					"name": "Spl - Pan Shake 2x - Left Up 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901110012,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 250,
+									"outputHeight": 250
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 1",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [953.8, 536.4], "autoBezier": true },
+										{ "time": 0.1, "value": [927.5, 534.9], "autoBezier": true },
+										{ "time": 0.15, "value": [901.8, 515.1], "autoBezier": true },
+										{ "time": 0.2, "value": [825.6, 425.3], "autoBezier": true },
+										{ "time": 0.25, "value": [635, 275.7], "autoBezier": true },
+										{ "time": 0.3, "value": [316.1, 132.8], "autoBezier": true },
+										{ "time": 0.35, "value": [1345, 791.4], "autoBezier": true },
+										{ "time": 0.4, "value": [1173, 688.2], "autoBezier": true },
+										{ "time": 0.45, "value": [1100, 623.9], "autoBezier": true },
+										{ "time": 0.5, "value": [1009, 607.6], "autoBezier": true },
+										{ "time": 0.55, "value": [963.5, 588.3], "autoBezier": true },
+										{ "time": 0.6, "value": [962.7, 563.7], "autoBezier": true },
+										{ "time": 0.65, "value": [957.1, 553.9], "autoBezier": true },
+										{ "time": 0.7, "value": [948.9, 551.8], "autoBezier": true },
+										{ "time": 0.75, "value": [949.9, 547.9], "autoBezier": true },
+										{ "time": 0.9, "value": [959.1, 540.5], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": -0.1821, "autoBezier": true },
+										{ "time": 0.3, "value": 1.537, "autoBezier": true },
+										{ "time": 0.35, "value": 4.053, "autoBezier": true },
+										{ "time": 0.5, "value": -0.7979, "autoBezier": true },
+										{ "time": 0.85, "value": -0.0033, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 40
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 2",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [953.8, 536.4], "autoBezier": true },
+										{ "time": 0.1, "value": [927.5, 534.9], "autoBezier": true },
+										{ "time": 0.15, "value": [901.8, 515.1], "autoBezier": true },
+										{ "time": 0.2, "value": [825.6, 425.3], "autoBezier": true },
+										{ "time": 0.25, "value": [635, 275.7], "autoBezier": true },
+										{ "time": 0.3, "value": [316.1, 132.8], "autoBezier": true },
+										{ "time": 0.35, "value": [1345, 791.4], "autoBezier": true },
+										{ "time": 0.4, "value": [1173, 688.2], "autoBezier": true },
+										{ "time": 0.45, "value": [1100, 623.9], "autoBezier": true },
+										{ "time": 0.5, "value": [1009, 607.6], "autoBezier": true },
+										{ "time": 0.55, "value": [963.5, 588.3], "autoBezier": true },
+										{ "time": 0.6, "value": [962.7, 563.7], "autoBezier": true },
+										{ "time": 0.65, "value": [957.1, 553.9], "autoBezier": true },
+										{ "time": 0.7, "value": [948.9, 551.8], "autoBezier": true },
+										{ "time": 0.75, "value": [949.9, 547.9], "autoBezier": true },
+										{ "time": 0.9, "value": [959.1, 540.5], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": -0.1821, "autoBezier": true },
+										{ "time": 0.3, "value": 1.537, "autoBezier": true },
+										{ "time": 0.35, "value": 4.053, "autoBezier": true },
+										{ "time": 0.5, "value": -0.7979, "autoBezier": true },
+										{ "time": 0.85, "value": -0.0033, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 320
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901110014,
+					"name": "Spl - Pan Shake 3x - Right Down 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901110015,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 300,
+									"outputHeight": 300
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 1",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [957.6, 548.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.6, 558], "autoBezier": true },
+										{ "time": 0.15, "value": [1011, 569.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1123, 638.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1426, 724.9], "autoBezier": true },
+										{ "time": 0.3, "value": [1770, 853.6], "autoBezier": true },
+										{ "time": 0.35, "value": [545.9, 305.2], "autoBezier": true },
+										{ "time": 0.4, "value": [559.8, 497.2], "autoBezier": true },
+										{ "time": 0.45, "value": [795.5, 470], "autoBezier": true },
+										{ "time": 0.5, "value": [1006, 418.8], "autoBezier": true },
+										{ "time": 0.55, "value": [947.8, 496.6], "autoBezier": true },
+										{ "time": 0.6, "value": [928.1, 532.7], "autoBezier": true },
+										{ "time": 0.65, "value": [944.7, 536.3], "autoBezier": true },
+										{ "time": 0.7, "value": [958.7, 535.1], "autoBezier": true },
+										{ "time": 0.75, "value": [970.1, 532.1], "autoBezier": true },
+										{ "time": 0.9, "value": [960.7, 539.6], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 0.4507, "autoBezier": true },
+										{ "time": 0.2, "value": -2.733, "autoBezier": true },
+										{ "time": 0.25, "value": -2.622, "autoBezier": true },
+										{ "time": 0.4, "value": 4.363, "autoBezier": true },
+										{ "time": 0.55, "value": -0.3961, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 40
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 2",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [957.6, 548.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.6, 558], "autoBezier": true },
+										{ "time": 0.15, "value": [1011, 569.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1123, 638.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1426, 724.9], "autoBezier": true },
+										{ "time": 0.3, "value": [1770, 853.6], "autoBezier": true },
+										{ "time": 0.35, "value": [545.9, 305.2], "autoBezier": true },
+										{ "time": 0.4, "value": [559.8, 497.2], "autoBezier": true },
+										{ "time": 0.45, "value": [795.5, 470], "autoBezier": true },
+										{ "time": 0.5, "value": [1006, 418.8], "autoBezier": true },
+										{ "time": 0.55, "value": [947.8, 496.6], "autoBezier": true },
+										{ "time": 0.6, "value": [928.1, 532.7], "autoBezier": true },
+										{ "time": 0.65, "value": [944.7, 536.3], "autoBezier": true },
+										{ "time": 0.7, "value": [958.7, 535.1], "autoBezier": true },
+										{ "time": 0.75, "value": [970.1, 532.1], "autoBezier": true },
+										{ "time": 0.9, "value": [960.7, 539.6], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 0.4507, "autoBezier": true },
+										{ "time": 0.2, "value": -2.733, "autoBezier": true },
+										{ "time": 0.25, "value": -2.622, "autoBezier": true },
+										{ "time": 0.4, "value": 4.363, "autoBezier": true },
+										{ "time": 0.55, "value": -0.3961, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 320
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901110017,
+					"name": "Spl - Pan Shake 2x - Right Up 1",
+					"duration": 1,
+					"layers": [
+						{
+							"id": 901110018,
+							"type": "adjustment",
+							"name": "Transform",
+							"inPoint": 0,
+							"outPoint": 1,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 250,
+									"outputHeight": 250
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 1",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [966.5, 536.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.1, 521.7], "autoBezier": true },
+										{ "time": 0.15, "value": [1004, 507.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1164, 464.4], "autoBezier": true },
+										{ "time": 0.25, "value": [1430, 357.2], "autoBezier": true },
+										{ "time": 0.3, "value": [1684, 177.8], "autoBezier": true },
+										{ "time": 0.35, "value": [513.2, 756.4], "autoBezier": true },
+										{ "time": 0.4, "value": [696.6, 659.8], "autoBezier": true },
+										{ "time": 0.45, "value": [810.9, 618.6], "autoBezier": true },
+										{ "time": 0.5, "value": [839.8, 567.8], "autoBezier": true },
+										{ "time": 0.55, "value": [874.1, 542], "autoBezier": true },
+										{ "time": 0.6, "value": [917.8, 541.5], "autoBezier": true },
+										{ "time": 0.65, "value": [935.3, 538.4], "autoBezier": true },
+										{ "time": 0.7, "value": [939, 533.8], "autoBezier": true },
+										{ "time": 0.85, "value": [956.7, 538.2], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.25, "value": 1.876, "autoBezier": true },
+										{ "time": 0.4, "value": -3.561, "autoBezier": true },
+										{ "time": 0.75, "value": -0.1253, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 40
+								},
+								{
+									"type": "transform",
+									"name": "Rotation Fix 2",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [960, 540],
+									"position": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [966.5, 536.5], "autoBezier": true },
+										{ "time": 0.1, "value": [969.1, 521.7], "autoBezier": true },
+										{ "time": 0.15, "value": [1004, 507.2], "autoBezier": true },
+										{ "time": 0.2, "value": [1164, 464.4], "autoBezier": true },
+										{ "time": 0.25, "value": [1430, 357.2], "autoBezier": true },
+										{ "time": 0.3, "value": [1684, 177.8], "autoBezier": true },
+										{ "time": 0.35, "value": [513.2, 756.4], "autoBezier": true },
+										{ "time": 0.4, "value": [696.6, 659.8], "autoBezier": true },
+										{ "time": 0.45, "value": [810.9, 618.6], "autoBezier": true },
+										{ "time": 0.5, "value": [839.8, 567.8], "autoBezier": true },
+										{ "time": 0.55, "value": [874.1, 542], "autoBezier": true },
+										{ "time": 0.6, "value": [917.8, 541.5], "autoBezier": true },
+										{ "time": 0.65, "value": [935.3, 538.4], "autoBezier": true },
+										{ "time": 0.7, "value": [939, 533.8], "autoBezier": true },
+										{ "time": 0.85, "value": [956.7, 538.2], "autoBezier": true },
+										{ "time": 0.95, "value": [960, 540], "autoBezier": true },
+										{ "time": 1, "value": [960, 540], "autoBezier": true }
+									],
+									"rotation": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.25, "value": 1.876, "autoBezier": true },
+										{ "time": 0.4, "value": -3.561, "autoBezier": true },
+										{ "time": 0.75, "value": -0.1253, "autoBezier": true },
+										{ "time": 1, "value": 0, "autoBezier": true }
+									],
+									"shutterAngle": 320
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

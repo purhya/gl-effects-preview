@@ -1,0 +1,2078 @@
+{
+	"id": 1100,
+	"name": "Wonderful Trip",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"projects": [
+		{
+			"name": "Main1080",
+			"width": 1920,
+			"height": 1080,
+			"duration": 31.96,
+			"layers": [
+				{
+					"id": 901100001,
+					"type": "text",
+					"name": "text720-8",
+					"inPoint": 28,
+					"outPoint": 32,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "Happy Vacation",
+					"fontFamily": "Britannic",
+					"fontStyle": "Bold",
+					"fontSize": 160,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1524, 590],
+					"animaters": [
+						{
+							"name": "AC IN [KPO] Bounce",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"rotation": 121
+							}
+						},
+						{
+							"name": "AC IN [KPO] Bounce 2",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, -300, 0],
+								"scale": [0, 0, 100],
+								"opacity": 100
+							}
+						},
+						{
+							"name": "AC OUT [KPO] 2 Bounce",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"rotation": 121
+							}
+						},
+						{
+							"name": "AC OUT [KPO] 2 Bounce 2",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, -300, 0],
+								"scale": [0, 0, 100],
+								"opacity": 100
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 590, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [KPO] Controls",
+							"psuedoName": "MHAC PrCtrl KPO 3",
+							"position": [0, -300],
+							"rotation": 121,
+							"scale": [0, 0],
+							"opacity": 100,
+							"delay": 50,
+							"elasticity": 30,
+							"maxBounces": 10,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": -100,
+							"randomSeed": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [KPO] 2 Controls",
+							"psuedoName": "MHAC PrCtrl KPO 3",
+							"position": [0, -300],
+							"rotation": 121,
+							"scale": [0, 0],
+							"opacity": 100,
+							"delay": 50,
+							"elasticity": 30,
+							"maxBounces": 10,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": -100,
+							"randomSeed": 5
+						}
+					],
+					"markers": [
+						{
+							"time": 29.37,
+							"comment": "TR In"
+						},
+						{
+							"time": 30.63,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901100002,
+					"type": "text",
+					"name": "text720-7",
+					"inPoint": 24,
+					"outPoint": 28,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100003,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 20,
+					"outPoint": 24,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100004,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 16,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100005,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 12,
+					"outPoint": 16,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100006,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 8,
+					"outPoint": 12,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100007,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 4,
+					"outPoint": 8,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1732, 80],
+					"transform": {
+						"position": [960, 1011, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						}
+					]
+				},
+				{
+					"id": 901100008,
+					"type": "text",
+					"name": "text720-1",
+					"inPoint": 0,
+					"outPoint": 4,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "Wonderful Trip",
+					"fontFamily": "Britannic",
+					"fontStyle": "Bold",
+					"fontSize": 160,
+					"fauxBold": true,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1524, 590],
+					"animaters": [
+						{
+							"name": "AC IN [KPO] Bounce",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"rotation": 121
+							}
+						},
+						{
+							"name": "AC IN [KPO] Bounce 2",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, -300, 0],
+								"scale": [0, 0, 100],
+								"opacity": 100
+							}
+						},
+						{
+							"name": "AC OUT [KPO] 2 Bounce",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"rotation": 121
+							}
+						},
+						{
+							"name": "AC OUT [KPO] 2 Bounce 2",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, -300, 0],
+								"scale": [0, 0, 100],
+								"opacity": 100
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 590, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [KPO] Controls",
+							"psuedoName": "MHAC PrCtrl KPO 3",
+							"position": [0, -300],
+							"rotation": 121,
+							"scale": [0, 0],
+							"opacity": 100,
+							"delay": 50,
+							"elasticity": 30,
+							"maxBounces": 10,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": -100,
+							"randomSeed": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [KPO] 2 Controls",
+							"psuedoName": "MHAC PrCtrl KPO 3",
+							"position": [0, -300],
+							"rotation": 121,
+							"scale": [0, 0],
+							"opacity": 100,
+							"delay": 50,
+							"elasticity": 30,
+							"maxBounces": 10,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": -100,
+							"randomSeed": 5
+						}
+					],
+					"markers": [
+						{
+							"time": 1.368,
+							"comment": "TR In"
+						},
+						{
+							"time": 2.632,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901100009,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Down 2",
+					"inPoint": 27.82,
+					"outPoint": 29.23,
+					"timeRemap": [
+						{ "time": 27.82, "value": 0 },
+						{ "time": 28, "value": 0.32 },
+						{ "time": 29.23, "value": 2.56 }
+					],
+					"compItemId": 901100010,
+					"markers": [
+						{
+							"time": 28,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100016,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Left Up 1",
+					"inPoint": 23.82,
+					"outPoint": 25.23,
+					"timeRemap": [
+						{ "time": 23.82, "value": 0 },
+						{ "time": 24, "value": 0.32 },
+						{ "time": 25.23, "value": 2.56 }
+					],
+					"compItemId": 901100017,
+					"markers": [
+						{
+							"time": 24,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100023,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Left Down 1",
+					"inPoint": 19.82,
+					"outPoint": 21.23,
+					"timeRemap": [
+						{ "time": 19.82, "value": 0 },
+						{ "time": 20, "value": 0.32 },
+						{ "time": 21.23, "value": 2.56 }
+					],
+					"compItemId": 901100024,
+					"markers": [
+						{
+							"time": 20,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100030,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Up 1",
+					"inPoint": 15.82,
+					"outPoint": 17.23,
+					"timeRemap": [
+						{ "time": 15.82, "value": 0 },
+						{ "time": 16, "value": 0.32 },
+						{ "time": 17.23, "value": 2.56 }
+					],
+					"compItemId": 901100031,
+					"markers": [
+						{
+							"time": 16,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100037,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Right 1",
+					"inPoint": 11.82,
+					"outPoint": 13.23,
+					"timeRemap": [
+						{ "time": 11.82, "value": 0 },
+						{ "time": 12, "value": 0.32 },
+						{ "time": 13.23, "value": 2.56 }
+					],
+					"compItemId": 901100038,
+					"markers": [
+						{
+							"time": 12,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100044,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Left 1",
+					"inPoint": 7.824,
+					"outPoint": 9.232,
+					"timeRemap": [
+						{ "time": 7.824, "value": 0 },
+						{ "time": 8, "value": 0.32 },
+						{ "time": 9.232, "value": 2.56 }
+					],
+					"compItemId": 901100045,
+					"markers": [
+						{
+							"time": 8,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100051,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Down 1",
+					"inPoint": 3.824,
+					"outPoint": 5.232,
+					"timeRemap": [
+						{ "time": 3.824, "value": 0 },
+						{ "time": 4, "value": 0.32 },
+						{ "time": 5.232, "value": 2.56 }
+					],
+					"compItemId": 901100010,
+					"markers": [
+						{
+							"time": 4,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100052,
+					"type": "composite",
+					"name": "Hst - Fsh Simple - Right Down 1",
+					"inPoint": 0,
+					"outPoint": 1.232,
+					"timeRemap": [
+						{ "time": -0.176, "value": 0 },
+						{ "time": 0, "value": 0.32 },
+						{ "time": 1.232, "value": 2.56 }
+					],
+					"compItemId": 901100053,
+					"markers": [
+						{
+							"time": 0,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901100059,
+					"type": "image",
+					"name": "file720-1",
+					"inPoint": 0,
+					"outPoint": 4,
+					"replaceable": true,
+					"path": "footage/1080p/1.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 0, "value": [870, 491, 0] },
+							{ "time": 3.96, "value": [1050, 592, 0] }
+						],
+						"scale": [110, 110, 100]
+					}
+				},
+				{
+					"id": 901100060,
+					"type": "image",
+					"name": "file720-2",
+					"inPoint": 4,
+					"outPoint": 8,
+					"replaceable": true,
+					"path": "footage/1080p/2.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 4, "value": [960, 491, 0] },
+							{ "time": 7.96, "value": [960, 592, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.308, 0]
+				},
+				{
+					"id": 901100061,
+					"type": "image",
+					"name": "file720-3",
+					"inPoint": 8,
+					"outPoint": 12,
+					"replaceable": true,
+					"path": "footage/1080p/3.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 8, "value": [1050, 540, 0] },
+							{ "time": 11.96, "value": [875, 540, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.3537, 0]
+				},
+				{
+					"id": 901100062,
+					"type": "image",
+					"name": "file720-4",
+					"inPoint": 12,
+					"outPoint": 16,
+					"replaceable": true,
+					"path": "footage/1080p/4.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 12, "value": [872, 540, 0] },
+							{ "time": 15.96, "value": [1048, 540, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.4634, 0]
+				},
+				{
+					"id": 901100063,
+					"type": "image",
+					"name": "file720-5",
+					"inPoint": 16,
+					"outPoint": 20,
+					"replaceable": true,
+					"path": "footage/1080p/5.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 16, "value": [960, 584, 0] },
+							{ "time": 19.96, "value": [960, 491, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.4314, 1]
+				},
+				{
+					"id": 901100064,
+					"type": "image",
+					"name": "file720-6",
+					"inPoint": 20,
+					"outPoint": 24,
+					"replaceable": true,
+					"path": "footage/1080p/6.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 20, "value": [1052, 492, 0] },
+							{ "time": 23.96, "value": [870, 586, 0] }
+						],
+						"scale": [110, 110, 100]
+					}
+				},
+				{
+					"id": 901100065,
+					"type": "image",
+					"name": "file720-7",
+					"inPoint": 24,
+					"outPoint": 28,
+					"replaceable": true,
+					"path": "footage/1080p/7.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 24, "value": [1050, 588, 0] },
+							{ "time": 28, "value": [868, 494, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.34, 1]
+				},
+				{
+					"id": 901100066,
+					"type": "image",
+					"name": "file720-8",
+					"inPoint": 28,
+					"outPoint": 31.96,
+					"replaceable": true,
+					"path": "footage/1080p/8.webp",
+					"width": 1920,
+					"height": 1080,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{ "time": 28, "value": [960, 499, 0] },
+							{ "time": 31.92, "value": [960, 590, 0] }
+						],
+						"scale": [110, 110, 100]
+					},
+					"mediaPosition": [0.4406, 0]
+				},
+				{
+					"id": 901100067,
+					"type": "audio",
+					"name": "1100.mp3",
+					"inPoint": 0,
+					"outPoint": 122.9,
+					"replaceable": true,
+					"path": "1100.mp3",
+					"audioLevels": [
+						{ "time": 31, "value": [0, 0] },
+						{ "time": 31.92, "value": [-20, -20] }
+					],
+					"duration": 122.6
+				}
+			],
+			"compItems": [
+				{
+					"id": 901100010,
+					"name": "Hst - Fsh Simple - Down 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100012,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100013,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Height",
+									"tileCenter": [960, 540],
+									"outputHeight": 650
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [960, 5511],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true },
+										{ "time": 0.37, "value": [960, -881.8], "autoBezier": true },
+										{ "time": 0.42, "value": [960, -1185], "autoBezier": true },
+										{ "time": 0.47, "value": [960, -1400], "autoBezier": true },
+										{ "time": 0.52, "value": [960, -1551], "autoBezier": true },
+										{ "time": 0.57, "value": [960, -1658], "autoBezier": true },
+										{ "time": 0.62, "value": [960, -1735], "autoBezier": true },
+										{ "time": 0.67, "value": [960, -1790], "autoBezier": true },
+										{ "time": 0.72, "value": [960, -1829], "autoBezier": true },
+										{ "time": 0.77, "value": [960, -1857], "autoBezier": true },
+										{ "time": 0.82, "value": [960, -1877], "autoBezier": true },
+										{ "time": 0.87, "value": [960, -1891], "autoBezier": true },
+										{ "time": 0.92, "value": [960, -1903], "autoBezier": true },
+										{ "time": 0.97, "value": [960, -1912], "autoBezier": true },
+										{ "time": 1.12, "value": [960, -1928], "autoBezier": true },
+										{ "time": 1.47, "value": [960, -1941], "autoBezier": true },
+										{ "time": 2.22, "value": [960, -1945], "autoBezier": true },
+										{ "time": 2.6, "value": [960, -1945], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true },
+										{ "time": 0.37, "value": [960, -881.8], "autoBezier": true },
+										{ "time": 0.42, "value": [960, -1185], "autoBezier": true },
+										{ "time": 0.47, "value": [960, -1400], "autoBezier": true },
+										{ "time": 0.52, "value": [960, -1551], "autoBezier": true },
+										{ "time": 0.57, "value": [960, -1658], "autoBezier": true },
+										{ "time": 0.62, "value": [960, -1735], "autoBezier": true },
+										{ "time": 0.67, "value": [960, -1790], "autoBezier": true },
+										{ "time": 0.72, "value": [960, -1829], "autoBezier": true },
+										{ "time": 0.77, "value": [960, -1857], "autoBezier": true },
+										{ "time": 0.82, "value": [960, -1877], "autoBezier": true },
+										{ "time": 0.87, "value": [960, -1891], "autoBezier": true },
+										{ "time": 0.92, "value": [960, -1903], "autoBezier": true },
+										{ "time": 0.97, "value": [960, -1912], "autoBezier": true },
+										{ "time": 1.12, "value": [960, -1928], "autoBezier": true },
+										{ "time": 1.47, "value": [960, -1941], "autoBezier": true },
+										{ "time": 2.22, "value": [960, -1945], "autoBezier": true },
+										{ "time": 2.6, "value": [960, -1945], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100014,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Height",
+									"tileCenter": [960, 540],
+									"outputHeight": 650
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [960, 527.9], "autoBezier": true },
+										{ "time": 0.1, "value": [960, 482.2], "autoBezier": true },
+										{ "time": 0.15, "value": [960, 393.8], "autoBezier": true },
+										{ "time": 0.2, "value": [960, 251.1], "autoBezier": true },
+										{ "time": 0.25, "value": [960, 35.33], "autoBezier": true },
+										{ "time": 0.3, "value": [960, -288.8], "autoBezier": true },
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [960, 527.9], "autoBezier": true },
+										{ "time": 0.1, "value": [960, 482.2], "autoBezier": true },
+										{ "time": 0.15, "value": [960, 393.8], "autoBezier": true },
+										{ "time": 0.2, "value": [960, 251.1], "autoBezier": true },
+										{ "time": 0.25, "value": [960, 35.33], "autoBezier": true },
+										{ "time": 0.3, "value": [960, -288.8], "autoBezier": true },
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100017,
+					"name": "Hst - Fsh Simple - Left Up 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100018,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						},
+						{
+							"id": 901100019,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100020,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [-3345, 3025],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100021,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100022,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100024,
+					"name": "Hst - Fsh Simple - Left Down 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100026,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100027,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [-3345, 3025],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100028,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100031,
+					"name": "Hst - Fsh Simple - Up 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100032,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						},
+						{
+							"id": 901100033,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100034,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Height",
+									"tileCenter": [960, 540],
+									"outputHeight": 650
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [960, 5511],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true },
+										{ "time": 0.37, "value": [960, -881.8], "autoBezier": true },
+										{ "time": 0.42, "value": [960, -1185], "autoBezier": true },
+										{ "time": 0.47, "value": [960, -1400], "autoBezier": true },
+										{ "time": 0.52, "value": [960, -1551], "autoBezier": true },
+										{ "time": 0.57, "value": [960, -1658], "autoBezier": true },
+										{ "time": 0.62, "value": [960, -1735], "autoBezier": true },
+										{ "time": 0.67, "value": [960, -1790], "autoBezier": true },
+										{ "time": 0.72, "value": [960, -1829], "autoBezier": true },
+										{ "time": 0.77, "value": [960, -1857], "autoBezier": true },
+										{ "time": 0.82, "value": [960, -1877], "autoBezier": true },
+										{ "time": 0.87, "value": [960, -1891], "autoBezier": true },
+										{ "time": 0.92, "value": [960, -1903], "autoBezier": true },
+										{ "time": 0.97, "value": [960, -1912], "autoBezier": true },
+										{ "time": 1.12, "value": [960, -1928], "autoBezier": true },
+										{ "time": 1.47, "value": [960, -1941], "autoBezier": true },
+										{ "time": 2.22, "value": [960, -1945], "autoBezier": true },
+										{ "time": 2.6, "value": [960, -1945], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true },
+										{ "time": 0.37, "value": [960, -881.8], "autoBezier": true },
+										{ "time": 0.42, "value": [960, -1185], "autoBezier": true },
+										{ "time": 0.47, "value": [960, -1400], "autoBezier": true },
+										{ "time": 0.52, "value": [960, -1551], "autoBezier": true },
+										{ "time": 0.57, "value": [960, -1658], "autoBezier": true },
+										{ "time": 0.62, "value": [960, -1735], "autoBezier": true },
+										{ "time": 0.67, "value": [960, -1790], "autoBezier": true },
+										{ "time": 0.72, "value": [960, -1829], "autoBezier": true },
+										{ "time": 0.77, "value": [960, -1857], "autoBezier": true },
+										{ "time": 0.82, "value": [960, -1877], "autoBezier": true },
+										{ "time": 0.87, "value": [960, -1891], "autoBezier": true },
+										{ "time": 0.92, "value": [960, -1903], "autoBezier": true },
+										{ "time": 0.97, "value": [960, -1912], "autoBezier": true },
+										{ "time": 1.12, "value": [960, -1928], "autoBezier": true },
+										{ "time": 1.47, "value": [960, -1941], "autoBezier": true },
+										{ "time": 2.22, "value": [960, -1945], "autoBezier": true },
+										{ "time": 2.6, "value": [960, -1945], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100035,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Height",
+									"tileCenter": [960, 540],
+									"outputHeight": 650
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [960, 527.9], "autoBezier": true },
+										{ "time": 0.1, "value": [960, 482.2], "autoBezier": true },
+										{ "time": 0.15, "value": [960, 393.8], "autoBezier": true },
+										{ "time": 0.2, "value": [960, 251.1], "autoBezier": true },
+										{ "time": 0.25, "value": [960, 35.33], "autoBezier": true },
+										{ "time": 0.3, "value": [960, -288.8], "autoBezier": true },
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [960, 527.9], "autoBezier": true },
+										{ "time": 0.1, "value": [960, 482.2], "autoBezier": true },
+										{ "time": 0.15, "value": [960, 393.8], "autoBezier": true },
+										{ "time": 0.2, "value": [960, 251.1], "autoBezier": true },
+										{ "time": 0.25, "value": [960, 35.33], "autoBezier": true },
+										{ "time": 0.3, "value": [960, -288.8], "autoBezier": true },
+										{ "time": 0.32, "value": [960, -463.9], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100036,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100038,
+					"name": "Hst - Fsh Simple - Right 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100039,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901100040,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100041,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 550
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [-4011, 540],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true },
+										{ "time": 0.37, "value": [2382, 540], "autoBezier": true },
+										{ "time": 0.42, "value": [2685, 540], "autoBezier": true },
+										{ "time": 0.47, "value": [2900, 540], "autoBezier": true },
+										{ "time": 0.52, "value": [3051, 540], "autoBezier": true },
+										{ "time": 0.57, "value": [3158, 540], "autoBezier": true },
+										{ "time": 0.62, "value": [3235, 540], "autoBezier": true },
+										{ "time": 0.67, "value": [3290, 540], "autoBezier": true },
+										{ "time": 0.72, "value": [3329, 540], "autoBezier": true },
+										{ "time": 0.77, "value": [3357, 540], "autoBezier": true },
+										{ "time": 0.82, "value": [3377, 540], "autoBezier": true },
+										{ "time": 0.87, "value": [3391, 540], "autoBezier": true },
+										{ "time": 0.92, "value": [3403, 540], "autoBezier": true },
+										{ "time": 0.97, "value": [3412, 540], "autoBezier": true },
+										{ "time": 1.12, "value": [3428, 540], "autoBezier": true },
+										{ "time": 1.47, "value": [3441, 540], "autoBezier": true },
+										{ "time": 2.22, "value": [3445, 540], "autoBezier": true },
+										{ "time": 2.6, "value": [3445, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true },
+										{ "time": 0.37, "value": [2382, 540], "autoBezier": true },
+										{ "time": 0.42, "value": [2685, 540], "autoBezier": true },
+										{ "time": 0.47, "value": [2900, 540], "autoBezier": true },
+										{ "time": 0.52, "value": [3051, 540], "autoBezier": true },
+										{ "time": 0.57, "value": [3158, 540], "autoBezier": true },
+										{ "time": 0.62, "value": [3235, 540], "autoBezier": true },
+										{ "time": 0.67, "value": [3290, 540], "autoBezier": true },
+										{ "time": 0.72, "value": [3329, 540], "autoBezier": true },
+										{ "time": 0.77, "value": [3357, 540], "autoBezier": true },
+										{ "time": 0.82, "value": [3377, 540], "autoBezier": true },
+										{ "time": 0.87, "value": [3391, 540], "autoBezier": true },
+										{ "time": 0.92, "value": [3403, 540], "autoBezier": true },
+										{ "time": 0.97, "value": [3412, 540], "autoBezier": true },
+										{ "time": 1.12, "value": [3428, 540], "autoBezier": true },
+										{ "time": 1.47, "value": [3441, 540], "autoBezier": true },
+										{ "time": 2.22, "value": [3445, 540], "autoBezier": true },
+										{ "time": 2.6, "value": [3445, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100042,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 550
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [972.1, 540], "autoBezier": true },
+										{ "time": 0.1, "value": [1018, 540], "autoBezier": true },
+										{ "time": 0.15, "value": [1106, 540], "autoBezier": true },
+										{ "time": 0.2, "value": [1249, 540], "autoBezier": true },
+										{ "time": 0.25, "value": [1465, 540], "autoBezier": true },
+										{ "time": 0.3, "value": [1789, 540], "autoBezier": true },
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [972.1, 540], "autoBezier": true },
+										{ "time": 0.1, "value": [1018, 540], "autoBezier": true },
+										{ "time": 0.15, "value": [1106, 540], "autoBezier": true },
+										{ "time": 0.2, "value": [1249, 540], "autoBezier": true },
+										{ "time": 0.25, "value": [1465, 540], "autoBezier": true },
+										{ "time": 0.3, "value": [1789, 540], "autoBezier": true },
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100043,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100045,
+					"name": "Hst - Fsh Simple - Left 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100047,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100048,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 550
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [-4011, 540],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true },
+										{ "time": 0.37, "value": [2382, 540], "autoBezier": true },
+										{ "time": 0.42, "value": [2685, 540], "autoBezier": true },
+										{ "time": 0.47, "value": [2900, 540], "autoBezier": true },
+										{ "time": 0.52, "value": [3051, 540], "autoBezier": true },
+										{ "time": 0.57, "value": [3158, 540], "autoBezier": true },
+										{ "time": 0.62, "value": [3235, 540], "autoBezier": true },
+										{ "time": 0.67, "value": [3290, 540], "autoBezier": true },
+										{ "time": 0.72, "value": [3329, 540], "autoBezier": true },
+										{ "time": 0.77, "value": [3357, 540], "autoBezier": true },
+										{ "time": 0.82, "value": [3377, 540], "autoBezier": true },
+										{ "time": 0.87, "value": [3391, 540], "autoBezier": true },
+										{ "time": 0.92, "value": [3403, 540], "autoBezier": true },
+										{ "time": 0.97, "value": [3412, 540], "autoBezier": true },
+										{ "time": 1.12, "value": [3428, 540], "autoBezier": true },
+										{ "time": 1.47, "value": [3441, 540], "autoBezier": true },
+										{ "time": 2.22, "value": [3445, 540], "autoBezier": true },
+										{ "time": 2.6, "value": [3445, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true },
+										{ "time": 0.37, "value": [2382, 540], "autoBezier": true },
+										{ "time": 0.42, "value": [2685, 540], "autoBezier": true },
+										{ "time": 0.47, "value": [2900, 540], "autoBezier": true },
+										{ "time": 0.52, "value": [3051, 540], "autoBezier": true },
+										{ "time": 0.57, "value": [3158, 540], "autoBezier": true },
+										{ "time": 0.62, "value": [3235, 540], "autoBezier": true },
+										{ "time": 0.67, "value": [3290, 540], "autoBezier": true },
+										{ "time": 0.72, "value": [3329, 540], "autoBezier": true },
+										{ "time": 0.77, "value": [3357, 540], "autoBezier": true },
+										{ "time": 0.82, "value": [3377, 540], "autoBezier": true },
+										{ "time": 0.87, "value": [3391, 540], "autoBezier": true },
+										{ "time": 0.92, "value": [3403, 540], "autoBezier": true },
+										{ "time": 0.97, "value": [3412, 540], "autoBezier": true },
+										{ "time": 1.12, "value": [3428, 540], "autoBezier": true },
+										{ "time": 1.47, "value": [3441, 540], "autoBezier": true },
+										{ "time": 2.22, "value": [3445, 540], "autoBezier": true },
+										{ "time": 2.6, "value": [3445, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100049,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width",
+									"tileCenter": [960, 540],
+									"outputWidth": 550
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [972.1, 540], "autoBezier": true },
+										{ "time": 0.1, "value": [1018, 540], "autoBezier": true },
+										{ "time": 0.15, "value": [1106, 540], "autoBezier": true },
+										{ "time": 0.2, "value": [1249, 540], "autoBezier": true },
+										{ "time": 0.25, "value": [1465, 540], "autoBezier": true },
+										{ "time": 0.3, "value": [1789, 540], "autoBezier": true },
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [972.1, 540], "autoBezier": true },
+										{ "time": 0.1, "value": [1018, 540], "autoBezier": true },
+										{ "time": 0.15, "value": [1106, 540], "autoBezier": true },
+										{ "time": 0.2, "value": [1249, 540], "autoBezier": true },
+										{ "time": 0.25, "value": [1465, 540], "autoBezier": true },
+										{ "time": 0.3, "value": [1789, 540], "autoBezier": true },
+										{ "time": 0.32, "value": [1964, 540], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901100053,
+					"name": "Hst - Fsh Simple - Right Down 1",
+					"duration": 2.6,
+					"layers": [
+						{
+							"id": 901100054,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901100055,
+							"type": "adjustment",
+							"name": "FishEye",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "bulge",
+									"name": "Bulge",
+									"horizontalRadius": 1300,
+									"verticalRadius": 900,
+									"bulgeCenter": [960, 540],
+									"bulgeHeight": [
+										{
+											"time": 0,
+											"value": 0,
+											"outEase": [{ "speed": 0, "influence": 52.27 }]
+										},
+										{
+											"time": 0.32,
+											"value": 1.6,
+											"inEase": [{ "speed": 0, "influence": 33.75 }],
+											"outEase": [{ "speed": 0, "influence": 44.64 }]
+										},
+										{
+											"time": 1,
+											"value": 0.5521,
+											"inEase": [{ "speed": -1.454, "influence": 40.07 }],
+											"outEase": [{ "speed": -1.454, "influence": 24.36 }]
+										},
+										{
+											"time": 2.56,
+											"value": 0,
+											"inEase": [{ "speed": 0, "influence": 60.02 }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": 901100056,
+							"type": "adjustment",
+							"name": "Transform Out",
+							"inPoint": 0.32,
+							"outPoint": 2.6,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Position Fix",
+									"anchorPoint": [-3345, 3025],
+									"position": [960, 540]
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true },
+										{ "time": 0.37, "value": [2191, -170.9], "autoBezier": true },
+										{ "time": 0.42, "value": [2454, -322.6], "autoBezier": true },
+										{ "time": 0.47, "value": [2640, -430], "autoBezier": true },
+										{ "time": 0.52, "value": [2771, -505.6], "autoBezier": true },
+										{ "time": 0.57, "value": [2864, -559.2], "autoBezier": true },
+										{ "time": 0.62, "value": [2930, -597.5], "autoBezier": true },
+										{ "time": 0.67, "value": [2978, -624.9], "autoBezier": true },
+										{ "time": 0.72, "value": [3012, -644.5], "autoBezier": true },
+										{ "time": 0.77, "value": [3036, -658.5], "autoBezier": true },
+										{ "time": 0.82, "value": [3053, -668.4], "autoBezier": true },
+										{ "time": 0.97, "value": [3084, -686.1], "autoBezier": true },
+										{ "time": 1.12, "value": [3098, -694.2], "autoBezier": true },
+										{ "time": 1.47, "value": [3108, -700.3], "autoBezier": true },
+										{ "time": 2.22, "value": [3112, -702.5], "autoBezier": true },
+										{ "time": 2.6, "value": [3112, -702.6], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100057,
+							"type": "adjustment",
+							"name": "Transform In",
+							"inPoint": 0,
+							"outPoint": 0.32,
+							"motionBlur": true,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Tile Width & Tile Height",
+									"tileCenter": [960, 540],
+									"outputWidth": 470,
+									"outputHeight": 470
+								},
+								{
+									"type": "transform",
+									"name": "Transform 1",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 318
+								},
+								{
+									"type": "transform",
+									"name": "Transform 2",
+									"anchorPoint": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [970.5, 534], "autoBezier": true },
+										{ "time": 0.1, "value": [1010, 511.1], "autoBezier": true },
+										{ "time": 0.15, "value": [1087, 466.9], "autoBezier": true },
+										{ "time": 0.2, "value": [1210, 395.6], "autoBezier": true },
+										{ "time": 0.25, "value": [1397, 287.7], "autoBezier": true },
+										{ "time": 0.3, "value": [1678, 125.6], "autoBezier": true },
+										{ "time": 0.32, "value": [1829, 38.05], "autoBezier": true }
+									],
+									"position": [960, 540],
+									"shutterAngle": 180
+								}
+							]
+						},
+						{
+							"id": 901100058,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"inPoint": 0,
+							"outPoint": 2.6,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

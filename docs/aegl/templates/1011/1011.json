@@ -1,0 +1,1303 @@
+{
+	"id": 1011,
+	"name": "We Graduated",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 10,
+	"supportsSyntheticAspectRatios": false,
+	"projects": [
+		{
+			"name": "Main1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 37,
+			"layers": [
+				{
+					"id": 901011001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 6,
+					"compItemId": 901011002,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [960, 540, 0],
+						"opacity": [
+							{
+								"time": 0,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 1,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					}
+				},
+				{
+					"id": 901011003,
+					"type": "composite",
+					"name": "loop-1080p-1",
+					"inPoint": 6,
+					"outPoint": 11,
+					"compItemId": 901011004
+				},
+				{
+					"id": 901011005,
+					"type": "composite",
+					"name": "loop-1080p-2",
+					"inPoint": 11,
+					"outPoint": 16,
+					"compItemId": 901011006
+				},
+				{
+					"id": 901011007,
+					"type": "composite",
+					"name": "loop-1080p-3",
+					"inPoint": 16,
+					"outPoint": 21,
+					"compItemId": 901011008
+				},
+				{
+					"id": 901011009,
+					"type": "composite",
+					"name": "loop-1080p-4",
+					"inPoint": 21,
+					"outPoint": 26,
+					"compItemId": 901011010
+				},
+				{
+					"id": 901011011,
+					"type": "composite",
+					"name": "loop-1080p-5",
+					"inPoint": 26,
+					"outPoint": 31,
+					"compItemId": 901011012
+				},
+				{
+					"id": 901011013,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 31,
+					"outPoint": 37,
+					"compItemId": 901011014
+				},
+				{
+					"id": 901011015,
+					"type": "audio",
+					"name": "1011.mp3",
+					"inPoint": 0,
+					"outPoint": 143.1,
+					"replaceable": true,
+					"path": "1011.mp3",
+					"duration": 142.7
+				}
+			],
+			"compItems": [
+				{
+					"id": 901011002,
+					"name": "start-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901011016,
+							"type": "composite",
+							"name": "start-1080p",
+							"inPoint": 0,
+							"outPoint": 6,
+							"compItemId": 901011017,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [99.9, 99.9, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011004,
+					"name": "loop-1080p-1",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901011018,
+							"type": "text",
+							"name": "text1080-2",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 989, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 11.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 16.67 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 12,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 16.67 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.203, 0.2977, 0.3451, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901011019,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901011020,
+							"type": "composite",
+							"name": "预合成 10-1080p",
+							"inPoint": 0,
+							"outPoint": 5,
+							"threeD": true,
+							"compItemId": 901011021,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1220, 497.2, 16340],
+										"outEase": [{ "speed": 0, "influence": 11.48 }]
+									},
+									{
+										"time": 1,
+										"value": [867, 497.2, 708.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.4,
+										"value": [867, 497.2, 708.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 68.74 }]
+									},
+									{
+										"time": 5,
+										"value": [810, 497.2, -2612],
+										"inEase": [{ "speed": 0, "influence": 34.41 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [343, 26, 9], "autoBezier": true },
+									{ "time": 3.15, "value": [348.9, 21.1, 5.044], "autoBezier": true },
+									{ "time": 5, "value": [355.1, 15.12, 1.337], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901011022,
+							"type": "video",
+							"name": "loop-720p-1.mp4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"path": {
+								"1080p": "footage/loop_720p_1.webm",
+								"720p": "footage/loop_720p_1.webm",
+								"540p": "footage/loop_540p_1.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.03,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011006,
+					"name": "loop-1080p-2",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901011023,
+							"type": "text",
+							"name": "text1080-3",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 989, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 11.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 16.67 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 12,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 16.67 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.203, 0.2977, 0.3451, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901011024,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901011025,
+							"type": "composite",
+							"name": "预合成 11-1080p",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901011026,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1395, 497.2, 16340],
+										"outEase": [{ "speed": 0, "influence": 11.48 }]
+									},
+									{
+										"time": 1,
+										"value": [1007, 513.7, 783.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.4,
+										"value": [1007, 513.7, 783.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 68.74 }]
+									},
+									{
+										"time": 5,
+										"value": [985.5, 497.2, -2765],
+										"inEase": [{ "speed": 0, "influence": 34.41 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [353, 349, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [353, 349, -0.0003], "autoBezier": true },
+									{ "time": 3.2, "value": [357.6, 354.5, -1.103], "autoBezier": true },
+									{ "time": 4.1, "value": [359.9, 357.2, -1.834], "autoBezier": true },
+									{ "time": 4.15, "value": [360.1, 357.4, -1.88], "autoBezier": true },
+									{ "time": 5, "value": [362.5, 360.1, -2.734], "autoBezier": true },
+									{ "time": 5.04, "value": [362.6, 360.2, -2.778], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901011027,
+							"type": "video",
+							"name": "loop-720p-2.mp4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"path": {
+								"1080p": "footage/loop_720p_2.webm",
+								"720p": "footage/loop_720p_2.webm",
+								"540p": "footage/loop_540p_2.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.03,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011008,
+					"name": "loop-1080p-3",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901011028,
+							"type": "text",
+							"name": "text1080-4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 989, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 11.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 16.67 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 12,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 16.67 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.203, 0.2977, 0.3451, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901011029,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901011030,
+							"type": "composite",
+							"name": "预合成 12-1080p",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901011031,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1404, 497.2, 16010],
+										"outEase": [{ "speed": 0, "influence": 11.48 }]
+									},
+									{
+										"time": 1,
+										"value": [994.5, 500.2, 855.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.4,
+										"value": [994.5, 500.2, 855.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 68.74 }]
+									},
+									{
+										"time": 5,
+										"value": [994.5, 497.2, -2984],
+										"inEase": [{ "speed": 0, "influence": 34.41 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [350, 350, 1], "autoBezier": true },
+									{ "time": 4, "value": [352.7, 355.6, 0.0082], "autoBezier": true },
+									{ "time": 4.05, "value": [352.8, 355.7, -0.0143], "autoBezier": true },
+									{ "time": 5.04, "value": [353.9, 357.9, -0.4866], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901011032,
+							"type": "video",
+							"name": "loop-720p-3.mp4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"path": {
+								"1080p": "footage/loop_720p_3.webm",
+								"720p": "footage/loop_720p_3.webm",
+								"540p": "footage/loop_540p_3.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.03,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011010,
+					"name": "loop-1080p-4",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901011033,
+							"type": "text",
+							"name": "text1080-5",
+							"inPoint": 0,
+							"outPoint": 12,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 989, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 11.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 16.67 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 12,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 16.67 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.203, 0.2977, 0.3451, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901011034,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901011035,
+							"type": "composite",
+							"name": "预合成 14-1080p",
+							"inPoint": 0,
+							"outPoint": 5.04,
+							"threeD": true,
+							"compItemId": 901011036,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1347, 516.7, 16340],
+										"outEase": [{ "speed": 0, "influence": 11.48 }]
+									},
+									{
+										"time": 1,
+										"value": [937.5, 516.7, 617.1],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.4,
+										"value": [937.5, 516.7, 617.1],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 68.74 }]
+									},
+									{
+										"time": 4.96,
+										"value": [937.5, 516.7, -2672],
+										"inEase": [{ "speed": 0, "influence": 34.41 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [357, 2, 5], "autoBezier": true },
+									{ "time": 4.95, "value": [360, 7.994, 0.0057], "autoBezier": true },
+									{ "time": 5, "value": [360, 8, 0], "autoBezier": true },
+									{ "time": 5.04, "value": [360, 8, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901011037,
+							"type": "video",
+							"name": "loop-720p-4.mp4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"path": {
+								"1080p": "footage/loop_720p_4.webm",
+								"720p": "footage/loop_720p_4.webm",
+								"540p": "footage/loop_540p_4.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.03,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [150, 150, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011012,
+					"name": "loop-1080p-5",
+					"duration": 5,
+					"layers": [
+						{
+							"id": 901011038,
+							"type": "text",
+							"name": "text1080-6",
+							"inPoint": 0,
+							"outPoint": 5,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 90,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1266, 94],
+							"transform": {
+								"position": [960, 988.5, 0],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 0.4,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 5,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 33.33 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 11.6,
+										"value": 100,
+										"inEase": [{ "speed": 0, "influence": 16.67 }],
+										"outEase": [{ "speed": 0, "influence": 16.67 }]
+									},
+									{
+										"time": 12,
+										"value": 0,
+										"inEase": [{ "speed": 0, "influence": 16.67 }]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0.203, 0.2977, 0.3451, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 5,
+									"softness": 10
+								}
+							]
+						},
+						{
+							"id": 901011039,
+							"type": "camera",
+							"name": "Camera 1",
+							"inPoint": 0,
+							"outPoint": 5,
+							"zoom": 2667,
+							"focusDistance": 2667,
+							"aperture": 25.31,
+							"transform": {
+								"pointOfInterest": [960, 540, 0],
+								"position": [960, 540, -2667]
+							}
+						},
+						{
+							"id": 901011040,
+							"type": "composite",
+							"name": "预合成 15-1080p",
+							"inPoint": 0,
+							"outPoint": 5,
+							"threeD": true,
+							"compItemId": 901011041,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [
+									{
+										"time": 0,
+										"value": [1220, 497.2, 16340],
+										"outEase": [{ "speed": 0, "influence": 11.48 }]
+									},
+									{
+										"time": 1,
+										"value": [876, 482.2, 723.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{
+										"time": 4.4,
+										"value": [876, 482.2, 723.6],
+										"inEase": [{ "speed": 0, "influence": 96.67 }],
+										"outEase": [{ "speed": 0, "influence": 68.74 }]
+									},
+									{
+										"time": 4.96,
+										"value": [810, 497.2, -2672],
+										"inEase": [{ "speed": 0, "influence": 34.41 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [343, 26, 9], "autoBezier": true },
+									{ "time": 3.15, "value": [351.2, 19.04, 3.649], "autoBezier": true },
+									{ "time": 4.7, "value": [357.4, 12.55, 0.0309], "autoBezier": true },
+									{ "time": 4.75, "value": [357.6, 12.33, -0.0722], "autoBezier": true },
+									{ "time": 5, "value": [358.5, 11.26, -0.5702], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901011042,
+							"type": "video",
+							"name": "loop-720p-5.mp4",
+							"inPoint": 0,
+							"outPoint": 5,
+							"path": {
+								"1080p": "footage/loop_720p_5.webm",
+								"720p": "footage/loop_720p_5.webm",
+								"540p": "footage/loop_540p_5.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 5.03,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [960, 540, 0],
+								"scale": [225, 225, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011014,
+					"name": "end-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901011043,
+							"type": "text",
+							"name": "text720-7",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "Graduation, do not say goodbye",
+							"fontFamily": "ZCOOLruirui",
+							"fontStyle": "Regular",
+							"fontSize": 105,
+							"fillColor": [0.549, 0.7804, 0.9882],
+							"tracking": 235,
+							"boxTextSize": [1302, 378],
+							"animaters": [
+								{
+									"name": "动画制作工具 1",
+									"properties": {
+										"trackingAmount": [
+											{
+												"time": 1,
+												"value": -15,
+												"outEase": [{ "speed": 0, "influence": 33.33 }]
+											},
+											{
+												"time": 5,
+												"value": 8,
+												"inEase": [{ "speed": 0, "influence": 33.33 }]
+											}
+										]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 520, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [58, 58, 100],
+										"outEase": [
+											{ "speed": -3.928, "influence": 7.454 },
+											{ "speed": -3.928, "influence": 7.454 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 1,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0.1535, "influence": 66.13 },
+											{ "speed": 0.1535, "influence": 66.13 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 89,
+										"outEase": [{ "speed": -2.618, "influence": 7.454 }]
+									},
+									{
+										"time": 1,
+										"value": 100,
+										"inEase": [{ "speed": 0.1023, "influence": 66.13 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901011044,
+							"type": "image",
+							"name": "background_composite.jpg",
+							"inPoint": 0,
+							"outPoint": 6,
+							"path": "footage/background_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901011017,
+					"name": "start-1080p",
+					"duration": 6,
+					"layers": [
+						{
+							"id": 901011045,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 6,
+							"replaceable": true,
+							"text": "Students, we graduated",
+							"fontFamily": "ZCOOLruirui",
+							"fontStyle": "Regular",
+							"fontSize": 105,
+							"fillColor": [0.549, 0.7804, 0.9882],
+							"tracking": 235,
+							"boxTextSize": [822, 386],
+							"animaters": [
+								{
+									"name": "动画制作工具 1",
+									"properties": {
+										"trackingAmount": [
+											{
+												"time": 1,
+												"value": -15,
+												"outEase": [{ "speed": 0, "influence": 33.33 }]
+											},
+											{
+												"time": 5,
+												"value": 8,
+												"inEase": [{ "speed": 0, "influence": 33.33 }]
+											}
+										]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 520, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [132, 132, 100],
+										"outEase": [
+											{ "speed": -3.928, "influence": 7.454 },
+											{ "speed": -3.928, "influence": 7.454 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 1,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0.1535, "influence": 66.13 },
+											{ "speed": 0.1535, "influence": 66.13 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								],
+								"opacity": [
+									{
+										"time": 0,
+										"value": 0,
+										"outEase": [{ "speed": -2.618, "influence": 7.454 }]
+									},
+									{
+										"time": 1,
+										"value": 100,
+										"inEase": [{ "speed": 0.1023, "influence": 66.13 }]
+									}
+								]
+							}
+						},
+						{
+							"id": 901011046,
+							"type": "video",
+							"name": "start-720p.mp4",
+							"inPoint": 0,
+							"outPoint": 6,
+							"path": {
+								"1080p": "footage/start_720p.webm",
+								"720p": "footage/start_720p.webm",
+								"540p": "footage/start_540p.webm"
+							},
+							"width": 1280,
+							"height": 720,
+							"duration": 6.04,
+							"frameRate": 25,
+							"transform": {
+								"anchorPoint": [640, 360, 0],
+								"position": [954.6, 530.5, 0],
+								"scale": [153, 153, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901011021,
+					"name": "预合成 10-1080p",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901011047,
+							"type": "shape",
+							"name": "形状图层 2",
+							"inPoint": 0,
+							"outPoint": 60,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "矩形 1",
+									"type": "rect",
+									"size": [1862, 1019],
+									"fill": {
+										"color": [0.1961, 0.5843, 0.9098, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901011048,
+							"type": "image",
+							"name": "1.jpg",
+							"inPoint": 0,
+							"outPoint": 60,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"id": 901011049,
+							"type": "image",
+							"name": "photo_frame_composite.png",
+							"inPoint": 0,
+							"outPoint": 60,
+							"path": "footage/photo_frame_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901011026,
+					"name": "预合成 11-1080p",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901011050,
+							"type": "shape",
+							"name": "形状图层 6",
+							"inPoint": 0,
+							"outPoint": 60,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "矩形 1",
+									"type": "rect",
+									"size": [1862, 1019],
+									"fill": {
+										"color": [0.1961, 0.5843, 0.9098, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901011051,
+							"type": "image",
+							"name": "2.jpg",
+							"inPoint": 0,
+							"outPoint": 60,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"id": 901011052,
+							"type": "image",
+							"name": "photo_frame_composite.png",
+							"inPoint": 0,
+							"outPoint": 60,
+							"path": "footage/photo_frame_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901011031,
+					"name": "预合成 12-1080p",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901011053,
+							"type": "shape",
+							"name": "形状图层 6",
+							"inPoint": 0,
+							"outPoint": 60,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "矩形 1",
+									"type": "rect",
+									"size": [1862, 1019],
+									"fill": {
+										"color": [0.1961, 0.5843, 0.9098, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901011054,
+							"type": "image",
+							"name": "3.jpg",
+							"inPoint": 0,
+							"outPoint": 60,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"id": 901011055,
+							"type": "image",
+							"name": "photo_frame_composite.png",
+							"inPoint": 0,
+							"outPoint": 60,
+							"path": "footage/photo_frame_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901011036,
+					"name": "预合成 14-1080p",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901011056,
+							"type": "shape",
+							"name": "形状图层 6",
+							"inPoint": 0,
+							"outPoint": 60,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "矩形 1",
+									"type": "rect",
+									"size": [1862, 1019],
+									"fill": {
+										"color": [0.1961, 0.5843, 0.9098, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901011057,
+							"type": "image",
+							"name": "4.jpg",
+							"inPoint": 0,
+							"outPoint": 60,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"id": 901011058,
+							"type": "image",
+							"name": "photo_frame_composite.png",
+							"inPoint": 0,
+							"outPoint": 60,
+							"path": "footage/photo_frame_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				},
+				{
+					"id": 901011041,
+					"name": "预合成 15-1080p",
+					"duration": 60,
+					"layers": [
+						{
+							"id": 901011059,
+							"type": "shape",
+							"name": "形状图层 6",
+							"inPoint": 0,
+							"outPoint": 60,
+							"isTrackMatte": true,
+							"contents": [
+								{
+									"name": "矩形 1",
+									"type": "rect",
+									"size": [1862, 1019],
+									"fill": {
+										"color": [0.1961, 0.5843, 0.9098, 1]
+									}
+								}
+							],
+							"transform": {
+								"position": [960, 540, 0]
+							}
+						},
+						{
+							"id": 901011060,
+							"type": "image",
+							"name": "5.jpg",
+							"inPoint": 0,
+							"outPoint": 60,
+							"hasTrackMatte": true,
+							"trackMatteType": "ALPHA",
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"id": 901011061,
+							"type": "image",
+							"name": "photo_frame_composite.png",
+							"inPoint": 0,
+							"outPoint": 60,
+							"path": "footage/photo_frame_composite.webp",
+							"width": 1920,
+							"height": 1080
+						}
+					]
+				}
+			]
+		}
+	]
+}

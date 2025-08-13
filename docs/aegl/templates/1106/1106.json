@@ -1,0 +1,2002 @@
+{
+	"id": 1106,
+	"name": "Summer Breeze",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"supportsSyntheticAspectRatios": true,
+	"projects": [
+		{
+			"name": "Main1080",
+			"width": 1920,
+			"height": 1080,
+			"duration": 30,
+			"layers": [
+				{
+					"id": 901106001,
+					"type": "composite",
+					"name": "Hst - Cam Fgt - Right Up 2",
+					"inPoint": 24.44,
+					"outPoint": 26.44,
+					"timeRemap": [
+						{ "time": 24.44, "value": 0, "autoBezier": true },
+						{ "time": 26.44, "value": 2, "autoBezier": true }
+					],
+					"compItemId": 901106002,
+					"markers": [
+						{
+							"time": 25,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901106003,
+					"type": "composite",
+					"name": "Hst - Cam Fgt - Left Down 1",
+					"inPoint": 19.44,
+					"outPoint": 21.44,
+					"timeRemap": [
+						{ "time": 19.44, "value": 0, "autoBezier": true },
+						{ "time": 21.44, "value": 2, "autoBezier": true }
+					],
+					"compItemId": 901106004,
+					"markers": [
+						{
+							"time": 20,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901106005,
+					"type": "composite",
+					"name": "Hst - Cam Fgt - Left Up 1",
+					"inPoint": 14.44,
+					"outPoint": 16.44,
+					"timeRemap": [
+						{ "time": 14.44, "value": 0, "autoBezier": true },
+						{ "time": 16.44, "value": 2, "autoBezier": true }
+					],
+					"compItemId": 901106006,
+					"markers": [
+						{
+							"time": 15,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901106007,
+					"type": "composite",
+					"name": "Hst - Cam Fgt - Right Down 1",
+					"inPoint": 9.44,
+					"outPoint": 11.44,
+					"timeRemap": [
+						{ "time": 9.44, "value": 0, "autoBezier": true },
+						{ "time": 11.44, "value": 2, "autoBezier": true }
+					],
+					"compItemId": 901106008,
+					"markers": [
+						{
+							"time": 10,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901106009,
+					"type": "composite",
+					"name": "Hst - Cam Fgt - Right Up 1",
+					"inPoint": 4.44,
+					"outPoint": 6.44,
+					"timeRemap": [
+						{ "time": 4.44, "value": 0, "autoBezier": true },
+						{ "time": 6.44, "value": 2, "autoBezier": true }
+					],
+					"compItemId": 901106010,
+					"markers": [
+						{
+							"time": 5,
+							"comment": "Cut"
+						}
+					]
+				},
+				{
+					"id": 901106011,
+					"type": "text",
+					"name": "text720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "straight up",
+					"fontFamily": "Permanent Marker",
+					"fontStyle": "Regular",
+					"fontSize": 160,
+					"fillColor": [1, 1, 1],
+					"strokeColor": [0.7216, 0.7216, 0.7216],
+					"strokeWidth": 5,
+					"boxTextSize": [1700, 510],
+					"animaters": [
+						{
+							"name": "AC IN [8PR] Overshoot",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100],
+								"rotation": 0,
+								"opacity": 100,
+								"trackingAmount": -80
+							}
+						},
+						{
+							"name": "AC OUT [8PR] 2 Overshoot",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100],
+								"rotation": 0,
+								"opacity": 100,
+								"trackingAmount": -80
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 580, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 30,
+							"direction": 135,
+							"distance": 15,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [8PR] Controls",
+							"psuedoName": "MHAC PrCtrl 8PR 3",
+							"position": [0, 0],
+							"rotation": 0,
+							"scale": [0, 0],
+							"opacity": 100,
+							"tracking": -80,
+							"delay": 40,
+							"frequency": 100,
+							"decay": 50,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": 100,
+							"randomSeed": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [8PR] 2 Controls",
+							"psuedoName": "MHAC PrCtrl 8PR 3",
+							"position": [0, 0],
+							"rotation": 0,
+							"scale": [0, 0],
+							"opacity": 100,
+							"tracking": -80,
+							"delay": 40,
+							"frequency": 100,
+							"decay": 50,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": 100,
+							"randomSeed": 5
+						}
+					],
+					"markers": [
+						{
+							"time": 26.27,
+							"comment": "TR In"
+						},
+						{
+							"time": 28.73,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901106012,
+					"type": "text",
+					"name": "text720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 20,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 24.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 25,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901106013,
+					"type": "text",
+					"name": "text720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 15,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 19.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 20,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901106014,
+					"type": "text",
+					"name": "text720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 10,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 14.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 15,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901106015,
+					"type": "text",
+					"name": "text720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"text": "",
+					"fontFamily": "Source Sans Pro",
+					"fontStyle": "Regular",
+					"fontSize": 80,
+					"fillColor": [1, 1, 1],
+					"boxTextSize": [1678, 82],
+					"transform": {
+						"position": [960, 1008, 0],
+						"opacity": [
+							{
+								"time": 5,
+								"value": 0,
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 5.24,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 9.8,
+								"value": 100,
+								"inEase": [{ "speed": 0, "influence": 33.33 }],
+								"outEase": [{ "speed": 0, "influence": 33.33 }]
+							},
+							{
+								"time": 10,
+								"value": 0,
+								"inEase": [{ "speed": 0, "influence": 33.33 }]
+							}
+						]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 50,
+							"direction": 135,
+							"distance": 10,
+							"softness": 10
+						}
+					]
+				},
+				{
+					"id": 901106016,
+					"type": "text",
+					"name": "text720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"motionBlur": true,
+					"replaceable": true,
+					"text": "SUMMER BREEZE",
+					"fontFamily": "Permanent Marker",
+					"fontStyle": "Regular",
+					"fontSize": 160,
+					"fillColor": [1, 1, 1],
+					"strokeColor": [0.6823, 0.6823, 0.6823],
+					"strokeWidth": 5,
+					"boxTextSize": [1700, 510],
+					"animaters": [
+						{
+							"name": "AC IN [8PR] Overshoot",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100],
+								"rotation": 0,
+								"opacity": 100,
+								"trackingAmount": -80
+							}
+						},
+						{
+							"name": "AC OUT [8PR] 2 Overshoot",
+							"selectors": [
+								{
+									"basedOn": 1,
+									"amount": "EXPRESSION"
+								}
+							],
+							"properties": {
+								"position": [0, 0, 0],
+								"scale": [0, 0, 100],
+								"rotation": 0,
+								"opacity": 100,
+								"trackingAmount": -80
+							}
+						}
+					],
+					"transform": {
+						"position": [960, 580, 0]
+					},
+					"effects": [
+						{
+							"type": "dropShadow",
+							"name": "Drop Shadow",
+							"shadowColor": [0, 0, 0, 1],
+							"opacity": 30,
+							"direction": 135,
+							"distance": 15,
+							"softness": 10
+						},
+						{
+							"type": "pseudo",
+							"name": "AC IN [8PR] Controls",
+							"psuedoName": "MHAC PrCtrl 8PR 3",
+							"position": [0, 0],
+							"rotation": 0,
+							"scale": [0, 0],
+							"opacity": 100,
+							"tracking": -80,
+							"delay": 40,
+							"frequency": 100,
+							"decay": 50,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": 100,
+							"randomSeed": 5
+						},
+						{
+							"type": "pseudo",
+							"name": "AC OUT [8PR] 2 Controls",
+							"psuedoName": "MHAC PrCtrl 8PR 3",
+							"position": [0, 0],
+							"rotation": 0,
+							"scale": [0, 0],
+							"opacity": 100,
+							"tracking": -80,
+							"delay": 40,
+							"frequency": 100,
+							"decay": 50,
+							"reversedOrder": 0,
+							"randomizedOrder": 0,
+							"randomStartValueMin": 100,
+							"randomStartValueMax": 100,
+							"randomSeed": 5
+						}
+					],
+					"markers": [
+						{
+							"time": 1.268,
+							"comment": "TR In"
+						},
+						{
+							"time": 3.732,
+							"comment": "TR Out"
+						}
+					]
+				},
+				{
+					"id": 901106017,
+					"type": "video",
+					"name": "file720-1",
+					"inPoint": 0,
+					"outPoint": 5,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/1.mp4",
+						"720p": "footage/720p/1.mp4",
+						"540p": "footage/540p/1.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 0,
+								"value": [922, 540, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 5,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 0,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 5,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.5777, 1]
+				},
+				{
+					"id": 901106018,
+					"type": "video",
+					"name": "file720-2",
+					"inPoint": 5,
+					"outPoint": 10,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/2.mp4",
+						"720p": "footage/720p/2.mp4",
+						"540p": "footage/540p/2.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 5,
+								"value": [917, 564, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 10,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 5,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 10,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.3126, 0]
+				},
+				{
+					"id": 901106019,
+					"type": "video",
+					"name": "file720-3",
+					"inPoint": 10,
+					"outPoint": 15,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/3.mp4",
+						"720p": "footage/720p/3.mp4",
+						"540p": "footage/540p/3.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 10,
+								"value": [1004, 562, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 15,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 10,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 15,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.4497, 0]
+				},
+				{
+					"id": 901106020,
+					"type": "video",
+					"name": "file720-4",
+					"inPoint": 15,
+					"outPoint": 20,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/4.mp4",
+						"720p": "footage/720p/4.mp4",
+						"540p": "footage/540p/4.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 15,
+								"value": [916, 520, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 20,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 15,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 20,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.8337, 0]
+				},
+				{
+					"id": 901106021,
+					"type": "video",
+					"name": "file720-5",
+					"inPoint": 20,
+					"outPoint": 25,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/5.mp4",
+						"720p": "footage/720p/5.mp4",
+						"540p": "footage/540p/5.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 20,
+								"value": [1004, 515, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 25,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 20,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 25,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": 901106022,
+					"type": "video",
+					"name": "file720-6",
+					"inPoint": 25,
+					"outPoint": 30,
+					"replaceable": true,
+					"path": {
+						"1080p": "footage/1080p/6.mp4",
+						"720p": "footage/720p/6.mp4",
+						"540p": "footage/540p/6.mp4"
+					},
+					"width": 1920,
+					"height": 1080,
+					"duration": 5,
+					"frameRate": 25,
+					"transform": {
+						"anchorPoint": [960, 540, 0],
+						"position": [
+							{
+								"time": 25,
+								"value": [1004, 516, 0],
+								"outEase": [{ "speed": 0, "influence": 15.79 }]
+							},
+							{
+								"time": 30,
+								"value": [960, 540, 0],
+								"inEase": [{ "speed": 0, "influence": 47.37 }]
+							}
+						],
+						"scale": [
+							{
+								"time": 25,
+								"value": [105, 105, 100],
+								"outEase": [
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 15.79 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							},
+							{
+								"time": 30,
+								"value": [100, 100, 100],
+								"inEase": [
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 47.37 },
+									{ "speed": 0, "influence": 33.33 }
+								]
+							}
+						]
+					},
+					"mediaPosition": [0.4497, 1]
+				},
+				{
+					"id": 901106023,
+					"type": "audio",
+					"name": "1106.mp3",
+					"inPoint": 0,
+					"outPoint": 214.1,
+					"replaceable": true,
+					"path": "1106.mp3",
+					"audioLevels": [
+						{ "time": 29.04, "value": [0, 0] },
+						{ "time": 29.96, "value": [-20, -20] }
+					],
+					"duration": 213.6
+				}
+			],
+			"compItems": [
+				{
+					"id": 901106002,
+					"name": "Hst - Cam Fgt - Right Up 2",
+					"duration": 2.04,
+					"layers": [
+						{
+							"id": 901106024,
+							"type": "camera",
+							"name": "Camera",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"zoom": 1493,
+							"focusDistance": 2481,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [967.4, 541.5, 3.836], "autoBezier": true },
+									{ "time": 0.1, "value": [986.6, 542, 12.14], "autoBezier": true },
+									{ "time": 0.15, "value": [1013, 542, 23.44], "autoBezier": true },
+									{ "time": 0.2, "value": [1045, 542.1, 37.23], "autoBezier": true },
+									{ "time": 0.25, "value": [1082, 543.5, 53.53], "autoBezier": true },
+									{ "time": 0.3, "value": [1121, 549.5, 73.54], "autoBezier": true },
+									{ "time": 0.35, "value": [1105, 552, 96.96], "autoBezier": true },
+									{ "time": 0.5, "value": [942.2, 497.7, 161.2], "autoBezier": true },
+									{ "time": 0.75, "value": [657.8, 396.3, 266], "autoBezier": true },
+									{ "time": 0.8, "value": [600.5, 373.5, 281.6], "autoBezier": true },
+									{ "time": 0.85, "value": [660.6, 395.5, 191.1], "autoBezier": true },
+									{ "time": 0.9, "value": [767.9, 448.8, 112.7], "autoBezier": true },
+									{ "time": 0.95, "value": [842.7, 486.2, 64.42], "autoBezier": true },
+									{ "time": 1, "value": [892.3, 510.5, 34.61], "autoBezier": true },
+									{ "time": 1.05, "value": [924.7, 525.9, 16.3], "autoBezier": true },
+									{ "time": 1.1, "value": [945.1, 534.9, 5.784], "autoBezier": true },
+									{ "time": 1.15, "value": [956.3, 539.2, 0.9236], "autoBezier": true },
+									{ "time": 1.2, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 2.04, "value": [960, 540, 0], "autoBezier": true }
+								],
+								"position": [
+									{
+										"time": 0,
+										"value": [960, 540, -1493],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{ "time": 0.32, "value": [1443, 788.1, -1092], "autoBezier": true },
+									{ "time": 0.8, "value": [178.3, 129.3, -874.2], "autoBezier": true },
+									{
+										"time": 1.48,
+										"value": [960, 540, -1493],
+										"inEase": [{ "speed": 0, "influence": 77.48 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [360, 360, 0], "autoBezier": true },
+									{ "time": 0.28, "value": [356.4, 358.4, 4.757], "autoBezier": true },
+									{ "time": 0.48, "value": [353.4, 360.5, 3.409], "autoBezier": true },
+									{ "time": 0.76, "value": [355.9, 362.5, 0.1814], "autoBezier": true },
+									{ "time": 1.36, "value": [359.9, 360.1, 0.4322], "autoBezier": true },
+									{ "time": 1.88, "value": [360, 360, -0.001], "autoBezier": true },
+									{ "time": 1.96, "value": [360, 360, -0.0004], "autoBezier": true },
+									{ "time": 2, "value": [360, 360, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901106025,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"parentId": 901106029,
+							"inPoint": 0,
+							"outPoint": 2.04
+						},
+						{
+							"id": 901106026,
+							"type": "adjustment",
+							"name": "Corner Pin Out",
+							"parentId": 901106029,
+							"inPoint": 0.56,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0.56, "value": [-2952, 3013], "autoBezier": true },
+										{ "time": 0.61, "value": [-2218, 2661], "autoBezier": true },
+										{ "time": 0.66, "value": [-1590, 2270], "autoBezier": true },
+										{ "time": 0.71, "value": [-1057, 1902], "autoBezier": true },
+										{ "time": 0.76, "value": [-610, 1583], "autoBezier": true },
+										{ "time": 0.81, "value": [-238.9, 1320], "autoBezier": true },
+										{ "time": 0.86, "value": [64.26, 1109], "autoBezier": true },
+										{ "time": 0.91, "value": [307.4, 944.1], "autoBezier": true },
+										{ "time": 0.96, "value": [498.2, 817.1], "autoBezier": true },
+										{ "time": 1.01, "value": [643.2, 722.2], "autoBezier": true },
+										{ "time": 1.06, "value": [748.3, 654.4], "autoBezier": true },
+										{ "time": 1.11, "value": [818.8, 609.3], "autoBezier": true },
+										{ "time": 1.16, "value": [859.2, 585.3], "autoBezier": true },
+										{ "time": 1.21, "value": [883.6, 572.8], "autoBezier": true },
+										{ "time": 1.26, "value": [901.2, 564.6], "autoBezier": true },
+										{ "time": 1.31, "value": [914.5, 558.7], "autoBezier": true },
+										{ "time": 1.36, "value": [924.9, 554.2], "autoBezier": true },
+										{ "time": 1.51, "value": [945, 545.9], "autoBezier": true },
+										{ "time": 1.66, "value": [955, 542], "autoBezier": true },
+										{ "time": 2.01, "value": [960, 540], "autoBezier": true },
+										{ "time": 2.04, "value": [960, 540], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0.56, "value": 237.6, "autoBezier": true },
+										{ "time": 0.61, "value": 229.7, "autoBezier": true },
+										{ "time": 0.66, "value": 223.8, "autoBezier": true },
+										{ "time": 0.71, "value": 220.4, "autoBezier": true },
+										{ "time": 0.86, "value": 219.1, "autoBezier": true },
+										{ "time": 1.21, "value": 225.8, "autoBezier": true },
+										{ "time": 1.36, "value": 232.4, "autoBezier": true },
+										{ "time": 2.01, "value": 235.5, "autoBezier": true },
+										{ "time": 2.04, "value": 235.5, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0.56, "value": 249.2, "autoBezier": true },
+										{ "time": 0.61, "value": 251, "autoBezier": true },
+										{ "time": 0.66, "value": 233.8, "autoBezier": true },
+										{ "time": 0.71, "value": 204.6, "autoBezier": true },
+										{ "time": 0.86, "value": 111.7, "autoBezier": true },
+										{ "time": 0.91, "value": 87.54, "autoBezier": true },
+										{ "time": 0.96, "value": 66.93, "autoBezier": true },
+										{ "time": 1.01, "value": 49.4, "autoBezier": true },
+										{ "time": 1.06, "value": 34.4, "autoBezier": true },
+										{ "time": 1.11, "value": 21.49, "autoBezier": true },
+										{ "time": 1.16, "value": 10.71, "autoBezier": true },
+										{ "time": 1.31, "value": 3.861, "autoBezier": true },
+										{ "time": 2.01, "value": 0, "autoBezier": true },
+										{ "time": 2.04, "value": 0, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106027,
+							"type": "adjustment",
+							"name": "Corner Pin In",
+							"parentId": 901106029,
+							"inPoint": 0,
+							"outPoint": 0.56,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [979.2, 543.6], "autoBezier": true },
+										{ "time": 0.1, "value": [1040, 555], "autoBezier": true },
+										{ "time": 0.15, "value": [1150, 575], "autoBezier": true },
+										{ "time": 0.2, "value": [1318, 604.2], "autoBezier": true },
+										{ "time": 0.25, "value": [1554, 642.6], "autoBezier": true },
+										{ "time": 0.3, "value": [1872, 688.6], "autoBezier": true },
+										{ "time": 0.35, "value": [2289, 737.6], "autoBezier": true },
+										{ "time": 0.4, "value": [2823, 778], "autoBezier": true },
+										{ "time": 0.45, "value": [3489, 783.9], "autoBezier": true },
+										{ "time": 0.5, "value": [4271, 706.9], "autoBezier": true },
+										{ "time": 0.56, "value": [5251, 436.2], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0, "value": 288.3, "autoBezier": true },
+										{ "time": 0.3, "value": 280.7, "autoBezier": true },
+										{ "time": 0.35, "value": 276.1, "autoBezier": true },
+										{ "time": 0.4, "value": 268.9, "autoBezier": true },
+										{ "time": 0.56, "value": 237.6, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 37.49, "autoBezier": true },
+										{ "time": 0.2, "value": 54.33, "autoBezier": true },
+										{ "time": 0.25, "value": 74.17, "autoBezier": true },
+										{ "time": 0.3, "value": 97.58, "autoBezier": true },
+										{ "time": 0.35, "value": 125.1, "autoBezier": true },
+										{ "time": 0.4, "value": 156.5, "autoBezier": true },
+										{ "time": 0.5, "value": 223.1, "autoBezier": true },
+										{ "time": 0.56, "value": 249.2, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106028,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"parentId": 901106029,
+							"inPoint": 0,
+							"outPoint": 2.04
+						},
+						{
+							"id": 901106029,
+							"type": "empty",
+							"name": "Comp Size",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"transform": {
+								"anchorPoint": [50, 50, 0],
+								"position": [960, 540, 0],
+								"scale": [1920, 1080, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901106004,
+					"name": "Hst - Cam Fgt - Left Down 1",
+					"duration": 2.04,
+					"layers": [
+						{
+							"id": 901106030,
+							"type": "camera",
+							"name": "Camera",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"zoom": 1493,
+							"focusDistance": 2481,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [967.4, 541.5, 3.836], "autoBezier": true },
+									{ "time": 0.1, "value": [986.6, 542, 12.14], "autoBezier": true },
+									{ "time": 0.15, "value": [1013, 542, 23.44], "autoBezier": true },
+									{ "time": 0.2, "value": [1045, 542.1, 37.23], "autoBezier": true },
+									{ "time": 0.25, "value": [1082, 543.5, 53.53], "autoBezier": true },
+									{ "time": 0.3, "value": [1121, 549.5, 73.54], "autoBezier": true },
+									{ "time": 0.35, "value": [1105, 552, 96.96], "autoBezier": true },
+									{ "time": 0.5, "value": [942.2, 497.7, 161.2], "autoBezier": true },
+									{ "time": 0.75, "value": [657.8, 396.3, 266], "autoBezier": true },
+									{ "time": 0.8, "value": [600.5, 373.5, 281.6], "autoBezier": true },
+									{ "time": 0.85, "value": [660.6, 395.5, 191.1], "autoBezier": true },
+									{ "time": 0.9, "value": [767.9, 448.8, 112.7], "autoBezier": true },
+									{ "time": 0.95, "value": [842.7, 486.2, 64.42], "autoBezier": true },
+									{ "time": 1, "value": [892.3, 510.5, 34.61], "autoBezier": true },
+									{ "time": 1.05, "value": [924.7, 525.9, 16.3], "autoBezier": true },
+									{ "time": 1.1, "value": [945.1, 534.9, 5.784], "autoBezier": true },
+									{ "time": 1.15, "value": [956.3, 539.2, 0.9236], "autoBezier": true },
+									{ "time": 1.2, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 2.04, "value": [960, 540, 0], "autoBezier": true }
+								],
+								"position": [
+									{
+										"time": 0,
+										"value": [960, 540, -1493],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{ "time": 0.32, "value": [1443, 788.1, -1092], "autoBezier": true },
+									{ "time": 0.8, "value": [178.3, 129.3, -874.2], "autoBezier": true },
+									{
+										"time": 1.48,
+										"value": [960, 540, -1493],
+										"inEase": [{ "speed": 0, "influence": 77.48 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [360, 360, 0], "autoBezier": true },
+									{ "time": 0.28, "value": [356.4, 358.4, 4.757], "autoBezier": true },
+									{ "time": 0.48, "value": [353.4, 360.5, 3.409], "autoBezier": true },
+									{ "time": 0.76, "value": [355.9, 362.5, 0.1814], "autoBezier": true },
+									{ "time": 1.36, "value": [359.9, 360.1, 0.4322], "autoBezier": true },
+									{ "time": 1.88, "value": [360, 360, -0.001], "autoBezier": true },
+									{ "time": 1.96, "value": [360, 360, -0.0004], "autoBezier": true },
+									{ "time": 2, "value": [360, 360, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901106031,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"parentId": 901106035,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100,
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901106032,
+							"type": "adjustment",
+							"name": "Corner Pin Out",
+							"parentId": 901106035,
+							"inPoint": 0.56,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0.56, "value": [-2952, 3013], "autoBezier": true },
+										{ "time": 0.61, "value": [-2218, 2661], "autoBezier": true },
+										{ "time": 0.66, "value": [-1590, 2270], "autoBezier": true },
+										{ "time": 0.71, "value": [-1057, 1902], "autoBezier": true },
+										{ "time": 0.76, "value": [-610, 1583], "autoBezier": true },
+										{ "time": 0.81, "value": [-238.9, 1320], "autoBezier": true },
+										{ "time": 0.86, "value": [64.26, 1109], "autoBezier": true },
+										{ "time": 0.91, "value": [307.4, 944.1], "autoBezier": true },
+										{ "time": 0.96, "value": [498.2, 817.1], "autoBezier": true },
+										{ "time": 1.01, "value": [643.2, 722.2], "autoBezier": true },
+										{ "time": 1.06, "value": [748.3, 654.4], "autoBezier": true },
+										{ "time": 1.11, "value": [818.8, 609.3], "autoBezier": true },
+										{ "time": 1.16, "value": [859.2, 585.3], "autoBezier": true },
+										{ "time": 1.21, "value": [883.6, 572.8], "autoBezier": true },
+										{ "time": 1.26, "value": [901.2, 564.6], "autoBezier": true },
+										{ "time": 1.31, "value": [914.5, 558.7], "autoBezier": true },
+										{ "time": 1.36, "value": [924.9, 554.2], "autoBezier": true },
+										{ "time": 1.51, "value": [945, 545.9], "autoBezier": true },
+										{ "time": 1.66, "value": [955, 542], "autoBezier": true },
+										{ "time": 2.01, "value": [960, 540], "autoBezier": true },
+										{ "time": 2.04, "value": [960, 540], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0.56, "value": 237.6, "autoBezier": true },
+										{ "time": 0.61, "value": 229.7, "autoBezier": true },
+										{ "time": 0.66, "value": 223.8, "autoBezier": true },
+										{ "time": 0.71, "value": 220.4, "autoBezier": true },
+										{ "time": 0.86, "value": 219.1, "autoBezier": true },
+										{ "time": 1.21, "value": 225.8, "autoBezier": true },
+										{ "time": 1.36, "value": 232.4, "autoBezier": true },
+										{ "time": 2.01, "value": 235.5, "autoBezier": true },
+										{ "time": 2.04, "value": 235.5, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0.56, "value": 249.2, "autoBezier": true },
+										{ "time": 0.61, "value": 251, "autoBezier": true },
+										{ "time": 0.66, "value": 233.8, "autoBezier": true },
+										{ "time": 0.71, "value": 204.6, "autoBezier": true },
+										{ "time": 0.86, "value": 111.7, "autoBezier": true },
+										{ "time": 0.91, "value": 87.54, "autoBezier": true },
+										{ "time": 0.96, "value": 66.93, "autoBezier": true },
+										{ "time": 1.01, "value": 49.4, "autoBezier": true },
+										{ "time": 1.06, "value": 34.4, "autoBezier": true },
+										{ "time": 1.11, "value": 21.49, "autoBezier": true },
+										{ "time": 1.16, "value": 10.71, "autoBezier": true },
+										{ "time": 1.31, "value": 3.861, "autoBezier": true },
+										{ "time": 2.01, "value": 0, "autoBezier": true },
+										{ "time": 2.04, "value": 0, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106033,
+							"type": "adjustment",
+							"name": "Corner Pin In",
+							"parentId": 901106035,
+							"inPoint": 0,
+							"outPoint": 0.56,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [979.2, 543.6], "autoBezier": true },
+										{ "time": 0.1, "value": [1040, 555], "autoBezier": true },
+										{ "time": 0.15, "value": [1150, 575], "autoBezier": true },
+										{ "time": 0.2, "value": [1318, 604.2], "autoBezier": true },
+										{ "time": 0.25, "value": [1554, 642.6], "autoBezier": true },
+										{ "time": 0.3, "value": [1872, 688.6], "autoBezier": true },
+										{ "time": 0.35, "value": [2289, 737.6], "autoBezier": true },
+										{ "time": 0.4, "value": [2823, 778], "autoBezier": true },
+										{ "time": 0.45, "value": [3489, 783.9], "autoBezier": true },
+										{ "time": 0.5, "value": [4271, 706.9], "autoBezier": true },
+										{ "time": 0.56, "value": [5251, 436.2], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0, "value": 288.3, "autoBezier": true },
+										{ "time": 0.3, "value": 280.7, "autoBezier": true },
+										{ "time": 0.35, "value": 276.1, "autoBezier": true },
+										{ "time": 0.4, "value": 268.9, "autoBezier": true },
+										{ "time": 0.56, "value": 237.6, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 37.49, "autoBezier": true },
+										{ "time": 0.2, "value": 54.33, "autoBezier": true },
+										{ "time": 0.25, "value": 74.17, "autoBezier": true },
+										{ "time": 0.3, "value": 97.58, "autoBezier": true },
+										{ "time": 0.35, "value": 125.1, "autoBezier": true },
+										{ "time": 0.4, "value": 156.5, "autoBezier": true },
+										{ "time": 0.5, "value": 223.1, "autoBezier": true },
+										{ "time": 0.56, "value": 249.2, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106034,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"parentId": 901106035,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100,
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901106035,
+							"type": "empty",
+							"name": "Comp Size",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"transform": {
+								"anchorPoint": [50, 50, 0],
+								"position": [960, 540, 0],
+								"scale": [1920, 1080, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901106006,
+					"name": "Hst - Cam Fgt - Left Up 1",
+					"duration": 2.04,
+					"layers": [
+						{
+							"id": 901106036,
+							"type": "camera",
+							"name": "Camera",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"zoom": 1493,
+							"focusDistance": 2481,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [967.4, 541.5, 3.836], "autoBezier": true },
+									{ "time": 0.1, "value": [986.6, 542, 12.14], "autoBezier": true },
+									{ "time": 0.15, "value": [1013, 542, 23.44], "autoBezier": true },
+									{ "time": 0.2, "value": [1045, 542.1, 37.23], "autoBezier": true },
+									{ "time": 0.25, "value": [1082, 543.5, 53.53], "autoBezier": true },
+									{ "time": 0.3, "value": [1121, 549.5, 73.54], "autoBezier": true },
+									{ "time": 0.35, "value": [1105, 552, 96.96], "autoBezier": true },
+									{ "time": 0.5, "value": [942.2, 497.7, 161.2], "autoBezier": true },
+									{ "time": 0.75, "value": [657.8, 396.3, 266], "autoBezier": true },
+									{ "time": 0.8, "value": [600.5, 373.5, 281.6], "autoBezier": true },
+									{ "time": 0.85, "value": [660.6, 395.5, 191.1], "autoBezier": true },
+									{ "time": 0.9, "value": [767.9, 448.8, 112.7], "autoBezier": true },
+									{ "time": 0.95, "value": [842.7, 486.2, 64.42], "autoBezier": true },
+									{ "time": 1, "value": [892.3, 510.5, 34.61], "autoBezier": true },
+									{ "time": 1.05, "value": [924.7, 525.9, 16.3], "autoBezier": true },
+									{ "time": 1.1, "value": [945.1, 534.9, 5.784], "autoBezier": true },
+									{ "time": 1.15, "value": [956.3, 539.2, 0.9236], "autoBezier": true },
+									{ "time": 1.2, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 2.04, "value": [960, 540, 0], "autoBezier": true }
+								],
+								"position": [
+									{
+										"time": 0,
+										"value": [960, 540, -1493],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{ "time": 0.32, "value": [1443, 788.1, -1092], "autoBezier": true },
+									{ "time": 0.8, "value": [178.3, 129.3, -874.2], "autoBezier": true },
+									{
+										"time": 1.48,
+										"value": [960, 540, -1493],
+										"inEase": [{ "speed": 0, "influence": 77.48 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [360, 360, 0], "autoBezier": true },
+									{ "time": 0.28, "value": [356.4, 358.4, 4.757], "autoBezier": true },
+									{ "time": 0.48, "value": [353.4, 360.5, 3.409], "autoBezier": true },
+									{ "time": 0.76, "value": [355.9, 362.5, 0.1814], "autoBezier": true },
+									{ "time": 1.36, "value": [359.9, 360.1, 0.4322], "autoBezier": true },
+									{ "time": 1.88, "value": [360, 360, -0.001], "autoBezier": true },
+									{ "time": 1.96, "value": [360, 360, -0.0004], "autoBezier": true },
+									{ "time": 2, "value": [360, 360, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901106037,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"parentId": 901106041,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901106038,
+							"type": "adjustment",
+							"name": "Corner Pin Out",
+							"parentId": 901106041,
+							"inPoint": 0.56,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0.56, "value": [-2952, 3013], "autoBezier": true },
+										{ "time": 0.61, "value": [-2218, 2661], "autoBezier": true },
+										{ "time": 0.66, "value": [-1590, 2270], "autoBezier": true },
+										{ "time": 0.71, "value": [-1057, 1902], "autoBezier": true },
+										{ "time": 0.76, "value": [-610, 1583], "autoBezier": true },
+										{ "time": 0.81, "value": [-238.9, 1320], "autoBezier": true },
+										{ "time": 0.86, "value": [64.26, 1109], "autoBezier": true },
+										{ "time": 0.91, "value": [307.4, 944.1], "autoBezier": true },
+										{ "time": 0.96, "value": [498.2, 817.1], "autoBezier": true },
+										{ "time": 1.01, "value": [643.2, 722.2], "autoBezier": true },
+										{ "time": 1.06, "value": [748.3, 654.4], "autoBezier": true },
+										{ "time": 1.11, "value": [818.8, 609.3], "autoBezier": true },
+										{ "time": 1.16, "value": [859.2, 585.3], "autoBezier": true },
+										{ "time": 1.21, "value": [883.6, 572.8], "autoBezier": true },
+										{ "time": 1.26, "value": [901.2, 564.6], "autoBezier": true },
+										{ "time": 1.31, "value": [914.5, 558.7], "autoBezier": true },
+										{ "time": 1.36, "value": [924.9, 554.2], "autoBezier": true },
+										{ "time": 1.51, "value": [945, 545.9], "autoBezier": true },
+										{ "time": 1.66, "value": [955, 542], "autoBezier": true },
+										{ "time": 2.01, "value": [960, 540], "autoBezier": true },
+										{ "time": 2.04, "value": [960, 540], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0.56, "value": 237.6, "autoBezier": true },
+										{ "time": 0.61, "value": 229.7, "autoBezier": true },
+										{ "time": 0.66, "value": 223.8, "autoBezier": true },
+										{ "time": 0.71, "value": 220.4, "autoBezier": true },
+										{ "time": 0.86, "value": 219.1, "autoBezier": true },
+										{ "time": 1.21, "value": 225.8, "autoBezier": true },
+										{ "time": 1.36, "value": 232.4, "autoBezier": true },
+										{ "time": 2.01, "value": 235.5, "autoBezier": true },
+										{ "time": 2.04, "value": 235.5, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0.56, "value": 249.2, "autoBezier": true },
+										{ "time": 0.61, "value": 251, "autoBezier": true },
+										{ "time": 0.66, "value": 233.8, "autoBezier": true },
+										{ "time": 0.71, "value": 204.6, "autoBezier": true },
+										{ "time": 0.86, "value": 111.7, "autoBezier": true },
+										{ "time": 0.91, "value": 87.54, "autoBezier": true },
+										{ "time": 0.96, "value": 66.93, "autoBezier": true },
+										{ "time": 1.01, "value": 49.4, "autoBezier": true },
+										{ "time": 1.06, "value": 34.4, "autoBezier": true },
+										{ "time": 1.11, "value": 21.49, "autoBezier": true },
+										{ "time": 1.16, "value": 10.71, "autoBezier": true },
+										{ "time": 1.31, "value": 3.861, "autoBezier": true },
+										{ "time": 2.01, "value": 0, "autoBezier": true },
+										{ "time": 2.04, "value": 0, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106039,
+							"type": "adjustment",
+							"name": "Corner Pin In",
+							"parentId": 901106041,
+							"inPoint": 0,
+							"outPoint": 0.56,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [979.2, 543.6], "autoBezier": true },
+										{ "time": 0.1, "value": [1040, 555], "autoBezier": true },
+										{ "time": 0.15, "value": [1150, 575], "autoBezier": true },
+										{ "time": 0.2, "value": [1318, 604.2], "autoBezier": true },
+										{ "time": 0.25, "value": [1554, 642.6], "autoBezier": true },
+										{ "time": 0.3, "value": [1872, 688.6], "autoBezier": true },
+										{ "time": 0.35, "value": [2289, 737.6], "autoBezier": true },
+										{ "time": 0.4, "value": [2823, 778], "autoBezier": true },
+										{ "time": 0.45, "value": [3489, 783.9], "autoBezier": true },
+										{ "time": 0.5, "value": [4271, 706.9], "autoBezier": true },
+										{ "time": 0.56, "value": [5251, 436.2], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0, "value": 288.3, "autoBezier": true },
+										{ "time": 0.3, "value": 280.7, "autoBezier": true },
+										{ "time": 0.35, "value": 276.1, "autoBezier": true },
+										{ "time": 0.4, "value": 268.9, "autoBezier": true },
+										{ "time": 0.56, "value": 237.6, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 37.49, "autoBezier": true },
+										{ "time": 0.2, "value": 54.33, "autoBezier": true },
+										{ "time": 0.25, "value": 74.17, "autoBezier": true },
+										{ "time": 0.3, "value": 97.58, "autoBezier": true },
+										{ "time": 0.35, "value": 125.1, "autoBezier": true },
+										{ "time": 0.4, "value": 156.5, "autoBezier": true },
+										{ "time": 0.5, "value": 223.1, "autoBezier": true },
+										{ "time": 0.56, "value": 249.2, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106040,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"parentId": 901106041,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleWidth": -100
+								}
+							]
+						},
+						{
+							"id": 901106041,
+							"type": "empty",
+							"name": "Comp Size",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"transform": {
+								"anchorPoint": [50, 50, 0],
+								"position": [960, 540, 0],
+								"scale": [1920, 1080, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901106008,
+					"name": "Hst - Cam Fgt - Right Down 1",
+					"duration": 2.04,
+					"layers": [
+						{
+							"id": 901106042,
+							"type": "camera",
+							"name": "Camera",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"zoom": 1493,
+							"focusDistance": 2481,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [967.6, 541.5, 3.912], "autoBezier": true },
+									{ "time": 0.1, "value": [987.1, 542, 12.37], "autoBezier": true },
+									{ "time": 0.15, "value": [1014, 542, 23.84], "autoBezier": true },
+									{ "time": 0.2, "value": [1047, 542.1, 37.78], "autoBezier": true },
+									{ "time": 0.25, "value": [1083, 543.6, 54.15], "autoBezier": true },
+									{ "time": 0.3, "value": [1122, 549.7, 73.96], "autoBezier": true },
+									{ "time": 0.35, "value": [1108, 551.9, 97.1], "autoBezier": true },
+									{ "time": 0.5, "value": [963.3, 497.7, 161.2], "autoBezier": true },
+									{ "time": 0.75, "value": [710, 396.6, 265.7], "autoBezier": true },
+									{ "time": 0.8, "value": [657.5, 373.5, 281.6], "autoBezier": true },
+									{ "time": 0.85, "value": [670.4, 400.3, 174.7], "autoBezier": true },
+									{ "time": 0.9, "value": [751.3, 465.6, 75.92], "autoBezier": true },
+									{ "time": 0.95, "value": [823.5, 506.4, 25.2], "autoBezier": true },
+									{ "time": 1, "value": [879.1, 527.4, 3.704], "autoBezier": true },
+									{ "time": 1.05, "value": [918.4, 536.4, -2.359], "autoBezier": true },
+									{ "time": 1.1, "value": [943.1, 539.3, -2.101], "autoBezier": true },
+									{ "time": 1.15, "value": [956.1, 539.9, -0.627], "autoBezier": true },
+									{ "time": 1.2, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 2.04, "value": [960, 540, 0], "autoBezier": true }
+								],
+								"position": [
+									{
+										"time": 0,
+										"value": [960, 540, -1493],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{ "time": 0.32, "value": [1443, 788.1, -1092], "autoBezier": true },
+									{ "time": 0.8, "value": [178.3, 129.3, -874.2], "autoBezier": true },
+									{
+										"time": 1.48,
+										"value": [960, 540, -1493],
+										"inEase": [{ "speed": 0, "influence": 77.48 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [360, 360, 0], "autoBezier": true },
+									{ "time": 0.28, "value": [356.4, 358.4, 4.757], "autoBezier": true },
+									{ "time": 0.48, "value": [353.4, 360.5, 3.409], "autoBezier": true },
+									{ "time": 0.76, "value": [355.9, 362.5, 0.1814], "autoBezier": true },
+									{ "time": 1.36, "value": [359.9, 360.1, 0.4322], "autoBezier": true },
+									{ "time": 1.88, "value": [360, 360, -0.001], "autoBezier": true },
+									{ "time": 1.96, "value": [360, 360, -0.0004], "autoBezier": true },
+									{ "time": 2, "value": [360, 360, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901106043,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"parentId": 901106047,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						},
+						{
+							"id": 901106044,
+							"type": "adjustment",
+							"name": "Corner Pin Out",
+							"parentId": 901106047,
+							"inPoint": 0.56,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0.56, "value": [-2952, 3013], "autoBezier": true },
+										{ "time": 0.61, "value": [-2218, 2661], "autoBezier": true },
+										{ "time": 0.66, "value": [-1590, 2270], "autoBezier": true },
+										{ "time": 0.71, "value": [-1057, 1902], "autoBezier": true },
+										{ "time": 0.76, "value": [-610, 1583], "autoBezier": true },
+										{ "time": 0.81, "value": [-238.9, 1320], "autoBezier": true },
+										{ "time": 0.86, "value": [64.26, 1109], "autoBezier": true },
+										{ "time": 0.91, "value": [307.4, 944.1], "autoBezier": true },
+										{ "time": 0.96, "value": [498.2, 817.1], "autoBezier": true },
+										{ "time": 1.01, "value": [643.2, 722.2], "autoBezier": true },
+										{ "time": 1.06, "value": [748.3, 654.4], "autoBezier": true },
+										{ "time": 1.11, "value": [818.8, 609.3], "autoBezier": true },
+										{ "time": 1.16, "value": [859.2, 585.3], "autoBezier": true },
+										{ "time": 1.21, "value": [883.6, 572.8], "autoBezier": true },
+										{ "time": 1.26, "value": [901.2, 564.6], "autoBezier": true },
+										{ "time": 1.31, "value": [914.5, 558.7], "autoBezier": true },
+										{ "time": 1.36, "value": [924.9, 554.2], "autoBezier": true },
+										{ "time": 1.51, "value": [945, 545.9], "autoBezier": true },
+										{ "time": 1.66, "value": [955, 542], "autoBezier": true },
+										{ "time": 2.01, "value": [960, 540], "autoBezier": true },
+										{ "time": 2.04, "value": [960, 540], "autoBezier": true }
+									],
+									"outputWidth": 124.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0.56, "value": 237.6, "autoBezier": true },
+										{ "time": 0.61, "value": 229.7, "autoBezier": true },
+										{ "time": 0.66, "value": 223.8, "autoBezier": true },
+										{ "time": 0.71, "value": 220.4, "autoBezier": true },
+										{ "time": 0.86, "value": 219.1, "autoBezier": true },
+										{ "time": 1.21, "value": 225.8, "autoBezier": true },
+										{ "time": 1.36, "value": 232.4, "autoBezier": true },
+										{ "time": 2.01, "value": 235.5, "autoBezier": true },
+										{ "time": 2.04, "value": 235.5, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0.56, "value": 249.2, "autoBezier": true },
+										{ "time": 0.61, "value": 251, "autoBezier": true },
+										{ "time": 0.66, "value": 233.8, "autoBezier": true },
+										{ "time": 0.71, "value": 204.6, "autoBezier": true },
+										{ "time": 0.86, "value": 111.7, "autoBezier": true },
+										{ "time": 0.91, "value": 87.54, "autoBezier": true },
+										{ "time": 0.96, "value": 66.93, "autoBezier": true },
+										{ "time": 1.01, "value": 49.4, "autoBezier": true },
+										{ "time": 1.06, "value": 34.4, "autoBezier": true },
+										{ "time": 1.11, "value": 21.49, "autoBezier": true },
+										{ "time": 1.16, "value": 10.71, "autoBezier": true },
+										{ "time": 1.31, "value": 3.861, "autoBezier": true },
+										{ "time": 2.01, "value": 0, "autoBezier": true },
+										{ "time": 2.04, "value": 0, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106045,
+							"type": "adjustment",
+							"name": "Corner Pin In",
+							"parentId": 901106047,
+							"inPoint": 0,
+							"outPoint": 0.56,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [979.2, 543.6], "autoBezier": true },
+										{ "time": 0.1, "value": [1040, 555], "autoBezier": true },
+										{ "time": 0.15, "value": [1150, 575], "autoBezier": true },
+										{ "time": 0.2, "value": [1318, 604.2], "autoBezier": true },
+										{ "time": 0.25, "value": [1554, 642.6], "autoBezier": true },
+										{ "time": 0.3, "value": [1872, 688.6], "autoBezier": true },
+										{ "time": 0.35, "value": [2289, 737.6], "autoBezier": true },
+										{ "time": 0.4, "value": [2823, 778], "autoBezier": true },
+										{ "time": 0.45, "value": [3489, 783.9], "autoBezier": true },
+										{ "time": 0.5, "value": [4271, 706.9], "autoBezier": true },
+										{ "time": 0.56, "value": [5251, 436.2], "autoBezier": true }
+									],
+									"outputWidth": 124.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0, "value": 288.3, "autoBezier": true },
+										{ "time": 0.3, "value": 280.7, "autoBezier": true },
+										{ "time": 0.35, "value": 276.1, "autoBezier": true },
+										{ "time": 0.4, "value": 268.9, "autoBezier": true },
+										{ "time": 0.56, "value": 237.6, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 37.49, "autoBezier": true },
+										{ "time": 0.2, "value": 54.33, "autoBezier": true },
+										{ "time": 0.25, "value": 74.17, "autoBezier": true },
+										{ "time": 0.3, "value": 97.58, "autoBezier": true },
+										{ "time": 0.35, "value": 125.1, "autoBezier": true },
+										{ "time": 0.4, "value": 156.5, "autoBezier": true },
+										{ "time": 0.5, "value": 223.1, "autoBezier": true },
+										{ "time": 0.56, "value": 249.2, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106046,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"parentId": 901106047,
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "transform",
+									"name": "Transform",
+									"anchorPoint": [960, 540],
+									"position": [960, 540],
+									"scaleHeight": -100
+								}
+							]
+						},
+						{
+							"id": 901106047,
+							"type": "empty",
+							"name": "Comp Size",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"transform": {
+								"anchorPoint": [50, 50, 0],
+								"position": [960, 540, 0],
+								"scale": [1920, 1080, 100]
+							}
+						}
+					]
+				},
+				{
+					"id": 901106010,
+					"name": "Hst - Cam Fgt - Right Up 1",
+					"duration": 2.04,
+					"layers": [
+						{
+							"id": 901106048,
+							"type": "camera",
+							"name": "Camera",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"zoom": 1493,
+							"focusDistance": 2481,
+							"aperture": 14.17,
+							"transform": {
+								"pointOfInterest": [
+									{ "time": 0, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 0.05, "value": [967.4, 541.5, 3.836], "autoBezier": true },
+									{ "time": 0.1, "value": [986.6, 542, 12.14], "autoBezier": true },
+									{ "time": 0.15, "value": [1013, 542, 23.44], "autoBezier": true },
+									{ "time": 0.2, "value": [1045, 542.1, 37.23], "autoBezier": true },
+									{ "time": 0.25, "value": [1082, 543.5, 53.53], "autoBezier": true },
+									{ "time": 0.3, "value": [1121, 549.5, 73.54], "autoBezier": true },
+									{ "time": 0.35, "value": [1105, 552, 96.96], "autoBezier": true },
+									{ "time": 0.5, "value": [942.2, 497.7, 161.2], "autoBezier": true },
+									{ "time": 0.75, "value": [657.8, 396.3, 266], "autoBezier": true },
+									{ "time": 0.8, "value": [600.5, 373.5, 281.6], "autoBezier": true },
+									{ "time": 0.85, "value": [660.6, 395.5, 191.1], "autoBezier": true },
+									{ "time": 0.9, "value": [767.9, 448.8, 112.7], "autoBezier": true },
+									{ "time": 0.95, "value": [842.7, 486.2, 64.42], "autoBezier": true },
+									{ "time": 1, "value": [892.3, 510.5, 34.61], "autoBezier": true },
+									{ "time": 1.05, "value": [924.7, 525.9, 16.3], "autoBezier": true },
+									{ "time": 1.1, "value": [945.1, 534.9, 5.784], "autoBezier": true },
+									{ "time": 1.15, "value": [956.3, 539.2, 0.9236], "autoBezier": true },
+									{ "time": 1.2, "value": [960, 540, 0], "autoBezier": true },
+									{ "time": 2.04, "value": [960, 540, 0], "autoBezier": true }
+								],
+								"position": [
+									{
+										"time": 0,
+										"value": [960, 540, -1493],
+										"outEase": [{ "speed": 0, "influence": 33.33 }]
+									},
+									{ "time": 0.32, "value": [1443, 788.1, -1092], "autoBezier": true },
+									{ "time": 0.8, "value": [178.3, 129.3, -874.2], "autoBezier": true },
+									{
+										"time": 1.48,
+										"value": [960, 540, -1493],
+										"inEase": [{ "speed": 0, "influence": 77.48 }]
+									}
+								],
+								"orientation": [
+									{ "time": 0, "value": [360, 360, 0], "autoBezier": true },
+									{ "time": 0.28, "value": [356.4, 358.4, 4.757], "autoBezier": true },
+									{ "time": 0.48, "value": [353.4, 360.5, 3.409], "autoBezier": true },
+									{ "time": 0.76, "value": [355.9, 362.5, 0.1814], "autoBezier": true },
+									{ "time": 1.36, "value": [359.9, 360.1, 0.4322], "autoBezier": true },
+									{ "time": 1.88, "value": [360, 360, -0.001], "autoBezier": true },
+									{ "time": 1.96, "value": [360, 360, -0.0004], "autoBezier": true },
+									{ "time": 2, "value": [360, 360, 0], "autoBezier": true }
+								]
+							}
+						},
+						{
+							"id": 901106049,
+							"type": "adjustment",
+							"name": "Flip 2",
+							"parentId": 901106053,
+							"inPoint": 0,
+							"outPoint": 2.04
+						},
+						{
+							"id": 901106050,
+							"type": "adjustment",
+							"name": "Corner Pin Out",
+							"parentId": 901106053,
+							"inPoint": 0.56,
+							"outPoint": 2.04,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0.56, "value": [-2952, 3013], "autoBezier": true },
+										{ "time": 0.61, "value": [-2218, 2661], "autoBezier": true },
+										{ "time": 0.66, "value": [-1590, 2270], "autoBezier": true },
+										{ "time": 0.71, "value": [-1057, 1902], "autoBezier": true },
+										{ "time": 0.76, "value": [-610, 1583], "autoBezier": true },
+										{ "time": 0.81, "value": [-238.9, 1320], "autoBezier": true },
+										{ "time": 0.86, "value": [64.26, 1109], "autoBezier": true },
+										{ "time": 0.91, "value": [307.4, 944.1], "autoBezier": true },
+										{ "time": 0.96, "value": [498.2, 817.1], "autoBezier": true },
+										{ "time": 1.01, "value": [643.2, 722.2], "autoBezier": true },
+										{ "time": 1.06, "value": [748.3, 654.4], "autoBezier": true },
+										{ "time": 1.11, "value": [818.8, 609.3], "autoBezier": true },
+										{ "time": 1.16, "value": [859.2, 585.3], "autoBezier": true },
+										{ "time": 1.21, "value": [883.6, 572.8], "autoBezier": true },
+										{ "time": 1.26, "value": [901.2, 564.6], "autoBezier": true },
+										{ "time": 1.31, "value": [914.5, 558.7], "autoBezier": true },
+										{ "time": 1.36, "value": [924.9, 554.2], "autoBezier": true },
+										{ "time": 1.51, "value": [945, 545.9], "autoBezier": true },
+										{ "time": 1.66, "value": [955, 542], "autoBezier": true },
+										{ "time": 2.01, "value": [960, 540], "autoBezier": true },
+										{ "time": 2.04, "value": [960, 540], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0.56, "value": 237.6, "autoBezier": true },
+										{ "time": 0.61, "value": 229.7, "autoBezier": true },
+										{ "time": 0.66, "value": 223.8, "autoBezier": true },
+										{ "time": 0.71, "value": 220.4, "autoBezier": true },
+										{ "time": 0.86, "value": 219.1, "autoBezier": true },
+										{ "time": 1.21, "value": 225.8, "autoBezier": true },
+										{ "time": 1.36, "value": 232.4, "autoBezier": true },
+										{ "time": 2.01, "value": 235.5, "autoBezier": true },
+										{ "time": 2.04, "value": 235.5, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0.56, "value": 249.2, "autoBezier": true },
+										{ "time": 0.61, "value": 251, "autoBezier": true },
+										{ "time": 0.66, "value": 233.8, "autoBezier": true },
+										{ "time": 0.71, "value": 204.6, "autoBezier": true },
+										{ "time": 0.86, "value": 111.7, "autoBezier": true },
+										{ "time": 0.91, "value": 87.54, "autoBezier": true },
+										{ "time": 0.96, "value": 66.93, "autoBezier": true },
+										{ "time": 1.01, "value": 49.4, "autoBezier": true },
+										{ "time": 1.06, "value": 34.4, "autoBezier": true },
+										{ "time": 1.11, "value": 21.49, "autoBezier": true },
+										{ "time": 1.16, "value": 10.71, "autoBezier": true },
+										{ "time": 1.31, "value": 3.861, "autoBezier": true },
+										{ "time": 2.01, "value": 0, "autoBezier": true },
+										{ "time": 2.04, "value": 0, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106051,
+							"type": "adjustment",
+							"name": "Corner Pin In",
+							"parentId": 901106053,
+							"inPoint": 0,
+							"outPoint": 0.56,
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [
+										{ "time": 0, "value": [960, 540], "autoBezier": true },
+										{ "time": 0.05, "value": [979.2, 543.6], "autoBezier": true },
+										{ "time": 0.1, "value": [1040, 555], "autoBezier": true },
+										{ "time": 0.15, "value": [1150, 575], "autoBezier": true },
+										{ "time": 0.2, "value": [1318, 604.2], "autoBezier": true },
+										{ "time": 0.25, "value": [1554, 642.6], "autoBezier": true },
+										{ "time": 0.3, "value": [1872, 688.6], "autoBezier": true },
+										{ "time": 0.35, "value": [2289, 737.6], "autoBezier": true },
+										{ "time": 0.4, "value": [2823, 778], "autoBezier": true },
+										{ "time": 0.45, "value": [3489, 783.9], "autoBezier": true },
+										{ "time": 0.5, "value": [4271, 706.9], "autoBezier": true },
+										{ "time": 0.56, "value": [5251, 436.2], "autoBezier": true }
+									],
+									"outputWidth": 115.8,
+									"outputHeight": 140.2
+								},
+								{
+									"type": "directionalBlur",
+									"name": "Directional Blur",
+									"direction": [
+										{ "time": 0, "value": 288.3, "autoBezier": true },
+										{ "time": 0.3, "value": 280.7, "autoBezier": true },
+										{ "time": 0.35, "value": 276.1, "autoBezier": true },
+										{ "time": 0.4, "value": 268.9, "autoBezier": true },
+										{ "time": 0.56, "value": 237.6, "autoBezier": true }
+									],
+									"blurLength": [
+										{ "time": 0, "value": 0, "autoBezier": true },
+										{ "time": 0.15, "value": 37.49, "autoBezier": true },
+										{ "time": 0.2, "value": 54.33, "autoBezier": true },
+										{ "time": 0.25, "value": 74.17, "autoBezier": true },
+										{ "time": 0.3, "value": 97.58, "autoBezier": true },
+										{ "time": 0.35, "value": 125.1, "autoBezier": true },
+										{ "time": 0.4, "value": 156.5, "autoBezier": true },
+										{ "time": 0.5, "value": 223.1, "autoBezier": true },
+										{ "time": 0.56, "value": 249.2, "autoBezier": true }
+									]
+								}
+							]
+						},
+						{
+							"id": 901106052,
+							"type": "adjustment",
+							"name": "Flip 1",
+							"parentId": 901106053,
+							"inPoint": 0,
+							"outPoint": 2.04
+						},
+						{
+							"id": 901106053,
+							"type": "empty",
+							"name": "Comp Size",
+							"inPoint": 0,
+							"outPoint": 2.04,
+							"transform": {
+								"anchorPoint": [50, 50, 0],
+								"position": [960, 540, 0],
+								"scale": [1920, 1080, 100]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

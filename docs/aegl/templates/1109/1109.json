@@ -1,0 +1,847 @@
+{
+	"id": 1109,
+	"name": "Enjoy Life",
+	"cover": "cover.webp",
+	"backCover": "back-cover.webp",
+	"coverAtSecond": 2,
+	"projects": [
+		{
+			"name": "1080p",
+			"width": 1920,
+			"height": 1080,
+			"duration": 18,
+			"layers": [
+				{
+					"id": 901109001,
+					"type": "composite",
+					"name": "start-1080p",
+					"inPoint": 0,
+					"outPoint": 3,
+					"compItemId": 901109002
+				},
+				{
+					"id": 901109005,
+					"type": "composite",
+					"name": "loop-1080p-1",
+					"inPoint": 3,
+					"outPoint": 6,
+					"compItemId": 901109006
+				},
+				{
+					"id": 901109009,
+					"type": "composite",
+					"name": "loop-1080p-2",
+					"inPoint": 6,
+					"outPoint": 9,
+					"compItemId": 901109010
+				},
+				{
+					"id": 901109013,
+					"type": "composite",
+					"name": "loop-1080p-3",
+					"inPoint": 9,
+					"outPoint": 12,
+					"compItemId": 901109014
+				},
+				{
+					"id": 901109017,
+					"type": "composite",
+					"name": "loop-1080p-4",
+					"inPoint": 12,
+					"outPoint": 15,
+					"compItemId": 901109018
+				},
+				{
+					"id": 901109021,
+					"type": "composite",
+					"name": "end-1080p",
+					"inPoint": 15,
+					"outPoint": 18,
+					"compItemId": 901109022
+				},
+				{
+					"id": 901109025,
+					"type": "audio",
+					"name": "1109.mp3",
+					"inPoint": 0,
+					"outPoint": 122.7,
+					"replaceable": true,
+					"path": "1109.mp3",
+					"audioLevels": [
+						{ "time": 16, "value": [0, 0] },
+						{ "time": 18, "value": [-20, -20] }
+					],
+					"duration": 122.6
+				}
+			],
+			"compItems": [
+				{
+					"id": 901109002,
+					"name": "start-1080p",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109003,
+							"type": "text",
+							"name": "text720-1",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "Enjoy Life",
+							"fontFamily": "Arizonia",
+							"fontStyle": "Regular",
+							"fontSize": 160,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1252, 568],
+							"animaters": [
+								{
+									"name": "动画 1",
+									"selectors": [
+										{
+											"start": [
+												{ "time": 0, "value": 0 },
+												{ "time": 1.168, "value": 100 }
+											],
+											"end": 100,
+											"offset": 0,
+											"basedOn": 3,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								},
+								{
+									"name": "动画 2",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": [
+												{ "time": 1.68, "value": -100 },
+												{ "time": 2.68, "value": 100 }
+											],
+											"shape": 3,
+											"smoothness": 100,
+											"easeHigh": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								}
+							],
+							"layerStyle": {
+								"dropShadow": {
+									"color": [0, 0, 0, 1],
+									"opacity": 80,
+									"angle": 6,
+									"distance": 5,
+									"size": 5
+								}
+							},
+							"transform": {
+								"position": [960, 569, 0]
+							}
+						},
+						{
+							"id": 901109004,
+							"type": "image",
+							"name": "file720-1",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/1.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [110, 110, 100],
+										"outEase": [
+											{ "speed": 0, "influence": 15.75 },
+											{ "speed": 0, "influence": 15.75 },
+											{ "speed": 0, "influence": 15.75 }
+										]
+									},
+									{
+										"time": 2,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.089, "influence": 36.15 },
+											{ "speed": -4.089, "influence": 36.15 },
+											{ "speed": 17.15, "influence": 36.15 }
+										],
+										"outEase": [
+											{ "speed": -4.089, "influence": 43.79 },
+											{ "speed": -4.089, "influence": 43.79 },
+											{ "speed": 17.15, "influence": 43.79 }
+										]
+									},
+									{
+										"time": 2.76,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 19.08 },
+											{ "speed": 0, "influence": 19.08 },
+											{ "speed": 0, "influence": 19.08 }
+										],
+										"outEase": [
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 3,
+										"value": [70, 70, 100],
+										"inEase": [
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901109006,
+					"name": "loop-1080p-1",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109007,
+							"type": "text",
+							"name": "text720-2",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1792, 122],
+							"transform": {
+								"position": [960, 983, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901109008,
+							"type": "image",
+							"name": "file720-2",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/2.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [200, 200, 100],
+										"outEase": [
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 0.24,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 21.77 },
+											{ "speed": 0, "influence": 21.77 },
+											{ "speed": 0, "influence": 21.77 }
+										]
+									},
+									{
+										"time": 1.52,
+										"value": [110, 110, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 38.6 },
+											{ "speed": 0, "influence": 38.6 },
+											{ "speed": 24.51, "influence": 38.6 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 42.35 },
+											{ "speed": 0, "influence": 42.35 },
+											{ "speed": 24.51, "influence": 42.35 }
+										]
+									},
+									{
+										"time": 2.76,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 16.52 },
+											{ "speed": 0, "influence": 16.52 },
+											{ "speed": 0, "influence": 16.52 }
+										],
+										"outEase": [
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 3,
+										"value": [70, 70, 100],
+										"inEase": [
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901109010,
+					"name": "loop-1080p-2",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109011,
+							"type": "text",
+							"name": "text720-3",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1792, 122],
+							"transform": {
+								"position": [960, 983, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901109012,
+							"type": "image",
+							"name": "file720-3",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/3.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [200, 200, 100],
+										"outEase": [
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 0.24,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 16.42 },
+											{ "speed": 0, "influence": 16.42 },
+											{ "speed": 0, "influence": 16.42 }
+										]
+									},
+									{
+										"time": 1.6,
+										"value": [110, 110, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 40.96 },
+											{ "speed": 0, "influence": 40.96 },
+											{ "speed": 0, "influence": 40.96 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 42.28 },
+											{ "speed": 0, "influence": 42.28 },
+											{ "speed": 0, "influence": 42.28 }
+										]
+									},
+									{
+										"time": 2.76,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 16.95 },
+											{ "speed": 0, "influence": 16.95 },
+											{ "speed": 0, "influence": 16.95 }
+										],
+										"outEase": [
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 3,
+										"value": [70, 70, 100],
+										"inEase": [
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901109014,
+					"name": "loop-1080p-3",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109015,
+							"type": "text",
+							"name": "text720-4",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1792, 122],
+							"transform": {
+								"position": [960, 983, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901109016,
+							"type": "image",
+							"name": "file720-4",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/4.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [200, 200, 100],
+										"outEase": [
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 0.24,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 16.76 },
+											{ "speed": 0, "influence": 16.76 },
+											{ "speed": 0, "influence": 16.76 }
+										]
+									},
+									{
+										"time": 1.48,
+										"value": [110, 110, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 41.77 },
+											{ "speed": 0, "influence": 41.77 },
+											{ "speed": 0, "influence": 41.77 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 41.56 },
+											{ "speed": 0, "influence": 41.56 },
+											{ "speed": 0, "influence": 41.56 }
+										]
+									},
+									{
+										"time": 2.76,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 16.57 },
+											{ "speed": 0, "influence": 16.57 },
+											{ "speed": 0, "influence": 16.57 }
+										],
+										"outEase": [
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 3,
+										"value": [70, 70, 100],
+										"inEase": [
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901109018,
+					"name": "loop-1080p-4",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109019,
+							"type": "text",
+							"name": "text720-5",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "",
+							"fontFamily": "Source Sans Pro",
+							"fontStyle": "Regular",
+							"fontSize": 80,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1792, 122],
+							"transform": {
+								"position": [960, 983, 0]
+							},
+							"effects": [
+								{
+									"type": "dropShadow",
+									"name": "Drop Shadow",
+									"shadowColor": [0, 0, 0, 1],
+									"opacity": 50,
+									"direction": 135,
+									"distance": 10,
+									"softness": 5
+								}
+							]
+						},
+						{
+							"id": 901109020,
+							"type": "image",
+							"name": "file720-5",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/5.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [200, 200, 100],
+										"outEase": [
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 0.24,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 16.83 },
+											{ "speed": 0, "influence": 16.83 },
+											{ "speed": 0, "influence": 16.83 }
+										]
+									},
+									{
+										"time": 1.44,
+										"value": [110, 110, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 42.05 },
+											{ "speed": 0, "influence": 42.05 },
+											{ "speed": 0, "influence": 42.05 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 41.25 },
+											{ "speed": 0, "influence": 41.25 },
+											{ "speed": 0, "influence": 41.25 }
+										]
+									},
+									{
+										"time": 2.76,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 16.52 },
+											{ "speed": 0, "influence": 16.52 },
+											{ "speed": 0, "influence": 16.52 }
+										],
+										"outEase": [
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": -7.885, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 3,
+										"value": [70, 70, 100],
+										"inEase": [
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": -510.2, "influence": 4.167 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 901109022,
+					"name": "end-1080p",
+					"duration": 3,
+					"layers": [
+						{
+							"id": 901109023,
+							"type": "text",
+							"name": "text720-6",
+							"inPoint": 0,
+							"outPoint": 3,
+							"replaceable": true,
+							"text": "The End",
+							"fontFamily": "Arizonia",
+							"fontStyle": "Regular",
+							"fontSize": 230,
+							"fillColor": [1, 1, 1],
+							"boxTextSize": [1622, 606],
+							"animaters": [
+								{
+									"name": "动画 1",
+									"selectors": [
+										{
+											"start": [
+												{ "time": 0, "value": 0 },
+												{ "time": 1.16, "value": 100 }
+											],
+											"end": 100,
+											"offset": 0,
+											"basedOn": 2,
+											"shape": 1,
+											"smoothness": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								},
+								{
+									"name": "动画 2",
+									"selectors": [
+										{
+											"start": 0,
+											"end": 100,
+											"offset": [
+												{ "time": 1.76, "value": -100 },
+												{ "time": 2.84, "value": 100 }
+											],
+											"shape": 3,
+											"smoothness": 100,
+											"easeHigh": 100
+										}
+									],
+									"properties": {
+										"opacity": 0
+									}
+								}
+							],
+							"layerStyle": {
+								"dropShadow": {
+									"color": [0, 0, 0, 1],
+									"opacity": 80,
+									"angle": 6,
+									"distance": 5,
+									"size": 5
+								}
+							},
+							"transform": {
+								"position": [960, 569, 0]
+							}
+						},
+						{
+							"id": 901109024,
+							"type": "image",
+							"name": "file720-6",
+							"inPoint": 0,
+							"outPoint": 3,
+							"motionBlur": true,
+							"replaceable": true,
+							"path": "footage/1080p/6.webp",
+							"width": 1920,
+							"height": 1080,
+							"transform": {
+								"anchorPoint": [960, 540, 0],
+								"position": [960, 540, 0],
+								"scale": [
+									{
+										"time": 0,
+										"value": [200, 200, 100],
+										"outEase": [
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 19.08, "influence": 18.25 },
+											{ "speed": 0, "influence": 33.33 }
+										]
+									},
+									{
+										"time": 0.24,
+										"value": [100, 100, 100],
+										"inEase": [
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": -4.511, "influence": 100 },
+											{ "speed": 0, "influence": 33.33 }
+										],
+										"outEase": [
+											{ "speed": 0, "influence": 16.67 },
+											{ "speed": 0, "influence": 16.67 },
+											{ "speed": 0, "influence": 16.67 }
+										]
+									},
+									{
+										"time": 2.96,
+										"value": [110, 110, 100],
+										"inEase": [
+											{ "speed": 0, "influence": 16.67 },
+											{ "speed": 0, "influence": 16.67 },
+											{ "speed": 0, "influence": 16.67 }
+										]
+									}
+								]
+							},
+							"effects": [
+								{
+									"type": "tile",
+									"name": "Motion Tile",
+									"tileCenter": [960, 540],
+									"outputWidth": 230,
+									"outputHeight": 230
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

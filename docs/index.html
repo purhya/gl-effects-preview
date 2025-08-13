@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>GL Effects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/prism.css">
+
+	<script src="js/prism.js" defer></script>
+	<script src="libs/tex-chtml.js" defer></script>
+	<script src="js/marked.js" defer></script>
+	<script src="js/bundle.js" defer></script>
+	<script>
+	MathJax = {
+		tex: {
+			inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+			displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+			processEscapes: true,
+		}
+	}
+	</script>
+</head>
+<body>
+	<link rel="stylesheet" href="css/docs.css">
+
+	<div class="header">
+		<div class="wrapper header-wrapper">
+			<div class="header-title">GL Effects</div>
+			<theme-select></theme-select>
+		</div>
+	</div>
+	
+	<gl-docs></gl-docs>
+</body>
+</html>
