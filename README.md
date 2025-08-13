@@ -1,6 +1,6 @@
 # GL Effects
 
-Here is the [Live Preview](https://purhya.github.io/gl-effects/).
+[Live Preview](https://purhya.github.io/gl-effects/)
 
 
 包含有:
