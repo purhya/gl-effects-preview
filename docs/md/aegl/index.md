@@ -38,8 +38,9 @@ AEGL 旨在使用 OpenGL 技术实时渲染 After Effects (AE) 工程的导出�
 	- [✓] 鱼眼镜头 (Bulge)
 
 - **Plan to do but may never**
-	- 基于形状的文字渲染 (Geometry-based Text Rendering)
-	- 双三次插值采样图片 (Bicubic Interpolation Sampling for Images)
+	- 双三次插值采样图片 (Bicubic Interpolation Sampling for Images) - 可以改善图片没有 AE 渲染的效果清晰的问题.
+	- 高斯模糊 (Gaussian Blur) - 目前使用的 Fast Gaussian Blur 基于横竖交替一维高斯模糊迭代, 在特殊的场景下, 例如有文字模糊的模版 [Honeymoon](#aegl/1039), 还是很容易分辨出矩形的边缘.
+	- 基于形状的文字渲染 (Geometry-based Text Rendering) - 目前基于贴图的文字渲染在非静态场景下会因为二次采样而产生更多的边缘模糊.
 	- 曲线和形状, 以及描边 (Curve and Shapes Rendering and Stroking)
 	- 提供通用的形状 (Provides Base Shapes)
 	- 景深模糊 (Lens Blur)
@@ -108,5 +109,5 @@ AEGL 旨在使用 OpenGL 技术实时渲染 After Effects (AE) 工程的导出�
 
 在编写 AEGL 时, 我发现通过非常简单的设计形式的组合可以产生震撼人心的效果. 但是我以及我身边的人都无法解释它是怎么产生的.
 
-我一直梦想有一个 "超人" 般的角色作为搭档, 他熟知各类设计软件和设计风格, 熟知各种 颜色/形状/效果/声音 和人的情感的关联, 懂得如何使用简单的搭配制作出 **打动人** 的东西. 他既通人性, 又了解不同的文化元素和差异. 这大概是我缺失却又向往的.
+我一直梦想有一个 "尼采的超人" 般的角色作为搭档, 他熟知各类设计软件和设计风格, 熟知各种 颜色/形状/效果/声音 和人的情感的关联, 懂得如何使用简单的搭配制作出 **打动人** 的东西. 他既通人性, 又了解不同的文化元素和差异. 这大概是我缺失却又向往的.
 

@@ -5,8 +5,9 @@
 
 body {
   height: 100%;
-  font-family: "Microsoft YaHei", "STXihei";
+  font-family: "Microsoft YaHei", "PingFang SC", "STXihei";
   font-size: 14px;
+  min-width: 1050px;
 }
 
 h2 {
