@@ -79,8 +79,8 @@ vec4 getFragColor() {
 	// 为什么这里的模糊范围是 2px?
 	// 这是由于 1px 的平滑并不是真正的平滑, 渲染移动的 1px 平滑时会产生波动, 不过这种波动由于较小并不太容易被留意到.
 	// 但是, 如果这种波动以明显的周期性方式重复, 那么就会很容易被留意到.
-	float innerColorRateInX = rangestep(rangeInX.x, rangeInX.y, 2.0, vFromOrigin.x);
-	float innerColorRateInY = rangestep(rangeInY.x, rangeInY.y, 2.0, vFromOrigin.y);
+	float innerColorRateInX = rangestep(rangeInX.x, rangeInX.y, 1.0, vFromOrigin.x);
+	float innerColorRateInY = rangestep(rangeInY.x, rangeInY.y, 1.0, vFromOrigin.y);
 	float innerColorRate = beVertical ? innerColorRateInX : innerColorRateInY;
 
 	// 混合颜色
