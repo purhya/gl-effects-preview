@@ -1,4 +1,4 @@
-# GL Effects
+# GL Effects Preview
 
 [Live Preview](https://purhya.github.io/gl-effects-preview/)
 
